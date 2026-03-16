@@ -125,6 +125,46 @@ function googleNewsUrl(q) {
   return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`;
 }
 
+
+function isDirectActivity(item, artistKey) {
+  const t = `${item.title || ''} ${(item.source || '')}`.toLowerCase();
+
+  // 제외: 커버/리액션/가사/팬캠/해석/shorts/compilation 등
+  const negative = [
+    'cover', 'reaction', 'lyrics', 'lyric video', 'karaoke', 'fan cam', 'fancam',
+    'remix by fan', 'sped up', 'nightcore', 'tutorial', 'analysis', 'review',
+    'unboxing', 'ranking', 'top 10', 'mashup', 'instrumental cover', 'guitar cover',
+    'piano cover', 'drum cover', 'dance cover', 'shorts', 'tiktok', '해석', '커버', '리액션', '팬캠'
+  ];
+  if (negative.some(k => t.includes(k))) return false;
+
+  // 허용: 공식/직접 활동 신호
+  const positive = [
+    'official', 'announcement', 'news', 'tour', 'live', 'concert', 'festival',
+    'release', 'single', 'album', 'ep', 'mv', 'music video', 'premiere',
+    'sold out', 'ticket', 'schedule', 'new song', 'new album',
+    '公式', 'お知らせ', 'ライブ', '公演', 'ツアー', '発売', '配信', '新曲',
+    '공식', '공지', '공연', '투어', '발매', '신곡', '앨범'
+  ];
+
+  const artistTokens = {
+    yoasobi: ['yoasobi', 'ikura', 'ayase'],
+    yorushika: ['yorushika', 'ヨルシカ', 'n-buna', 'suis'],
+    zutomayo: ['zutomayo', 'ずっと真夜中でいいのに', 'acaね', 'aca-ne'],
+    weg: ["world's end girlfriend", 'worlds end girlfriend', 'weg', 'virgin babylon'],
+  };
+
+  const hasArtist = (artistTokens[artistKey] || []).some(k => t.includes(k));
+  const hasPositive = positive.some(k => t.includes(k));
+
+  // 커뮤니티/검색 소스는 더 엄격: 아티스트명 + 활동키워드 둘 다 필요
+  if (item.tier === 'community' || item.tier === 'search') {
+    return hasArtist && hasPositive;
+  }
+  // 공식/매체/플랫폼은 활동 키워드만 있어도 허용
+  return hasPositive;
+}
+
 function dedupe(items) {
   const map = new Map();
   for (const it of items) {
@@ -219,7 +259,9 @@ async function main() {
       allFeedItems.push(...items.slice(0, 8));
     }
 
-    const merged = sortNews(dedupe([...scraped, ...allFeedItems])).slice(0, 10);
+    const merged = sortNews(dedupe([...scraped, ...allFeedItems]))
+      .filter((x) => isDirectActivity(x, key))
+      .slice(0, 10);
     html = replaceNewsBlock(html, key, renderCards(merged));
 
     if (!data[key]) data[key] = {};
