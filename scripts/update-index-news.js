@@ -43,9 +43,10 @@ const ARTISTS = {
       { type: 'google', q: after('YOASOBI ASICS'), tier: 'search', source: 'goods/collab search', category: 'goods' },
       { type: 'google', q: after('Ikuta Lira collaboration OR 幾田りら コラボ OR 이쿠타 리라 콜라보'), tier: 'search', source: 'ikura solo goods/collab', category: 'goods' },
 
-      { type: 'dcinside', q: '요아소비', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
-      { type: 'dcinside', q: 'YOASOBI', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
-      { type: 'dcinside', q: '이쿠타 리라', pages: 2, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside_gallery', id: 'yoasobi', mode: 'info', pages: 2, tier: 'community', source: 'dcinside 요아소비 갤 정보', category: 'community' },
+      { type: 'dcinside_gallery', id: 'yoasobi', mode: 'recommend', pages: 2, tier: 'community', source: 'dcinside 요아소비 갤 개념글', category: 'community' },
+      { type: 'dcinside_gallery', id: 'lilas', mode: 'info', pages: 2, tier: 'community', source: 'dcinside 이쿠타 리라 갤 정보', category: 'community' },
+      { type: 'dcinside_gallery', id: 'lilas', mode: 'recommend', pages: 2, tier: 'community', source: 'dcinside 이쿠타 리라 갤 개념글', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/YOASOBI/new/.rss', tier: 'community', source: 'reddit r/YOASOBI', category: 'community' },
     ],
   },
@@ -68,8 +69,8 @@ const ARTISTS = {
       { type: 'google', q: after('요루시카 굿즈'), tier: 'search', source: 'goods search ko', category: 'goods' },
       { type: 'google', q: after('ヨルシカ グッズ'), tier: 'search', source: 'goods search jp', category: 'goods' },
 
-      { type: 'dcinside', q: '요루시카', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
-      { type: 'dcinside', q: 'Yorushika', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside_gallery', id: 'yorushika', mode: 'info', pages: 2, tier: 'community', source: 'dcinside 요루시카 갤 정보', category: 'community' },
+      { type: 'dcinside_gallery', id: 'yorushika', mode: 'recommend', pages: 2, tier: 'community', source: 'dcinside 요루시카 갤 개념글', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/Yorushika/new/.rss', tier: 'community', source: 'reddit r/Yorushika', category: 'community' },
     ],
   },
@@ -92,8 +93,8 @@ const ARTISTS = {
       { type: 'google', q: after('ZUTOMAYO goods'), tier: 'search', source: 'goods search', category: 'goods' },
       { type: 'google', q: after('즛토마요 굿즈'), tier: 'search', source: 'goods search ko', category: 'goods' },
 
-      { type: 'dcinside', q: '즛토마요', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
-      { type: 'dcinside', q: 'ZUTOMAYO', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside_gallery', id: 'zuttomayo', mode: 'info', pages: 2, tier: 'community', source: 'dcinside 즛토마요 갤 정보', category: 'community' },
+      { type: 'dcinside_gallery', id: 'zuttomayo', mode: 'recommend', pages: 2, tier: 'community', source: 'dcinside 즛토마요 갤 개념글', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/ZutoMayo/new/.rss', tier: 'community', source: 'reddit r/ZutoMayo', category: 'community' },
     ],
   },
@@ -109,8 +110,8 @@ const ARTISTS = {
       { type: 'google', q: after("\"World's End Girlfriend\" vinyl"), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after("\"World's End Girlfriend\" merch"), tier: 'search', source: 'goods search', category: 'goods' },
       { type: 'rss', url: 'https://www.reddit.com/search.rss?q=%22world%27s%20end%20girlfriend%22&sort=new&t=year', tier: 'community', source: 'reddit search: worlds end girlfriend', category: 'community' },
-      { type: 'dcinside', q: '월즈 엔드 걸프렌드', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
-      { type: 'dcinside', q: "World's End Girlfriend", pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside_gallery', id: 'postrockgallery', mode: 'info', pages: 2, tier: 'community', source: 'dcinside 포스트락 갤 정보', category: 'community' },
+      { type: 'dcinside_gallery', id: 'postrockgallery', mode: 'recommend', pages: 2, tier: 'community', source: 'dcinside 포스트락 갤 개념글', category: 'community' },
     ],
   },
 };
@@ -132,7 +133,10 @@ function fetch(url) {
       },
       (res) => {
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-          return fetch(res.headers.location).then(resolve).catch(reject);
+          const nextUrl = /^https?:\/\//i.test(res.headers.location)
+            ? res.headers.location
+            : new URL(res.headers.location, url).toString();
+          return fetch(nextUrl).then(resolve).catch(reject);
         }
         if (res.statusCode !== 200) return reject(new Error(`HTTP ${res.statusCode}: ${url}`));
         let data = '';
@@ -273,46 +277,65 @@ function googleNewsUrl(query) {
   return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`;
 }
 
-function dcinsideSearchUrl(query, page = 1) {
-  const encoded = encodeURIComponent(query).replace(/'/g, '%27');
-  return `https://search.dcinside.com/post/p/${page}/sort/latest/q/${encoded}`;
+function dcinsideGalleryUrl(galleryId, page = 1, mode = 'all') {
+  const base = `https://gall.dcinside.com/mgallery/board/lists?id=${encodeURIComponent(galleryId)}&page=${page}`;
+  if (mode === 'recommend') return `${base}&exception_mode=recommend`;
+  return base;
 }
 
-function parseDcinside(html, source, tier, query) {
+function isInfoLikeDcinsideTitle(title = '') {
+  const t = String(title).toLowerCase();
+  const infoKeywords = [
+    '정보', '공지', '정리', '가이드', '후기', '리뷰', '셋리스트', '번역', '요약', '모음',
+    '자료', '필독', '뉴비', 'faq', 'how to', '이용방법', '가는 법', '티켓팅', '예매 링크',
+  ];
+  return infoKeywords.some((k) => t.includes(k));
+}
+
+function parseDcinsideGallery(html, source, tier, galleryId, mode = 'all') {
   const items = [];
-  const liRegex = /<li>([\s\S]*?)<\/li>/gi;
+  const rowRegex = /<tr[^>]*class="[^"]*us-post[^"]*"[^>]*>([\s\S]*?)<\/tr>/gi;
 
   let m;
-  while ((m = liRegex.exec(html)) !== null) {
+  while ((m = rowRegex.exec(html)) !== null) {
     const block = m[1];
 
     const href = (
-      block.match(/<a[^>]*class="tit_txt"[^>]*href="([^"]+)"/i)
-      || block.match(/<a[^>]*href="([^"]+)"[^>]*class="tit_txt"/i)
+      block.match(/<td[^>]*class="gall_tit[^"]*"[^>]*>[\s\S]*?<a[^>]*href="([^"]*\/board\/view\/[^\"]+)"/i)
+      || block.match(/<a[^>]*href="([^"]*\/board\/view\/[^\"]+)"/i)
       || []
     )[1] || '';
 
-    const titleHtml = (block.match(/<a[^>]*class="tit_txt"[^>]*>([\s\S]*?)<\/a>/i) || [])[1] || '';
-    const galleryHtml = (block.match(/<a[^>]*class="sub_txt"[^>]*>([\s\S]*?)<\/a>/i) || [])[1] || '';
-    const dateHtml = (block.match(/<span[^>]*class="date_time"[^>]*>([\s\S]*?)<\/span>/i) || [])[1] || '';
+    const titleHtml = (
+      block.match(/<td[^>]*class="gall_tit[^"]*"[^>]*>[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>/i)
+      || block.match(/<a[^>]*>([\s\S]*?)<\/a>/i)
+      || []
+    )[1] || '';
 
-    const url = decodeHtml(href.trim());
+    const dateTitle = (block.match(/<td[^>]*class="gall_date"[^>]*title="([^"]+)"/i) || [])[1] || '';
+    const dateHtml = (block.match(/<td[^>]*class="gall_date"[^>]*>([\s\S]*?)<\/td>/i) || [])[1] || '';
+
     const title = stripTags(titleHtml);
-    const gallery = stripTags(galleryHtml);
-    const date = normalizeDate(stripTags(dateHtml));
+    const date = normalizeDate(stripTags(dateTitle || dateHtml));
+    let url = decodeHtml(href.trim());
+    if (url.startsWith('/')) url = `https://gall.dcinside.com${url}`;
 
     if (!url || !title || !date) continue;
+    if (mode === 'info' && !isInfoLikeDcinsideTitle(title)) continue;
+
+    const modeLabel = mode === 'recommend' ? '개념글' : mode === 'info' ? '정보' : '일반';
 
     items.push({
       date,
       title,
       url,
-      source: `${source} · ${gallery}`,
+      source: `${source} · ${modeLabel}`,
       trust: TRUST[tier] ?? 0.4,
       tier,
-      type: guessTypeFromTitle(title, `${source} ${gallery}`),
+      type: guessTypeFromTitle(title, `${source} ${galleryId}`),
       categoryHint: 'community',
-      query,
+      galleryId,
+      mode,
     });
   }
 
@@ -449,14 +472,14 @@ function replaceTabBlock(html, section, tab, cardsHtml) {
 
 async function loadFeed(feed) {
   try {
-    if (feed.type === 'dcinside') {
+    if (feed.type === 'dcinside_gallery') {
       const pages = feed.pages || 2;
       const collected = [];
 
       for (let page = 1; page <= pages; page++) {
-        const url = dcinsideSearchUrl(feed.q, page);
+        const url = dcinsideGalleryUrl(feed.id, page, feed.mode || 'all');
         const html = await fetch(url);
-        const parsed = parseDcinside(html, feed.source, feed.tier, feed.q);
+        const parsed = parseDcinsideGallery(html, feed.source, feed.tier, feed.id, feed.mode || 'all');
         collected.push(...parsed);
         if (parsed.length === 0) break;
       }
