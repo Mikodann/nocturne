@@ -77,7 +77,7 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-03-16T09:07:43.243Z",
+    "last_scraped": "2026-03-16T09:11:32.349Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -87,6 +87,24 @@
         "type": "event",
         "trust": 1,
         "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "LIVE TOUR 2026「一人称」회장 서적・CD판매의 안내｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94dWVtNVBTMjIzcFRKOGphRS1obERXOUtFbFFBYnhVWS1aNnVrUWZhMWNGajFrVWNUQi1OVHhoWEd2YUw5MF8xT25BcEMxSjFZOXg0LVA0cnR6QlE?oc=5",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
+        "type": "event"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "\"재루시카 pt. III🎺\" | 요루시카 재즈편곡 플리 III | #NoAImusic | Yorushika Jazz | Jazzrushika [playlist] - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfME1KbF9TRTFGLVROZXF3MWNCTnBGWVQzUnJxZmM3bUpRV19OMl9fN2swSWNyb3V1V1hzMzh5MXIwanNPZVRpTWpSSEhGQ1A3WklJRlljbDY4MlhwMFE?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
       },
       {
         "date": "2026-03-13",
@@ -122,6 +140,15 @@
         "source": "yorushika.com",
         "trust": 1,
         "tier": "official",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "YORUSHIKA- 櫂 - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WSEdjdWJzdWxScXlRTDVLYXB3Qm5oQ0JVZXQ0WVhpNEctakdrdmVINHhtd1VHNUFSTFFfbDNNcWVEcEprWHozVkpkVnIwRjdUamlRWndKWUZ2TWs?oc=5",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
         "type": "news"
       },
       {
@@ -242,15 +269,6 @@
         "tier": "official"
       },
       {
-        "date": "2026-03-15",
-        "title": "\"재루시카 pt. III🎺\" | 요루시카 재즈편곡 플리 III | #NoAImusic | Yorushika Jazz | Jazzrushika [playlist] - YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfME1KbF9TRTFGLVROZXF3MWNCTnBGWVQzUnJxZmM3bUpRV19OMl9fN2swSWNyb3V1V1hzMzh5MXIwanNPZVRpTWpSSEhGQ1A3WklJRlljbDY4MlhwMFE?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
-      },
-      {
         "date": "2026-03-04",
         "title": "요루시카 (Yorushika) 3년 만의 새 정규 앨범 [second person] 발매! - YouTube",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43dHdtT2VNS210N01uUnk2UExfd2Q0dTZEMjFnQkVzbFVaSFdJbGhQOE12U3U5SXZZY1JDZHpYUHlaUkVQWnA2T2JQWHk3RWRMNEVISA?oc=5",
@@ -261,30 +279,12 @@
       },
       {
         "date": "2026-03-02",
-        "title": "\"재루시카 한플리로 몰아듣기..🎺\" | 요루시카 재즈편곡 ��리 I+II | #NoAImusic | Yorushika Jazz | Jazzrushika [playlist] - YouTube",
+        "title": "\"재루시카 한플리로 몰아듣기..🎺\" | 요루시카 재즈편곡 플리 I+II | #NoAImusic | Yorushika Jazz | Jazzrushika [playlist] - YouTube",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ORWotYTU1Q2FEb0J4WGE3QTBlYlZxc2ZDYW1CaDQyNWQ5WlkwSTNxcDRhZTA4UGFrTzNVVF9HdENDbHZ3UHlFTXhlekRod0w1U2lxUll3?oc=5",
         "source": "YouTube",
         "trust": 0.75,
         "tier": "platform",
         "type": "news"
-      },
-      {
-        "date": "2023-07-10",
-        "title": "하루한곡 191일차 Yorushika - 낙향 Magic Lantern 기타 [풀 영상은 댓글확인] - YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BMElZYUgzVDNhQVJhdV9kaTZhMk9lbjkwS1FqaWRRTDJHX3BpWnhTX0FBcTJCMFdDZ0g5dG5tU01RblZoSjRPZDZfNDJBcHNrNzdSNQ?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "LIVE TOUR 2026「一人称」회장 서적・CD판매의 안내｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94dWVtNVBTMjIzcFRKOGphRS1obERXOUtFbFFBYnhVWS1aNnVrUWZhMWNGajFrVWNUQi1OVHhoWEd2YUw5MF8xT25BcEMxSjFZOXg0LVA0cnR6QlE?oc=5",
-        "source": "google news",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "event"
       },
       {
         "date": "2025-11-16",
@@ -296,9 +296,18 @@
         "type": "release"
       }
     ],
-    "last_merged": "2026-03-16T09:08:00.626Z",
+    "last_merged": "2026-03-16T09:11:53.769Z",
     "categorized": {
       "news": [
+        {
+          "date": "2026-03-15",
+          "title": "\"재루시카 pt. III🎺\" | 요루시카 재즈편곡 플리 III | #NoAImusic | Yorushika Jazz | Jazzrushika [playlist] - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfME1KbF9TRTFGLVROZXF3MWNCTnBGWVQzUnJxZmM3bUpRV19OMl9fN2swSWNyb3V1V1hzMzh5MXIwanNPZVRpTWpSSEhGQ1A3WklJRlljbDY4MlhwMFE?oc=5",
+          "source": "YouTube",
+          "trust": 0.75,
+          "tier": "platform",
+          "type": "news"
+        },
         {
           "date": "2026-03-11",
           "title": "週刊誌「AERA」にてヨルシカのインタビューが掲載",
@@ -324,6 +333,15 @@
           "source": "yorushika.com",
           "trust": 1,
           "tier": "official",
+          "type": "news"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "YORUSHIKA- 櫂 - ヨルシカ OFFICIAL SITE",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WSEdjdWJzdWxScXlRTDVLYXB3Qm5oQ0JVZXQ0WVhpNEctakdrdmVINHhtd1VHNUFSTFFfbDNNcWVEcEprWHozVkpkVnIwRjdUamlRWndKWUZ2TWs?oc=5",
+          "source": "google news",
+          "trust": 0.6,
+          "tier": "search",
           "type": "news"
         },
         {
@@ -370,24 +388,6 @@
           "type": "news",
           "trust": 1,
           "tier": "official"
-        },
-        {
-          "date": "2026-03-05",
-          "title": "Apple Music에서 n-buna 코멘트를 게재. - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KZFBaazl4SWtkQ0pNRnRHR1VQRHJHMmtQRzVkZ3VmUnJmb0lyX2pnOWNwTEsxc0VlZkdkZ0JOMEpJMkRPc3haTEFKMDl3NEZFYndpY3JfQW9PaVU?oc=5",
-          "source": "yorushika.com",
-          "trust": 1,
-          "tier": "official",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-04",
-          "title": "音楽ナタリーにて最新作「二人称」の特集を掲載。",
-          "url": "https://yorushika.com/news/detail/11757",
-          "source": "yorushika.com",
-          "type": "news",
-          "trust": 1,
-          "tier": "official"
         }
       ],
       "events": [
@@ -399,6 +399,15 @@
           "type": "event",
           "trust": 1,
           "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "LIVE TOUR 2026「一人称」회장 서적・CD판매의 안내｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94dWVtNVBTMjIzcFRKOGphRS1obERXOUtFbFFBYnhVWS1aNnVrUWZhMWNGajFrVWNUQi1OVHhoWEd2YUw5MF8xT25BcEMxSjFZOXg0LVA0cnR6QlE?oc=5",
+          "source": "google news",
+          "trust": 0.6,
+          "tier": "search",
+          "type": "event"
         },
         {
           "date": "2026-03-13",
@@ -425,15 +434,6 @@
           "source": "yorushika.com",
           "trust": 1,
           "tier": "official",
-          "type": "event"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "LIVE TOUR 2026「一人称」회장 서적・CD판매의 안내｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94dWVtNVBTMjIzcFRKOGphRS1obERXOUtFbFFBYnhVWS1aNnVrUWZhMWNGajFrVWNUQi1OVHhoWEd2YUw5MF8xT25BcEMxSjFZOXg0LVA0cnR6QlE?oc=5",
-          "source": "google news",
-          "trust": 0.6,
-          "tier": "search",
           "type": "event"
         }
       ],
@@ -520,34 +520,25 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:07:44.413Z",
+    "last_scraped": "2026-03-16T09:11:33.465Z",
     "merged_news": [
       {
-        "date": "2026-03-16",
-        "title": "VIEW MORE",
-        "url": "https://zutomayo.net/news/593",
-        "source": "zutomayo.net",
-        "type": "news",
-        "trust": 1,
-        "tier": "official"
+        "date": "2026-03-06",
+        "title": "Post from 유니버설 뮤직 코리아 Universal Music Korea - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fM3JMWUFncmExSk1JbW9rRGxPNEVPOXdMXzVZZG5kd2xVcktseGZ5RWpmVllJekVxVTQyMnhKb1FSVXBENWF3MFpINVd3V1hPUW9DRDVZZV92d2tQVkZxWF9qX3pueXM1Q1RPTzZrUzZpbW8?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
       },
       {
-        "date": "2026-03-16",
-        "title": "[릴리즈] RELEASE",
-        "url": "https://zutomayo.net/release/",
-        "source": "zutomayo.net",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "[릴리즈] Menu",
-        "url": "https://zutomayo.net/release/",
-        "source": "zutomayo.net",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
+        "date": "2025-12-28",
+        "title": "재즛토마요 1+1 행사중🎺\" | 즛토마요 재즈편곡 플리 1+2 통합본 | #NoAImusic | ZUTOMAYO Jazz 1+2 [playlist] - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JczNELVZsMm9iencwdEticGJwdlBJUlFNbWFFNy1pZ0tUUVBhcUc2RE9YTjVHN2NfazR5Q3huRmlXQzBUdUJHbkFIVjZZMEJVZHhlVTJ3?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
       },
       {
         "date": "2025-11-26",
@@ -565,6 +556,15 @@
         "source": "zutomayo.net",
         "trust": 1,
         "tier": "official",
+        "type": "news"
+      },
+      {
+        "date": "2024-09-01",
+        "title": "「海馬成長痛」Only にらver. #海馬成長痛 #ZUTOMAYO #ずとまよ #永遠是深夜有多好 #계속한밤중이면좋을텐데 - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VTi1YQm9GUW9VTWJNNFlteTVLd0hBYjdFRUlnN25ITm5JTmItZnUtQWJiaVRlMmUyRzRzdHJGWXhsV19KUW96MHBYX2tMRVN6T3BCUA?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
         "type": "news"
       },
       {
@@ -602,64 +602,28 @@
         "trust": 1,
         "tier": "official",
         "type": "news"
-      },
-      {
-        "date": "2026-03-07",
-        "title": "YouTube Music - YouTube Music",
-        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNQnNidUVUa0Jrb2V3RUZkZmlDdzROYlNVQkZsTkRQdllOOVdRRmxoU1JvOVM5bEs2YjJ2N3VYX1ZQT2NucEVlcTgyaTRscGUweVZkWWRiOTVyRUZaeEhySHBnWmZOSk9aRndlUXhXR3lsT2NuX05Cd2dGQ1JPdDFZUE9HYklLMkVVMXROcDhYVEw1Wkc0ZXVXdl80NjRVTVhoN2ZVMzE1UXpOdDMzTHNGa2kwTTViVTJ1S25LNXpEaUROREJpSUdObzNnRm43NWM0eEd4NUpRZnlYYmtkMmc2VnIzcDdxR0FSUTBTVmtDVUpURW44c1lyc0JSZ1VSZFd3c0NMbGlGdXo2d25ael9USVc1ZHQxMU0zcTBrLXdRWmtEbVVMd3g5Q01BQmZsS2VXRFBWTmlqMXVpOXpzZ2tfeHI0cmhnM1VodGFQd3VkUVpkXzQwN3BROA?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-06",
-        "title": "Post from 유니버설 뮤직 코리아 Universal Music Korea - YouTube",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fM3JMWUFncmExSk1JbW9rRGxPNEVPOXdMXzVZZG5kd2xVcktseGZ5RWpmVllJekVxVTQyMnhKb1FSVXBENWF3MFpINVd3V1hPUW9DRDVZZV92d2tQVkZxWF9qX3pueXM1Q1RPTzZrUzZpbW8?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-06",
-        "title": "YouTube Music - YouTube Music",
-        "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOcFVrSmNBNUVXYURNeUk3aEI4NkdBMnU0NFVtREM0djJmdFZ3VldJSC1WWjRtdXJFQjJoWDRnWmxvUlVTbkhqdnNQNGdxejVibzBvZmpZNTVOdEN5YTFGR1pWWEJmUzhTaEE3Zl9odjdUNjdRTVZrS09ZZzc0MFJUaDRnTjlMZlJMbXRveGhaaERJUXYyZElvVXViaUJGSUp6SlF6ZEZPYWhtbEFlREg2d2hvVkh0R3hoXzlqaHVocGhNOVNXN0NtU2cyMm1WM0sxeGdmbjA4SGxZczhXdndxcUJrY1B3VkFGUTF0SGpRYTFaNkVrS0E5OVd5RWZpNi1QQ1VGRklxdHE1d3dmY3U4aWJQVG0yMmNmcFVGTzhRTWp6LUN2YlZyS3lhX0h3RS1rNUs1Sg?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-05",
-        "title": "YouTube Music - YouTube Music",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRnBtZDEtRFZpVUViVmEwR3lpcURIeXpmZXV3UF84QzBkZUdZbWxLUjlXNUtSbXZYT1JOT014NHhmazRzOGpLSnFDNEhhY3VuN0lFcHl2RWRYSEVUVmZseFp3OUU3RkxVZFBvbWxBMl9MbTJZbHBQNDhRQktDTTlqdTlrc0toQzNjdzFVRnA2RmQ0bThoR01GRjNRNWRfYldaQmtCMS1iOHVhOVo4alVFTDN2bEczM05aa2NVVktUMFp2U2kzaUVCWG1fSFJhRGhFTTVpVk9tc0I4YXBYLUx4bWZOSWZ5Uzl5?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-04",
-        "title": "YouTube Music - YouTube Music",
-        "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPQzBvd09IcEE1ZVJPMVQ4Q194SWZuMVpwZFhEaVowaTktZk5XbkF1NmNyTm1RVlM2T2gtZHFmbm5QNGJtQThFWTF5TFc1SGpJSFZGZ0s2VFZ1N0dwczE3MTNCSnhZNVRZRGd1Yjlxbk5MbGdGTW44Z1Z4bXBOTWhNWVh2aDQ4VTl4QmRoTndXNnBIN21WemNUV1Z3bXRXUkhKWEU3SDdiVkxRRVYyVUdmbUk3Q0NsTnZxd0lBalFMTjNmVms5anh2UVc1ZVdLeXdwa1lxeEZqWEZicDEtZmU4amlXU2RsWXdZMWNreUFVRFVyRDBLal9PUVNBZVFROUpKQlluSVlTWUpLLTl2SGhudFFCQVI0ZHQzWGxoUk1nYklvUTBYSlFlUHAwV1oweHFBRVo4ZGpSSXBNSDlrMmFNSTRORHpGYlBPTHRyNg?oc=5",
-        "source": "YouTube",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:08:01.619Z",
+    "last_merged": "2026-03-16T09:11:56.359Z",
     "categorized": {
       "news": [
         {
-          "date": "2026-03-16",
-          "title": "VIEW MORE",
-          "url": "https://zutomayo.net/news/593",
-          "source": "zutomayo.net",
-          "type": "news",
-          "trust": 1,
-          "tier": "official"
+          "date": "2026-03-06",
+          "title": "Post from 유니버설 뮤직 코리아 Universal Music Korea - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fM3JMWUFncmExSk1JbW9rRGxPNEVPOXdMXzVZZG5kd2xVcktseGZ5RWpmVllJekVxVTQyMnhKb1FSVXBENWF3MFpINVd3V1hPUW9DRDVZZV92d2tQVkZxWF9qX3pueXM1Q1RPTzZrUzZpbW8?oc=5",
+          "source": "YouTube",
+          "trust": 0.75,
+          "tier": "platform",
+          "type": "news"
+        },
+        {
+          "date": "2025-12-28",
+          "title": "재즛토마요 1+1 행사중🎺\" | 즛토마요 재즈편곡 플리 1+2 통합본 | #NoAImusic | ZUTOMAYO Jazz 1+2 [playlist] - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JczNELVZsMm9iencwdEticGJwdlBJUlFNbWFFNy1pZ0tUUVBhcUc2RE9YTjVHN2NfazR5Q3huRmlXQzBUdUJHbkFIVjZZMEJVZHhlVTJ3?oc=5",
+          "source": "YouTube",
+          "trust": 0.75,
+          "tier": "platform",
+          "type": "news"
         },
         {
           "date": "2025-11-26",
@@ -677,6 +641,15 @@
           "source": "zutomayo.net",
           "trust": 1,
           "tier": "official",
+          "type": "news"
+        },
+        {
+          "date": "2024-09-01",
+          "title": "「海馬成長痛」Only にらver. #海馬成長痛 #ZUTOMAYO #ずとまよ #永遠是深夜有多好 #계속한밤중이면좋을텐데 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VTi1YQm9GUW9VTWJNNFlteTVLd0hBYjdFRUlnN25ITm5JTmItZnUtQWJiaVRlMmUyRzRzdHJGWXhsV19KUW96MHBYX2tMRVN6T3BCUA?oc=5",
+          "source": "YouTube",
+          "trust": 0.75,
+          "tier": "platform",
           "type": "news"
         },
         {
@@ -705,64 +678,10 @@
           "trust": 1,
           "tier": "official",
           "type": "news"
-        },
-        {
-          "date": "2026-03-07",
-          "title": "YouTube Music - YouTube Music",
-          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNQnNidUVUa0Jrb2V3RUZkZmlDdzROYlNVQkZsTkRQdllOOVdRRmxoU1JvOVM5bEs2YjJ2N3VYX1ZQT2NucEVlcTgyaTRscGUweVZkWWRiOTVyRUZaeEhySHBnWmZOSk9aRndlUXhXR3lsT2NuX05Cd2dGQ1JPdDFZUE9HYklLMkVVMXROcDhYVEw1Wkc0ZXVXdl80NjRVTVhoN2ZVMzE1UXpOdDMzTHNGa2kwTTViVTJ1S25LNXpEaUROREJpSUdObzNnRm43NWM0eEd4NUpRZnlYYmtkMmc2VnIzcDdxR0FSUTBTVmtDVUpURW44c1lyc0JSZ1VSZFd3c0NMbGlGdXo2d25ael9USVc1ZHQxMU0zcTBrLXdRWmtEbVVMd3g5Q01BQmZsS2VXRFBWTmlqMXVpOXpzZ2tfeHI0cmhnM1VodGFQd3VkUVpkXzQwN3BROA?oc=5",
-          "source": "YouTube",
-          "trust": 0.75,
-          "tier": "platform",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-06",
-          "title": "Post from 유니버설 뮤직 코리아 Universal Music Korea - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fM3JMWUFncmExSk1JbW9rRGxPNEVPOXdMXzVZZG5kd2xVcktseGZ5RWpmVllJekVxVTQyMnhKb1FSVXBENWF3MFpINVd3V1hPUW9DRDVZZV92d2tQVkZxWF9qX3pueXM1Q1RPTzZrUzZpbW8?oc=5",
-          "source": "YouTube",
-          "trust": 0.75,
-          "tier": "platform",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-06",
-          "title": "YouTube Music - YouTube Music",
-          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOcFVrSmNBNUVXYURNeUk3aEI4NkdBMnU0NFVtREM0djJmdFZ3VldJSC1WWjRtdXJFQjJoWDRnWmxvUlVTbkhqdnNQNGdxejVibzBvZmpZNTVOdEN5YTFGR1pWWEJmUzhTaEE3Zl9odjdUNjdRTVZrS09ZZzc0MFJUaDRnTjlMZlJMbXRveGhaaERJUXYyZElvVXViaUJGSUp6SlF6ZEZPYWhtbEFlREg2d2hvVkh0R3hoXzlqaHVocGhNOVNXN0NtU2cyMm1WM0sxeGdmbjA4SGxZczhXdndxcUJrY1B3VkFGUTF0SGpRYTFaNkVrS0E5OVd5RWZpNi1QQ1VGRklxdHE1d3dmY3U4aWJQVG0yMmNmcFVGTzhRTWp6LUN2YlZyS3lhX0h3RS1rNUs1Sg?oc=5",
-          "source": "YouTube",
-          "trust": 0.75,
-          "tier": "platform",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-05",
-          "title": "YouTube Music - YouTube Music",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRnBtZDEtRFZpVUViVmEwR3lpcURIeXpmZXV3UF84QzBkZUdZbWxLUjlXNUtSbXZYT1JOT014NHhmazRzOGpLSnFDNEhhY3VuN0lFcHl2RWRYSEVUVmZseFp3OUU3RkxVZFBvbWxBMl9MbTJZbHBQNDhRQktDTTlqdTlrc0toQzNjdzFVRnA2RmQ0bThoR01GRjNRNWRfYldaQmtCMS1iOHVhOVo4alVFTDN2bEczM05aa2NVVktUMFp2U2kzaUVCWG1fSFJhRGhFTTVpVk9tc0I4YXBYLUx4bWZOSWZ5Uzl5?oc=5",
-          "source": "YouTube",
-          "trust": 0.75,
-          "tier": "platform",
-          "type": "news"
         }
       ],
       "events": [],
       "releases": [
-        {
-          "date": "2026-03-16",
-          "title": "[릴리즈] RELEASE",
-          "url": "https://zutomayo.net/release/",
-          "source": "zutomayo.net",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "[릴리즈] Menu",
-          "url": "https://zutomayo.net/release/",
-          "source": "zutomayo.net",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
         {
           "date": "2024-06-04",
           "title": "【韓国】「ZUTOMAYO INTENSE IN SOUL」 GOODS & ALBUM 현장픽업(사전 온라인 주문) & 현장판매 안내 - zutomayo.net",
@@ -781,6 +700,15 @@
     "last_scraped": null,
     "merged_news": [
       {
+        "date": "2026-01-15",
+        "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
+        "type": "event"
+      },
+      {
         "date": "2025-04-19",
         "title": "KIIRAS - YouTube",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HTDdlSmlmQllmczBvWmN1bWhBT3d0MzZXaHZWQWRvNTNGMTd2VjB1bmlJc2c1R25KTnZ1SnZzMTlkeUdSWWxZbHhYWTlHTjZjaWoyVmdNOW9NRk05Q3lTNFpoZlcyVXc?oc=5",
@@ -788,6 +716,15 @@
         "trust": 0.75,
         "tier": "platform",
         "type": "news"
+      },
+      {
+        "date": "2025-03-28",
+        "title": "「Project: MEMORY CARD」──PlayStation® 30주년을 기념하는 YOASOBI의 신곡과 특별 CM 공개! - PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZVprVjhMNElDaElFb2Y4X0YtZjgyeXk4aDVWMWNIREdCeWYwcnRJTTRjX3A2TTc2SWw4RXNYNmNzR0I1VDB6V3FRaldQRHdGZF84eXlRVkRSSV9ic29hWjZkRW53MGk4Y2dKUA?oc=5",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
+        "type": "release"
       },
       {
         "date": "2025-01-21",
@@ -815,27 +752,9 @@
         "trust": 0.75,
         "tier": "platform",
         "type": "news"
-      },
-      {
-        "date": "2026-01-15",
-        "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
-        "source": "google news",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "event"
-      },
-      {
-        "date": "2025-03-28",
-        "title": "「Project: MEMORY CARD」──PlayStation® 30주년을 기념하는 YOASOBI의 신곡과 특별 CM 공개! - PlayStation",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZVprVjhMNElDaElFb2Y4X0YtZjgyeXk4aDVWMWNIREdCeWYwcnRJTTRjX3A2TTc2SWw4RXNYNmNzR0I1VDB6V3FRaldQRHdGZF84eXlRVkRSSV9ic29hWjZkRW53MGk4Y2dKUA?oc=5",
-        "source": "google news",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "release"
       }
     ],
-    "last_merged": "2026-03-16T09:07:59.254Z",
+    "last_merged": "2026-03-16T09:11:50.246Z",
     "categorized": {
       "news": [
         {
@@ -973,102 +892,12 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:07:45.768Z",
+    "last_scraped": "2026-03-16T09:11:34.778Z",
     "merged_news": [
       {
-        "date": "2026-03-16",
-        "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "SONATINE\n                \n                \n                mizuirono_inu",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "夜に沈む\n                \n                \n                Smany",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "Effulgence\n                \n                \n                matryoshka",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "Infinite Window\n                \n                \n                Rika Madobe",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "world wide wonderful world\n                \n                \n                bronbaba",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "VOCALOID STEW\n                \n                \n                でんの子P",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 1,
-        "tier": "official"
-      },
-      {
-        "date": "2024-07-01",
-        "title": "비몽 플레이 리스트 (bemong's play list) (조금 밝고 조금 우울한 음악들) - YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92UUxqcjNOYmlDOVRKOEVZMEpLei1xcWZRcXd1ZHR2eDU1elRHMTg5NVMtMHU5aVl0UHJ5eFE3SG05a19TT2ZaNm5ySkFaQThNZnRUaHJR?oc=5",
+        "date": "2024-02-15",
+        "title": "うみべの女の子 (A Girl on the Shore) OST - 07. Isobe - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQaUhZTXdNbl9RbGFlU2FQY2lZMUFnd0ZnNmtUM25qN2VrRjFxUnNjRHlwMFdBd2lTbDlJZUV5VXZZNmN3bmxmMllSSUlrYkxEblk0RHR3?oc=5",
         "source": "YouTube",
         "trust": 0.75,
         "tier": "platform",
@@ -1120,13 +949,13 @@
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:08:01.817Z",
+    "last_merged": "2026-03-16T09:11:58.261Z",
     "categorized": {
       "news": [
         {
-          "date": "2024-07-01",
-          "title": "비몽 플레이 리스트 (bemong's play list) (조금 밝고 조금 우울한 음악들) - YouTube",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92UUxqcjNOYmlDOVRKOEVZMEpLei1xcWZRcXd1ZHR2eDU1elRHMTg5NVMtMHU5aVl0UHJ5eFE3SG05a19TT2ZaNm5ySkFaQThNZnRUaHJR?oc=5",
+          "date": "2024-02-15",
+          "title": "うみべの女の子 (A Girl on the Shore) OST - 07. Isobe - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQaUhZTXdNbl9RbGFlU2FQY2lZMUFnd0ZnNmtUM25qN2VrRjFxUnNjRHlwMFdBd2lTbDlJZUV5VXZZNmN3bmxmMllSSUlrYkxEblk0RHR3?oc=5",
           "source": "YouTube",
           "trust": 0.75,
           "tier": "platform",
@@ -1179,98 +1008,7 @@
         }
       ],
       "events": [],
-      "releases": [
-        {
-          "date": "2026-03-16",
-          "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "SONATINE\n                \n                \n                mizuirono_inu",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "夜に沈む\n                \n                \n                Smany",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Effulgence\n                \n                \n                matryoshka",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Infinite Window\n                \n                \n                Rika Madobe",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "world wide wonderful world\n                \n                \n                bronbaba",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "VOCALOID STEW\n                \n                \n                でんの子P",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 1,
-          "tier": "official"
-        }
-      ],
+      "releases": [],
       "goods": []
     }
   }
