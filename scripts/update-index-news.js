@@ -175,6 +175,11 @@ function isDirectActivity(item, artistKey) {
   const hasArtist = (artistTokens[artistKey] || []).some(k => t.includes(k));
   const hasPositive = positive.some(k => t.includes(k));
 
+  // YouTube 검색 결과는 비공식/커버가 많아 기본 제외 (공식 채널 명시 시만 허용)
+  if ((item.source || '').toLowerCase().includes('youtube')) {
+    return hasArtist && hasPositive && t.includes('official');
+  }
+
   // 커뮤니티/검색 소스는 더 엄격: 아티스트명 + 활동키워드 둘 다 필요
   if (item.tier === 'community' || item.tier === 'search') {
     return hasArtist && hasPositive;
@@ -205,9 +210,9 @@ function dedupe(items) {
 
 function sortNews(items) {
   return [...items].sort((a, b) => {
-    const td = (b.trust ?? 0) - (a.trust ?? 0);
-    if (Math.abs(td) > 0.0001) return td;
-    return String(b.date || '').localeCompare(String(a.date || ''));
+    const dd = String(b.date || '').localeCompare(String(a.date || ''));
+    if (dd !== 0) return dd;
+    return (b.trust ?? 0) - (a.trust ?? 0);
   });
 }
 
@@ -284,9 +289,10 @@ async function main() {
   let html = fs.readFileSync(INDEX_FILE, 'utf8');
 
   for (const [key, meta] of Object.entries(ARTISTS)) {
-    const scraped = ((data[key] && data[key].scraped_news) || []).map((x) => ({
+    const useScraped = key === 'yorushika' || key === 'weg';
+    const scraped = (useScraped ? ((data[key] && data[key].scraped_news) || []) : []).map((x) => ({
       ...x,
-      trust: 1.0,
+      trust: key === 'weg' ? 0.7 : 1.0,
       tier: 'official',
       source: x.source || 'official scrape',
     }));
