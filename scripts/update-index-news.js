@@ -7,16 +7,64 @@ const ROOT = path.resolve(__dirname, '..');
 const INDEX_FILE = path.join(ROOT, 'index.html');
 const DATA_FILE = path.join(__dirname, 'artist-data.json');
 
+const TRUST = {
+  official: 1.0,
+  media: 0.8,
+  platform: 0.75,
+  search: 0.6,
+  community: 0.4,
+};
+
 const ARTISTS = {
-  yoasobi: { q: 'YOASOBI', label: 'YOASOBI' },
-  yorushika: { q: 'Yorushika', label: 'Yorushika' },
-  zutomayo: { q: 'ZUTOMAYO', label: 'Zutomayo' },
-  weg: { q: '"World\'s End Girlfriend" OR WEG music', label: 'WEG' },
+  yoasobi: {
+    label: 'YOASOBI',
+    feeds: [
+      { type: 'google', q: 'site:yoasobi-music.jp YOASOBI', tier: 'official', source: 'yoasobi-music.jp' },
+      { type: 'google', q: 'YOASOBI (site:oricon.co.jp OR site:billboard-japan.com OR site:natalie.mu)', tier: 'media', source: 'JP music media' },
+      { type: 'google', q: 'YOASOBI (site:bandsintown.com OR site:songkick.com)', tier: 'platform', source: 'event platforms' },
+      { type: 'google', q: 'YOASOBI', tier: 'search', source: 'google news' },
+      { type: 'rss', url: 'https://www.reddit.com/r/YOASOBI/new/.rss', tier: 'community', source: 'reddit r/YOASOBI' },
+      { type: 'google', q: 'YOASOBI site:youtube.com', tier: 'platform', source: 'YouTube' },
+    ],
+  },
+  yorushika: {
+    label: 'Yorushika',
+    feeds: [
+      { type: 'google', q: 'site:yorushika.com Yorushika', tier: 'official', source: 'yorushika.com' },
+      { type: 'google', q: 'Yorushika (site:oricon.co.jp OR site:billboard-japan.com OR site:natalie.mu)', tier: 'media', source: 'JP music media' },
+      { type: 'google', q: 'Yorushika (site:bandsintown.com OR site:songkick.com)', tier: 'platform', source: 'event platforms' },
+      { type: 'google', q: 'Yorushika', tier: 'search', source: 'google news' },
+      { type: 'rss', url: 'https://www.reddit.com/r/Yorushika/new/.rss', tier: 'community', source: 'reddit r/Yorushika' },
+      { type: 'google', q: 'Yorushika site:youtube.com', tier: 'platform', source: 'YouTube' },
+    ],
+  },
+  zutomayo: {
+    label: 'Zutomayo',
+    feeds: [
+      { type: 'google', q: 'site:zutomayo.net ZUTOMAYO OR ずっと真夜中でいいのに。', tier: 'official', source: 'zutomayo.net' },
+      { type: 'google', q: 'ZUTOMAYO (site:oricon.co.jp OR site:billboard-japan.com OR site:natalie.mu)', tier: 'media', source: 'JP music media' },
+      { type: 'google', q: 'ZUTOMAYO (site:bandsintown.com OR site:songkick.com)', tier: 'platform', source: 'event platforms' },
+      { type: 'google', q: 'ZUTOMAYO', tier: 'search', source: 'google news' },
+      { type: 'rss', url: 'https://www.reddit.com/r/ZutoMayo/new/.rss', tier: 'community', source: 'reddit r/ZutoMayo' },
+      { type: 'google', q: 'ZUTOMAYO site:youtube.com', tier: 'platform', source: 'YouTube' },
+    ],
+  },
+  weg: {
+    label: 'WEG',
+    feeds: [
+      { type: 'google', q: '("World\'s End Girlfriend" OR WEG music) (site:virginbabylonrecords.com OR site:virginbabylonrecords.bandcamp.com)', tier: 'official', source: 'VBR/Bandcamp' },
+      { type: 'google', q: '"World\'s End Girlfriend" (site:oricon.co.jp OR site:billboard-japan.com OR site:natalie.mu)', tier: 'media', source: 'JP music media' },
+      { type: 'google', q: '"World\'s End Girlfriend" (site:bandsintown.com OR site:songkick.com)', tier: 'platform', source: 'event platforms' },
+      { type: 'google', q: '"World\'s End Girlfriend" music', tier: 'search', source: 'google news' },
+      { type: 'google', q: '"World\'s End Girlfriend" site:youtube.com', tier: 'platform', source: 'YouTube' },
+      { type: 'google', q: '"World\'s End Girlfriend" site:reddit.com', tier: 'community', source: 'reddit' },
+    ],
+  },
 };
 
 function fetch(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'NocturneNewsBot/1.0' } }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'NocturneNewsBot/2.0' } }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return fetch(res.headers.location).then(resolve).catch(reject);
       }
@@ -37,8 +85,7 @@ function decodeHtml(s = '') {
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&#x2F;/g, '/');
+    .replace(/&#39;/g, "'");
 }
 
 function stripTags(s = '') {
@@ -51,7 +98,7 @@ function toDate(s) {
   return d.toISOString().slice(0, 10);
 }
 
-function parseGoogleNewsRss(xml) {
+function parseRss(xml, source, tier) {
   const items = [];
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
   let m;
@@ -65,20 +112,36 @@ function parseGoogleNewsRss(xml) {
       date: toDate(pubDateRaw),
       title,
       url: link,
-      source: 'news.google.com',
+      source,
+      trust: TRUST[tier] ?? 0.5,
+      tier,
       type: 'news',
     });
   }
   return items;
 }
 
-function dedupe(arr) {
-  const seen = new Set();
-  return arr.filter((x) => {
-    const k = `${(x.title || '').toLowerCase().slice(0, 80)}|${x.date || ''}`;
-    if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
+function googleNewsUrl(q) {
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ko&gl=KR&ceid=KR:ko`;
+}
+
+function dedupe(items) {
+  const map = new Map();
+  for (const it of items) {
+    const key = `${(it.title || '').toLowerCase().replace(/[^\w가-힣ぁ-んァ-ン一-龥]+/g, ' ').trim().slice(0, 120)}|${it.date}`;
+    const prev = map.get(key);
+    if (!prev || (it.trust ?? 0) > (prev.trust ?? 0)) {
+      map.set(key, it);
+    }
+  }
+  return [...map.values()];
+}
+
+function sortNews(items) {
+  return [...items].sort((a, b) => {
+    const td = (b.trust ?? 0) - (a.trust ?? 0);
+    if (Math.abs(td) > 0.0001) return td;
+    return String(b.date || '').localeCompare(String(a.date || ''));
   });
 }
 
@@ -91,9 +154,7 @@ function esc(s = '') {
 }
 
 function normalizeUrl(u) {
-  if (!u) return '#';
-  if (/^https?:\/\//i.test(u)) return u;
-  return '#';
+  return /^https?:\/\//i.test(u || '') ? u : '#';
 }
 
 function badge(type = 'news') {
@@ -104,10 +165,18 @@ function badge(type = 'news') {
   return { cls: 'badge-news', text: '뉴스' };
 }
 
+function tierKo(tier) {
+  if (tier === 'official') return '공식';
+  if (tier === 'media') return '매체';
+  if (tier === 'platform') return '플랫폼';
+  if (tier === 'community') return '커뮤니티';
+  return '검색';
+}
+
 function renderCards(items) {
-  return (items || []).slice(0, 8).map((it) => {
+  return (items || []).slice(0, 10).map((it) => {
     const b = badge(it.type);
-    return `      <article class="card news-card">\n        <div class="card-top"><span class="badge ${b.cls}">${b.text}</span><span class="card-date">${esc(it.date || '')}</span></div>\n        <h3>${esc(it.title || '')}</h3>\n        <a href="${esc(normalizeUrl(it.url))}" target="_blank" class="card-link">출처 →</a>\n      </article>`;
+    return `      <article class="card news-card">\n        <div class="card-top"><span class="badge ${b.cls}">${b.text}</span><span class="card-date">${esc(it.date || '')}</span></div>\n        <h3>${esc(it.title || '')}</h3>\n        <p style="font-size:12px;color:var(--text3);margin:6px 0 10px">${esc(tierKo(it.tier))} · ${esc(it.source || '')} · 신뢰도 ${Number(it.trust || 0).toFixed(2)}</p>\n        <a href="${esc(normalizeUrl(it.url))}" target="_blank" class="card-link">출처 →</a>\n      </article>`;
   }).join('\n\n');
 }
 
@@ -117,12 +186,19 @@ function replaceNewsBlock(html, section, cardsHtml) {
   const sIdx = html.indexOf(start);
   const eIdx = html.indexOf(end);
   if (sIdx === -1 || eIdx === -1 || eIdx <= sIdx) return html;
-
   const startClose = html.indexOf('>', sIdx) + 1;
-  const before = html.slice(0, startClose);
-  const after = html.slice(eIdx);
-  const content = `\n${cardsHtml || ''}\n\n  `;
-  return before + content + after;
+  return html.slice(0, startClose) + `\n${cardsHtml}\n\n  ` + html.slice(eIdx);
+}
+
+async function loadFeed(feed) {
+  try {
+    const url = feed.type === 'google' ? googleNewsUrl(feed.q) : feed.url;
+    const xml = await fetch(url);
+    return parseRss(xml, feed.source, feed.tier);
+  } catch (e) {
+    console.error(`[WARN] feed failed (${feed.source}): ${e.message}`);
+    return [];
+  }
 }
 
 async function main() {
@@ -130,18 +206,20 @@ async function main() {
   let html = fs.readFileSync(INDEX_FILE, 'utf8');
 
   for (const [key, meta] of Object.entries(ARTISTS)) {
-    const scraped = (data[key] && data[key].scraped_news) ? data[key].scraped_news : [];
-    const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(meta.q)}&hl=ko&gl=KR&ceid=KR:ko`;
+    const scraped = ((data[key] && data[key].scraped_news) || []).map((x) => ({
+      ...x,
+      trust: 1.0,
+      tier: 'official',
+      source: x.source || 'official scrape',
+    }));
 
-    let webNews = [];
-    try {
-      const xml = await fetch(rssUrl);
-      webNews = parseGoogleNewsRss(xml).slice(0, 10);
-    } catch (e) {
-      console.error(`[WARN] ${key} rss fetch failed: ${e.message}`);
+    const allFeedItems = [];
+    for (const feed of meta.feeds) {
+      const items = await loadFeed(feed);
+      allFeedItems.push(...items.slice(0, 8));
     }
 
-    const merged = dedupe([...(scraped || []), ...(webNews || [])]).slice(0, 8);
+    const merged = sortNews(dedupe([...scraped, ...allFeedItems])).slice(0, 10);
     html = replaceNewsBlock(html, key, renderCards(merged));
 
     if (!data[key]) data[key] = {};
@@ -151,7 +229,7 @@ async function main() {
 
   fs.writeFileSync(INDEX_FILE, html, 'utf8');
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
-  console.log('✅ index.html 뉴스 섹션 업데이트 완료');
+  console.log('✅ index.html 뉴스 섹션 업데이트 완료 (공식/매체/플랫폼/커뮤니티 통합)');
 }
 
 main().catch((e) => {
