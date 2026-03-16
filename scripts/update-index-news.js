@@ -444,7 +444,7 @@ function replaceTabBlock(html, section, tab, cardsHtml) {
     eIdx = sectionEnd === -1 ? html.length : sectionEnd;
   }
 
-  return html.slice(0, startClose) + `\n${cardsHtml}\n\n  ` + html.slice(eIdx);
+  return html.slice(0, startClose) + `\n${cardsHtml}\n\n  </div>\n\n  ` + html.slice(eIdx);
 }
 
 async function loadFeed(feed) {
