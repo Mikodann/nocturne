@@ -77,7 +77,7 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-03-16T09:12:19.178Z",
+    "last_scraped": "2026-03-16T09:12:57.399Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -296,7 +296,7 @@
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:12:36.188Z",
+    "last_merged": "2026-03-16T09:13:14.385Z",
     "categorized": {
       "news": [
         {
@@ -520,7 +520,7 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:12:20.128Z",
+    "last_scraped": "2026-03-16T09:12:58.746Z",
     "merged_news": [
       {
         "date": "2025-11-26",
@@ -577,7 +577,7 @@
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:12:37.245Z",
+    "last_merged": "2026-03-16T09:13:15.063Z",
     "categorized": {
       "news": [
         {
@@ -664,7 +664,7 @@
         "type": "release"
       }
     ],
-    "last_merged": "2026-03-16T09:12:35.080Z",
+    "last_merged": "2026-03-16T09:13:13.499Z",
     "categorized": {
       "news": [],
       "events": [
@@ -765,13 +765,195 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:12:21.404Z",
-    "merged_news": [],
-    "last_merged": "2026-03-16T09:12:37.501Z",
+    "last_scraped": "2026-03-16T09:13:00.074Z",
+    "merged_news": [
+      {
+        "date": "2026-03-16",
+        "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "SONATINE\n                \n                \n                mizuirono_inu",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "夜に沈む\n                \n                \n                Smany",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Effulgence\n                \n                \n                matryoshka",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Infinite Window\n                \n                \n                Rika Madobe",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "world wide wonderful world\n                \n                \n                bronbaba",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "VOCALOID STEW\n                \n                \n                でんの子P",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 0.7,
+        "tier": "official"
+      }
+    ],
+    "last_merged": "2026-03-16T09:13:15.294Z",
     "categorized": {
       "news": [],
       "events": [],
-      "releases": [],
+      "releases": [
+        {
+          "date": "2026-03-16",
+          "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "SONATINE\n                \n                \n                mizuirono_inu",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "夜に沈む\n                \n                \n                Smany",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "Effulgence\n                \n                \n                matryoshka",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "Infinite Window\n                \n                \n                Rika Madobe",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "world wide wonderful world\n                \n                \n                bronbaba",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "VOCALOID STEW\n                \n                \n                でんの子P",
+          "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
+          "source": "virginbabylonrecords.bandcamp.com",
+          "type": "release",
+          "trust": 0.7,
+          "tier": "official"
+        }
+      ],
       "goods": []
     }
   }
