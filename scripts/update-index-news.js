@@ -161,7 +161,15 @@ function isDirectActivity(item, artistKey) {
   if (item.tier === 'community' || item.tier === 'search') {
     return hasArtist && hasPositive;
   }
-  // 공식/매체/플랫폼은 활동 키워드만 있어도 허용
+  // 공식 소스는 기본 허용 (특히 WEG Bandcamp 릴리즈 제목은 키워드가 짧은 경우가 많음)
+  if (item.tier === 'official') return true;
+
+  // type이 이미 분류된 경우 허용
+  if (['release','event','goods','news'].includes((item.type || '').toLowerCase())) {
+    if (item.tier === 'media' || item.tier === 'platform') return true;
+  }
+
+  // 나머지는 활동 키워드 필요
   return hasPositive;
 }
 
