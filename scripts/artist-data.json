@@ -77,7 +77,7 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-03-16T09:15:44.464Z",
+    "last_scraped": "2026-03-16T09:17:00.765Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -296,7 +296,7 @@
         "tier": "official"
       }
     ],
-    "last_merged": "2026-03-16T09:16:01.754Z",
+    "last_merged": "2026-03-16T09:17:21.919Z",
     "categorized": {
       "news": [
         {
@@ -576,7 +576,7 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:15:45.852Z",
+    "last_scraped": "2026-03-16T09:17:01.734Z",
     "merged_news": [
       {
         "date": "2026-03-14",
@@ -649,63 +649,9 @@
         "trust": 0.4,
         "tier": "community",
         "type": "release"
-      },
-      {
-        "date": "2025-11-26",
-        "title": "ZUTOMAYO INTENSE II 「坐・ZOMBIE CRAB LABO」 in SEOUL - zutomayo.net",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5RYVAwT0FLMGdQOHJfa3Y2VktCVEp2NUJIT1ptbHJZT2RZVEZvVDJmdVk0NWFiaVIxZUZYbk1HRlFOeDdncFhTUnppSXc?oc=5",
-        "source": "zutomayo.net",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
-      },
-      {
-        "date": "2025-08-21",
-        "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE52TWJGdXU5WGlYVkk0TzlWb1ZTVHNIYng1VTdhUm0wbF92eXVpVUw1RnhIRFg0N0txWDV2c1NWNzB6cHM?oc=5",
-        "source": "zutomayo.net",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
-      },
-      {
-        "date": "2024-06-14",
-        "title": "【ZUTOMAYO INTENSE IN SEOUL】T-SHIRT 예약판매 안내 - zutomayo.net",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBUUmV0X3JTU1J5ZGRRZzc1azhwa2tEcWRsSzgwZEt4aGVJcDkweXdSRW1EZnBNVmNDZXZXVzUxbDE2QTQ?oc=5",
-        "source": "zutomayo.net",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
-      },
-      {
-        "date": "2024-06-13",
-        "title": "【ZUTOMAYO INTENSE IN SEOUL】참석자 한정 반짝반짝 스티커 교환 기획 - zutomayo.net",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1nTTBySzFQd29FaG90MkptZlBoX1o0ZnU5X3d6Q1Z6VnlLQm16RXlBb0w5N2psd2ZZOW10U201c1J6S1k?oc=5",
-        "source": "zutomayo.net",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
-      },
-      {
-        "date": "2024-06-04",
-        "title": "【韓国】「ZUTOMAYO INTENSE IN SOUL」 GOODS & ALBUM 현장픽업(사전 온라인 주문) & 현장판매 안내 - zutomayo.net",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5XblhkOVhoVHBKcjdnSS05c0h3SjQ0bGpIYnk1NmoxY0JreUhZZktQR2Z0d243Z3pfY2phbW9VRVdHUDQ?oc=5",
-        "source": "zutomayo.net",
-        "trust": 1,
-        "tier": "official",
-        "type": "release"
-      },
-      {
-        "date": "2024-03-06",
-        "title": "2024/6/15(Sat) 6/16(Sun)「ZUTOMAYO INTENSE IN SEOUL」개최확정, 3/8(금)18:00～한국 거주자 우선 선착 접수도 실시 - zutomayo.net",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1zeXdmNkpHZ19FeldQdVVOX2UwU2xnZzhtRWJ1OV9mZHZKTGNWVjR4ZDZqWnEzZWlzdnZNRmhHRDM2QlU?oc=5",
-        "source": "zutomayo.net",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:16:02.784Z",
+    "last_merged": "2026-03-16T09:17:24.755Z",
     "categorized": {
       "news": [
         {
@@ -752,51 +698,6 @@
           "trust": 0.4,
           "tier": "community",
           "type": "news"
-        },
-        {
-          "date": "2025-11-26",
-          "title": "ZUTOMAYO INTENSE II 「坐・ZOMBIE CRAB LABO」 in SEOUL - zutomayo.net",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5RYVAwT0FLMGdQOHJfa3Y2VktCVEp2NUJIT1ptbHJZT2RZVEZvVDJmdVk0NWFiaVIxZUZYbk1HRlFOeDdncFhTUnppSXc?oc=5",
-          "source": "zutomayo.net",
-          "trust": 1,
-          "tier": "official",
-          "type": "news"
-        },
-        {
-          "date": "2025-08-21",
-          "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE52TWJGdXU5WGlYVkk0TzlWb1ZTVHNIYng1VTdhUm0wbF92eXVpVUw1RnhIRFg0N0txWDV2c1NWNzB6cHM?oc=5",
-          "source": "zutomayo.net",
-          "trust": 1,
-          "tier": "official",
-          "type": "news"
-        },
-        {
-          "date": "2024-06-14",
-          "title": "【ZUTOMAYO INTENSE IN SEOUL】T-SHIRT 예약판매 안내 - zutomayo.net",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBUUmV0X3JTU1J5ZGRRZzc1azhwa2tEcWRsSzgwZEt4aGVJcDkweXdSRW1EZnBNVmNDZXZXVzUxbDE2QTQ?oc=5",
-          "source": "zutomayo.net",
-          "trust": 1,
-          "tier": "official",
-          "type": "news"
-        },
-        {
-          "date": "2024-06-13",
-          "title": "【ZUTOMAYO INTENSE IN SEOUL】참석자 한정 반짝반짝 스티커 교환 기획 - zutomayo.net",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1nTTBySzFQd29FaG90MkptZlBoX1o0ZnU5X3d6Q1Z6VnlLQm16RXlBb0w5N2psd2ZZOW10U201c1J6S1k?oc=5",
-          "source": "zutomayo.net",
-          "trust": 1,
-          "tier": "official",
-          "type": "news"
-        },
-        {
-          "date": "2024-03-06",
-          "title": "2024/6/15(Sat) 6/16(Sun)「ZUTOMAYO INTENSE IN SEOUL」개최확정, 3/8(금)18:00～한국 거주자 우선 선착 접수도 실시 - zutomayo.net",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1zeXdmNkpHZ19FeldQdVVOX2UwU2xnZzhtRWJ1OV9mZHZKTGNWVjR4ZDZqWnEzZWlzdnZNRmhHRDM2QlU?oc=5",
-          "source": "zutomayo.net",
-          "trust": 1,
-          "tier": "official",
-          "type": "news"
         }
       ],
       "events": [
@@ -818,15 +719,6 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "release"
-        },
-        {
-          "date": "2024-06-04",
-          "title": "【韓国】「ZUTOMAYO INTENSE IN SOUL」 GOODS & ALBUM 현장픽업(사전 온라인 주문) & 현장판매 안내 - zutomayo.net",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5XblhkOVhoVHBKcjdnSS05c0h3SjQ0bGpIYnk1NmoxY0JreUhZZktQR2Z0d243Z3pfY2phbW9VRVdHUDQ?oc=5",
-          "source": "zutomayo.net",
-          "trust": 1,
-          "tier": "official",
           "type": "release"
         }
       ],
@@ -992,18 +884,9 @@
         "trust": 0.6,
         "tier": "search",
         "type": "event"
-      },
-      {
-        "date": "2025-03-28",
-        "title": "「Project: MEMORY CARD」──PlayStation® 30주년을 기념하는 YOASOBI의 신곡과 특별 CM 공개! - PlayStation",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZVprVjhMNElDaElFb2Y4X0YtZjgyeXk4aDVWMWNIREdCeWYwcnRJTTRjX3A2TTc2SWw4RXNYNmNzR0I1VDB6V3FRaldQRHdGZF84eXlRVkRSSV9ic29hWjZkRW53MGk4Y2dKUA?oc=5",
-        "source": "google news",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "release"
       }
     ],
-    "last_merged": "2026-03-16T09:16:00.326Z",
+    "last_merged": "2026-03-16T09:17:18.779Z",
     "categorized": {
       "news": [
         {
@@ -1081,17 +964,7 @@
           "type": "event"
         }
       ],
-      "releases": [
-        {
-          "date": "2025-03-28",
-          "title": "「Project: MEMORY CARD」──PlayStation® 30주년을 기념하는 YOASOBI의 신곡과 특별 CM 공개! - PlayStation",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZVprVjhMNElDaElFb2Y4X0YtZjgyeXk4aDVWMWNIREdCeWYwcnRJTTRjX3A2TTc2SWw4RXNYNmNzR0I1VDB6V3FRaldQRHdGZF84eXlRVkRSSV9ic29hWjZkRW53MGk4Y2dKUA?oc=5",
-          "source": "google news",
-          "trust": 0.6,
-          "tier": "search",
-          "type": "release"
-        }
-      ],
+      "releases": [],
       "goods": [],
       "community": [
         {
@@ -1233,7 +1106,7 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:15:47.152Z",
+    "last_scraped": "2026-03-16T09:17:03.166Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -1326,7 +1199,7 @@
         "tier": "official"
       }
     ],
-    "last_merged": "2026-03-16T09:16:03.022Z",
+    "last_merged": "2026-03-16T09:17:26.625Z",
     "categorized": {
       "news": [],
       "events": [],
