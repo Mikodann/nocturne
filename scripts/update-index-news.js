@@ -6,6 +6,7 @@ const https = require('https');
 const ROOT = path.resolve(__dirname, '..');
 const INDEX_FILE = path.join(ROOT, 'index.html');
 const DATA_FILE = path.join(__dirname, 'artist-data.json');
+const MIN_DATE = '2026-01-01';
 
 const TRUST = {
   official: 1.0,
@@ -96,6 +97,10 @@ function toDate(s) {
   const d = new Date(s);
   if (Number.isNaN(d.getTime())) return new Date().toISOString().slice(0, 10);
   return d.toISOString().slice(0, 10);
+}
+
+function isAfterMinDate(dateStr) {
+  return String(dateStr || '') >= MIN_DATE;
 }
 
 function guessTypeFromTitle(title = '', source = '') {
@@ -341,6 +346,7 @@ async function main() {
     }
 
     const merged = sortNews(dedupe(classifyItems([...scraped, ...allFeedItems])))
+      .filter((x) => isAfterMinDate(x.date))
       .filter((x) => isDirectActivity(x, key))
       .slice(0, 24);
 
