@@ -100,9 +100,9 @@ function toDate(s) {
 
 function guessTypeFromTitle(title = '', source = '') {
   const t = `${title} ${source}`.toLowerCase();
-  const eventK = ['tour','live','concert','festival','ticket','show','공연','투어','라이브','フェス','公演','ライブ','schedule'];
-  const releaseK = ['release','single','album','ep','mv','music video','digital','配信','発売','신곡','발매','앨범'];
-  const goodsK = ['goods','merch','merchandise','store','shop','グッズ','굿즈','md'];
+  const eventK = ['tour','live','concert','festival','ticket','show','hall tour','arena','world tour','asia tour','공연','투어','라이브','예매','티켓','フェス','公演','ライブ','スケジュール','schedule'];
+  const releaseK = ['release','single','album','ep','mv','music video','digital','ost','vinyl','cd','blu-ray','配信','発売','新曲','신곡','발매','앨범'];
+  const goodsK = ['goods','merch','merchandise','store','shop','preorder','pre-order','official store','グッズ','굿즈','MD','md'];
   if (eventK.some(k => t.includes(k))) return 'event';
   if (releaseK.some(k => t.includes(k))) return 'release';
   if (goodsK.some(k => t.includes(k))) return 'goods';
@@ -118,6 +118,8 @@ function classifyItems(items = []) {
 
 function parseRss(xml, source, tier) {
   const items = [];
+
+  // RSS
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
   let m;
   while ((m = itemRegex.exec(xml)) !== null) {
@@ -136,6 +138,28 @@ function parseRss(xml, source, tier) {
       type: guessTypeFromTitle(title, source),
     });
   }
+
+  // Atom (e.g., Reddit)
+  if (items.length === 0) {
+    const entryRegex = /<entry>([\s\S]*?)<\/entry>/g;
+    while ((m = entryRegex.exec(xml)) !== null) {
+      const block = m[1];
+      const title = stripTags((block.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '');
+      const href = (block.match(/<link[^>]*href="([^"]+)"/i) || [])[1] || '';
+      const updated = decodeHtml((block.match(/<(updated|published)>([\s\S]*?)<\/(updated|published)>/i) || [])[2] || '');
+      if (!title || !href) continue;
+      items.push({
+        date: toDate(updated),
+        title,
+        url: decodeHtml(href),
+        source,
+        trust: TRUST[tier] ?? 0.5,
+        tier,
+        type: guessTypeFromTitle(title, source),
+      });
+    }
+  }
+
   return items;
 }
 
@@ -180,8 +204,13 @@ function isDirectActivity(item, artistKey) {
     return hasArtist && hasPositive && t.includes('official');
   }
 
-  // 커뮤니티/검색 소스는 더 엄격: 아티스트명 + 활동키워드 둘 다 필요
-  if (item.tier === 'community' || item.tier === 'search') {
+  // 커뮤니티는 팬 게시글 성격이라 아티스트 연관성만 확인
+  if (item.tier === 'community') {
+    return hasArtist;
+  }
+
+  // 검색 소스는 엄격: 아티스트명 + 활동키워드 필요
+  if (item.tier === 'search') {
     return hasArtist && hasPositive;
   }
   // 공식 소스는 기본 허용 (특히 WEG Bandcamp 릴리즈 제목은 키워드가 짧은 경우가 많음)
@@ -251,6 +280,14 @@ function renderCards(items) {
   }).join('\n\n');
 }
 
+
+function renderEmpty(text) {
+  return `      <article class="card news-card">
+        <h3>${esc(text)}</h3>
+        <p style="font-size:12px;color:var(--text3);margin-top:8px">다음 수집 주기에 자동 갱신됩니다.</p>
+      </article>`;
+}
+
 function replaceTabBlock(html, section, tab, cardsHtml) {
   const tabs = ['news', 'events', 'releases', 'goods', 'community'];
   const startToken = `<div class="tab-content" data-section="${section}" data-tab="${tab}"`;
@@ -311,11 +348,13 @@ async function main() {
     const eventItems = merged.filter(x => x.type === 'event').slice(0, 10);
     const releaseItems = merged.filter(x => x.type === 'release').slice(0, 10);
     const goodsItems = merged.filter(x => x.type === 'goods').slice(0, 10);
+    const communityItems = merged.filter(x => x.tier === 'community').slice(0, 10);
 
-    html = replaceTabBlock(html, key, 'news', renderCards(newsItems));
-    html = replaceTabBlock(html, key, 'events', renderCards(eventItems));
-    html = replaceTabBlock(html, key, 'releases', renderCards(releaseItems));
-    html = replaceTabBlock(html, key, 'goods', renderCards(goodsItems));
+    if (newsItems.length) html = replaceTabBlock(html, key, 'news', renderCards(newsItems));
+    if (eventItems.length) html = replaceTabBlock(html, key, 'events', renderCards(eventItems));
+    if (releaseItems.length) html = replaceTabBlock(html, key, 'releases', renderCards(releaseItems));
+    if (goodsItems.length) html = replaceTabBlock(html, key, 'goods', renderCards(goodsItems));
+    if (communityItems.length) html = replaceTabBlock(html, key, 'community', renderCards(communityItems));
 
     if (!data[key]) data[key] = {};
     data[key].merged_news = merged;
@@ -324,6 +363,7 @@ async function main() {
       events: eventItems,
       releases: releaseItems,
       goods: goodsItems,
+      community: communityItems,
     };
     data[key].last_merged = new Date().toISOString();
   }
