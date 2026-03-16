@@ -628,17 +628,11 @@ async function main() {
 
     const nonCommunity = merged.filter((x) => x.tier !== 'community');
 
-    const newsItems = nonCommunity.filter((x) => x.type === 'news').slice(0, TAB_LIMIT);
-
-    const eventCandidates = nonCommunity.filter((x) => x.type === 'event');
-    const setlistEvents = eventCandidates.filter((x) => (x.source || '').toLowerCase().includes('setlist.fm'));
-    const officialEvents = eventCandidates.filter((x) => x.tier === 'official' && !(x.source || '').toLowerCase().includes('setlist.fm'));
-    const otherEvents = eventCandidates.filter((x) => x.tier !== 'official' && !(x.source || '').toLowerCase().includes('setlist.fm'));
-    const eventItems = uniqueByUrl([...setlistEvents, ...officialEvents, ...otherEvents]).slice(0, TAB_LIMIT);
-
-    const releaseItems = merged.filter((x) => x.type === 'release').slice(0, TAB_LIMIT);
-    const goodsItems = merged.filter((x) => x.type === 'goods').slice(0, TAB_LIMIT);
-    const communityItems = merged.filter((x) => x.tier === 'community').slice(0, TAB_LIMIT);
+    const newsItems = sortNews(uniqueByUrl(nonCommunity.filter((x) => x.type === 'news'))).slice(0, TAB_LIMIT);
+    const eventItems = sortNews(uniqueByUrl(nonCommunity.filter((x) => x.type === 'event'))).slice(0, TAB_LIMIT);
+    const releaseItems = sortNews(uniqueByUrl(merged.filter((x) => x.type === 'release'))).slice(0, TAB_LIMIT);
+    const goodsItems = sortNews(uniqueByUrl(merged.filter((x) => x.type === 'goods'))).slice(0, TAB_LIMIT);
+    const communityItems = sortNews(uniqueByUrl(merged.filter((x) => x.tier === 'community'))).slice(0, TAB_LIMIT);
 
     html = replaceTabBlock(
       html,
