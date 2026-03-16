@@ -408,14 +408,17 @@ function parseDcinsideGallery(html, source, tier, galleryId, mode = 'all') {
 
 function isArtistRelevant(item, artistKey) {
   const artist = ARTISTS[artistKey];
+  const title = String(item.title || '').toLowerCase().trim();
   const text = `${item.title || ''} ${item.source || ''}`.toLowerCase();
+
+  const junkTitles = ['view more', 'menu', 'close'];
+  if (junkTitles.includes(title)) return false;
 
   const negativeKeywords = [
     'cover', 'reaction', 'lyrics', 'lyric video', 'karaoke', 'fan cam', 'fancam',
     'mashup', 'nightcore', 'sped up', 'tutorial', 'analysis', 'review', 'top 10',
     '커버', '리액션', '팬캠', '해석',
   ];
-
   if (negativeKeywords.some((k) => text.includes(k))) return false;
 
   const hasArtistToken = (artist.tokens || []).some((k) => text.includes(String(k).toLowerCase()));
@@ -424,24 +427,39 @@ function isArtistRelevant(item, artistKey) {
   // 커뮤니티는 아티스트 연관성만 충족하면 허용
   if (item.tier === 'community') return true;
 
-  // 탭 분류가 이미 명확하면 허용
-  if (['event', 'release', 'goods'].includes(item.type)) return true;
-
-  // 뉴스 타입은 활동 키워드 추가 확인
-  const positiveKeywords = [
-    'official', 'announcement', 'news', 'tour', 'live', 'concert', 'festival',
-    'release', 'single', 'album', 'ep', 'mv', 'music video', 'ticket', 'schedule',
-    '공식', '공지', '공연', '투어', '발매', '신곡', '앨범',
-    '公式', 'お知らせ', '公演', 'ツアー', '発売', '新曲',
-  ];
-
-  if (item.tier === 'search' || item.tier === 'media' || item.tier === 'platform') {
-    // 검색/매체/플랫폼은 아티스트 토큰이 이미 확인됐으면 기본 허용,
-    // 다만 활동 키워드가 있으면 우선적으로 신뢰.
-    return positiveKeywords.some((k) => text.includes(k)) || item.type !== 'news' || item.categoryHint === 'news';
+  // setlist.fm은 공연 데이터로 직접 채택
+  if ((item.source || '').toLowerCase().includes('setlist.fm')) {
+    return item.type === 'event';
   }
 
-  return true;
+  const musicContextKeywords = [
+    'tour', 'live', 'concert', 'festival', 'ticket', 'setlist', 'stage',
+    'release', 'single', 'album', 'ep', 'mv', 'music video', 'teaser', 'comeback', 'chart',
+    'goods', 'merch', 'collab', 'collaboration', 'interview', 'soundtrack',
+    '공연', '투어', '라이브', '티켓', '셋리스트', '무대',
+    '발매', '신곡', '앨범', '뮤비', '티저', '차트', '인터뷰', '굿즈', '콜라보',
+    '公演', 'ツアー', 'ライブ', '発売', '新曲', 'アルバム', 'グッズ', 'コラボ',
+  ];
+  const hasMusicContext = musicContextKeywords.some((k) => text.includes(k));
+
+  const offTopicKeywords = [
+    '선거', '정치', '총리', '대통령', '국회', '정당', '정권', '당선',
+    'election', 'politic', 'prime minister', 'president', 'parliament',
+  ];
+  if (offTopicKeywords.some((k) => text.includes(k)) && !hasMusicContext) return false;
+
+  // 공식 소스는 기본 허용
+  if (item.tier === 'official') return true;
+
+  if (item.tier === 'search' || item.tier === 'media' || item.tier === 'platform') {
+    // 키워드 포함 기사라도 음악 맥락이 없으면 제외
+    if (item.categoryHint === 'event') return item.type === 'event' || hasMusicContext;
+    if (item.categoryHint === 'release') return item.type === 'release' || hasMusicContext;
+    if (item.categoryHint === 'goods') return item.type === 'goods' || hasMusicContext;
+    return hasMusicContext;
+  }
+
+  return hasMusicContext;
 }
 
 function dedupe(items) {
