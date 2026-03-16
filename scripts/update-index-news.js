@@ -33,6 +33,7 @@ const ARTISTS = {
       { type: 'google', q: after('YOASOBI live 2026'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('요아소비 내한'), tier: 'platform', source: 'event search ko', category: 'event' },
       { type: 'google', q: after('Ikuta Lira concert OR 幾田りら ライブ OR 이쿠타 리라 내한'), tier: 'platform', source: 'ikura solo event', category: 'event' },
+      { type: 'setlist', q: 'YOASOBI', tier: 'platform', source: 'setlist.fm', category: 'event' },
 
       { type: 'google', q: after('YOASOBI release'), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after('YOASOBI album'), tier: 'search', source: 'release search', category: 'release' },
@@ -61,6 +62,7 @@ const ARTISTS = {
 
       { type: 'google', q: after('site:yorushika.com LIVE TOUR'), tier: 'official', source: 'yorushika.com', category: 'event' },
       { type: 'google', q: after('Yorushika tour 2026'), tier: 'platform', source: 'event search', category: 'event' },
+      { type: 'setlist', q: 'Yorushika', tier: 'platform', source: 'setlist.fm', category: 'event' },
 
       { type: 'google', q: after('site:yorushika.com 発売'), tier: 'official', source: 'yorushika.com', category: 'release' },
       { type: 'google', q: after('Yorushika album'), tier: 'search', source: 'release search', category: 'release' },
@@ -86,6 +88,7 @@ const ARTISTS = {
       { type: 'google', q: after('즛토마요 내한'), tier: 'platform', source: 'event search ko', category: 'event' },
       { type: 'google', q: after('ZUTOMAYO concert'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('site:zutomayo.net live'), tier: 'official', source: 'zutomayo.net', category: 'event' },
+      { type: 'setlist', q: 'ZUTOMAYO', tier: 'platform', source: 'setlist.fm', category: 'event' },
 
       { type: 'google', q: after('site:zutomayo.net release'), tier: 'official', source: 'zutomayo.net', category: 'release' },
       { type: 'google', q: after('ZUTOMAYO album'), tier: 'search', source: 'release search', category: 'release' },
@@ -101,11 +104,12 @@ const ARTISTS = {
 
   weg: {
     label: 'WEG',
-    tokens: ["world's end girlfriend", 'worlds end girlfriend', 'weg', '월즈 엔드 걸프렌드', '월드 엔드 걸프렌드', '월엔걸'],
+    tokens: ["world's end girlfriend", 'world’s end girlfriend', 'worlds end girlfriend', 'weg', '월즈 엔드 걸프렌드', '월드 엔드 걸프렌드', '월엔걸'],
     feeds: [
       { type: 'google', q: after("\"World's End Girlfriend\""), tier: 'search', source: 'google news', category: 'news' },
       { type: 'google', q: after('월즈 엔드 걸프렌드'), tier: 'search', source: 'google news ko', category: 'news' },
       { type: 'google', q: after("\"World's End Girlfriend\" concert"), tier: 'platform', source: 'event search', category: 'event' },
+      { type: 'setlist', q: "World's End Girlfriend", tier: 'platform', source: 'setlist.fm', category: 'event' },
       { type: 'google', q: after("\"World's End Girlfriend\" release"), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after("\"World's End Girlfriend\" vinyl"), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after("\"World's End Girlfriend\" merch"), tier: 'search', source: 'goods search', category: 'goods' },
@@ -171,9 +175,25 @@ function normalizeDate(input) {
   if (!input) return '';
   const str = String(input).trim();
 
-  const iso = new Date(str);
-  if (!Number.isNaN(iso.getTime())) {
-    return iso.toISOString().slice(0, 10);
+  // e.g. Jan 24 2026 (setlist.fm) - timezone shift 없이 문자열 기준으로 변환
+  const enMonth = str.match(/^([A-Za-z]{3,9})\s+(\d{1,2})\s+(20\d{2})$/);
+  if (enMonth) {
+    const monthMap = {
+      jan: '01', january: '01',
+      feb: '02', february: '02',
+      mar: '03', march: '03',
+      apr: '04', april: '04',
+      may: '05',
+      jun: '06', june: '06',
+      jul: '07', july: '07',
+      aug: '08', august: '08',
+      sep: '09', sept: '09', september: '09',
+      oct: '10', october: '10',
+      nov: '11', november: '11',
+      dec: '12', december: '12',
+    };
+    const mm = monthMap[(enMonth[1] || '').toLowerCase()];
+    if (mm) return `${enMonth[3]}-${mm}-${enMonth[2].padStart(2, '0')}`;
   }
 
   const m = str.match(/(20\d{2})[./-](\d{1,2})[./-](\d{1,2})/);
@@ -182,6 +202,11 @@ function normalizeDate(input) {
     const mm = m[2].padStart(2, '0');
     const dd = m[3].padStart(2, '0');
     return `${y}-${mm}-${dd}`;
+  }
+
+  const iso = new Date(str);
+  if (!Number.isNaN(iso.getTime())) {
+    return iso.toISOString().slice(0, 10);
   }
 
   return '';
@@ -275,6 +300,45 @@ function parseFeed(xml, source, tier) {
 
 function googleNewsUrl(query) {
   return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`;
+}
+
+function setlistSearchUrl(query) {
+  return `https://www.setlist.fm/search?query=${encodeURIComponent(query)}`;
+}
+
+function parseSetlistSearch(html, source, tier) {
+  const items = [];
+
+  const itemRegex = /<div class="col-xs-12 setlistPreview">[\s\S]*?<span class="month">\s*([^<]+)\s*<\/span>[\s\S]*?<span class="day">\s*([^<]+)\s*<\/span>[\s\S]*?<span class="year">\s*([^<]+)\s*<\/span>[\s\S]*?<h2>\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?<span>\s*Artist:\s*<strong>[\s\S]*?<span>\s*([\s\S]*?)\s*<\/span>/gi;
+
+  let m;
+  while ((m = itemRegex.exec(html)) !== null) {
+    const month = stripTags(m[1] || '');
+    const day = stripTags(m[2] || '');
+    const year = stripTags(m[3] || '');
+    const href = decodeHtml((m[4] || '').trim());
+    const title = stripTags(m[5] || '');
+    const artist = stripTags(m[6] || '');
+
+    let url = href;
+    if (url && !/^https?:\/\//i.test(url)) url = `https://www.setlist.fm/${url.replace(/^\//, '')}`;
+
+    const date = normalizeDate(`${month} ${day} ${year}`);
+    if (!date || !title || !url) continue;
+
+    items.push({
+      date,
+      title,
+      url,
+      source: `${source} · ${artist}`,
+      trust: TRUST[tier] ?? 0.75,
+      tier,
+      type: 'event',
+      categoryHint: 'event',
+    });
+  }
+
+  return items;
 }
 
 function dcinsideGalleryUrl(galleryId, page = 1, mode = 'all') {
@@ -392,6 +456,16 @@ function dedupe(items) {
   return [...map.values()];
 }
 
+function uniqueByUrl(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = item.url || `${item.title}|${item.date}|${item.type}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function sortNews(items) {
   return [...items].sort((a, b) => {
     const dateDiff = String(b.date || '').localeCompare(String(a.date || ''));
@@ -472,6 +546,17 @@ function replaceTabBlock(html, section, tab, cardsHtml) {
 
 async function loadFeed(feed) {
   try {
+    if (feed.type === 'setlist') {
+      const url = setlistSearchUrl(feed.q);
+      const html = await fetch(url);
+      const parsed = parseSetlistSearch(html, feed.source, feed.tier);
+      return dedupe(parsed).slice(0, FEED_ITEM_LIMIT).map((item) => ({
+        ...item,
+        type: feed.category === 'community' ? item.type : (feed.category || item.type),
+        categoryHint: feed.category || item.categoryHint || null,
+      }));
+    }
+
     if (feed.type === 'dcinside_gallery') {
       const pages = feed.pages || 2;
       const collected = [];
@@ -544,7 +629,13 @@ async function main() {
     const nonCommunity = merged.filter((x) => x.tier !== 'community');
 
     const newsItems = nonCommunity.filter((x) => x.type === 'news').slice(0, TAB_LIMIT);
-    const eventItems = merged.filter((x) => x.type === 'event').slice(0, TAB_LIMIT);
+
+    const eventCandidates = nonCommunity.filter((x) => x.type === 'event');
+    const setlistEvents = eventCandidates.filter((x) => (x.source || '').toLowerCase().includes('setlist.fm'));
+    const officialEvents = eventCandidates.filter((x) => x.tier === 'official' && !(x.source || '').toLowerCase().includes('setlist.fm'));
+    const otherEvents = eventCandidates.filter((x) => x.tier !== 'official' && !(x.source || '').toLowerCase().includes('setlist.fm'));
+    const eventItems = uniqueByUrl([...setlistEvents, ...officialEvents, ...otherEvents]).slice(0, TAB_LIMIT);
+
     const releaseItems = merged.filter((x) => x.type === 'release').slice(0, TAB_LIMIT);
     const goodsItems = merged.filter((x) => x.type === 'goods').slice(0, TAB_LIMIT);
     const communityItems = merged.filter((x) => x.tier === 'community').slice(0, TAB_LIMIT);
