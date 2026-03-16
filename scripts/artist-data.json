@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2026-03-16T20:00:00+09:00",
+    "site_url": "https://nocturne4.vercel.app"
+  },
+  "yorushika": {
+    "scraped_news": [
+      {
+        "date": "2026-03-16",
+        "title": "LIVE TOUR 2026「一人称」会場 書籍・CD販売のご案内",
+        "url": "https://yorushika.com/news/detail/11769",
+        "source": "yorushika.com",
+        "type": "event"
+      },
+      {
+        "date": "2026-03-13",
+        "title": "ヨルシカ LIVE TOUR 2026「一人称」ガチャの会場販売のお知らせ",
+        "url": "https://yorushika.com/news/detail/11764",
+        "source": "yorushika.com",
+        "type": "event"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "週刊誌「AERA」にてヨルシカのインタビューが掲載",
+        "url": "https://yorushika.com/news/detail/11768",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-06",
+        "title": "suis ラジオ番組ゲスト情報",
+        "url": "https://yorushika.com/news/detail/11763",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-06",
+        "title": "「二人称」発売記念の中吊り広告ジャック電車が運行中。",
+        "url": "https://yorushika.com/news/detail/11762",
+        "source": "yorushika.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "Apple Musicにてn-bunaコメントを掲載。",
+        "url": "https://yorushika.com/news/detail/11761",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "新曲「千鳥」MVのスマホ用壁紙をプレゼント。",
+        "url": "https://yorushika.com/news/detail/11760",
+        "source": "yorushika.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "音楽情報サイト「OTOTOY」にてインタビュー掲載。",
+        "url": "https://yorushika.com/news/detail/11759",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "LIVE TOUR 2026「二人称」チケット公式トレード",
+        "url": "https://yorushika.com/news/detail/11758",
+        "source": "yorushika.com",
+        "type": "event"
+      },
+      {
+        "date": "2026-03-04",
+        "title": "音楽ナタリーにて最新作「二人称」の特集を掲載。",
+        "url": "https://yorushika.com/news/detail/11757",
+        "source": "yorushika.com",
+        "type": "news"
+      }
+    ],
+    "last_scraped": "2026-03-16T08:54:30.188Z",
+    "merged_news": [
+      {
+        "date": "2026-03-16",
+        "title": "LIVE TOUR 2026「一人称」会場 書籍・CD販売のご案内",
+        "url": "https://yorushika.com/news/detail/11769",
+        "source": "yorushika.com",
+        "type": "event"
+      },
+      {
+        "date": "2026-03-13",
+        "title": "ヨルシカ LIVE TOUR 2026「一人称」ガチャの会場販売のお知らせ",
+        "url": "https://yorushika.com/news/detail/11764",
+        "source": "yorushika.com",
+        "type": "event"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "週刊誌「AERA」にてヨルシカのインタビューが掲載",
+        "url": "https://yorushika.com/news/detail/11768",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-06",
+        "title": "suis ラジオ番組ゲスト情報",
+        "url": "https://yorushika.com/news/detail/11763",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-06",
+        "title": "「二人称」発売記念の中吊り広告ジャック電車が運行中。",
+        "url": "https://yorushika.com/news/detail/11762",
+        "source": "yorushika.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "Apple Musicにてn-bunaコメントを掲載。",
+        "url": "https://yorushika.com/news/detail/11761",
+        "source": "yorushika.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "新曲「千鳥」MVのスマホ用壁紙をプレゼント。",
+        "url": "https://yorushika.com/news/detail/11760",
+        "source": "yorushika.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "音楽情報サイト「OTOTOY」にてインタビュー掲載。",
+        "url": "https://yorushika.com/news/detail/11759",
+        "source": "yorushika.com",
+        "type": "news"
+      }
+    ],
+    "last_merged": "2026-03-16T08:54:45.148Z"
+  },
+  "zutomayo": {
+    "scraped_news": [
+      {
+        "date": "2026-03-16",
+        "title": "VIEW MORE",
+        "url": "https://zutomayo.net/news/593",
+        "source": "zutomayo.net",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "[릴리즈] RELEASE",
+        "url": "https://zutomayo.net/release/",
+        "source": "zutomayo.net",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "[릴리즈] Menu",
+        "url": "https://zutomayo.net/release/",
+        "source": "zutomayo.net",
+        "type": "release"
+      }
+    ],
+    "last_scraped": "2026-03-16T08:54:31.562Z",
+    "merged_news": [
+      {
+        "date": "2026-03-16",
+        "title": "VIEW MORE",
+        "url": "https://zutomayo.net/news/593",
+        "source": "zutomayo.net",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "[릴리즈] RELEASE",
+        "url": "https://zutomayo.net/release/",
+        "source": "zutomayo.net",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "[릴리즈] Menu",
+        "url": "https://zutomayo.net/release/",
+        "source": "zutomayo.net",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "'日 대세 밴드' 즛토마요, 서울 단독 내한 콘서트 성료…1만 2천 관객 '열광' - v.daum.net",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56U2h6RTJURWtOX05sTGtmWXE2X1AxY1FxaHh5TGRaTDRWT0twa19mdFp5SjRZdkI4Z21fU09nZWFSdm9kbUE?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "'日 대세 밴드' 즛토마요, 단독 내한 콘서트 성료 - starnewskorea.com",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mNUJTSXloSkJsUVBHVWtRZ3dTTDQ1MHJwdlRPc0R5M1gzWjdlWlNpSkc1QUY5bkZYWmI4ZWVGRDlRYWtyRC1WRjB4TjVOOC1GbThUaHd0a1JvZmFfeHUxc0xnRFB2NzhEMEJPTlE1VnBzamVQ?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "‘日 대세 밴드’ 즛토마요, 서울 단독 내한 콘서트 성료…1만 2천 관객 '열광' - ���포츠한국",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rRURGOVUxWHR2UzloLTZic2lzejNPWVQwWkVnWXhiajBCd2hGWk9wZDRrWVpZLUNiVHlXYTNlS2QtaFlFdm8tYjBvM1FBSlJsWkVQV1VVY2NZMmV0MlZIY0NjVC15Q2F0YV9nN3N2N1preEMw0gF0QVVfeXFMTmtFREY5VTFYdHZTOWgtNmJzaXN6M09ZVDBaRWdZeGJqMEJ3aEZaT3BkNGtZWlktQ2JUeVdhM2VLZC1oWUV2by1iMG8zUUFKUmxaRVBXVVVjY1kyZXQyVkhjQ2NULXlDYXRhX2c3c3Y3Wmt4QzA?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "즛토마요, 전석 매진 속 압도적 가창력으로 국내 팬 매료 - 스포츠동아",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50RGNMSVlwLUVacVh4cVpVWEc1aG9wUF9WWHl4NzRQdWdTem5KSVZfemowRC1wTlRwNWpzbENuc3lLOUNNN3hxVVVCMnRhanBIcjBDa29qMVJfRUFMa2phRVpnWG1IQXBiRHRfanln?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "즛토마요, 전석 매진 속 압도적 가창력으로 국내 팬 매료 - 네이트",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jTFV4dGk3S0V6Y0pXMER1ZE9uRnFXMDYya2sxam5wVEV0Z1BUaDBjdWpBSjF5N0NVeVpQUXpVWENGSmNkMkIyaTY5dXkwdXVqeWx5dkJPLTR6TVo4OGdRVnJNaHUxUWxGQWp2S2xheHE5ZG5DeWlWNA?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      }
+    ],
+    "last_merged": "2026-03-16T08:54:45.506Z"
+  },
+  "yoasobi": {
+    "scraped_news": [],
+    "last_scraped": null,
+    "merged_news": [
+      {
+        "date": "2026-03-09",
+        "title": "업데이트: 요아소비 x 아식스 전체 컬렉션 공개 - hypebeast.kr",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLUtidXphemJLajE0by10YUY2cXhHY2hwd2U4UndoQjcyQ0RzVXA0YW9fZ3k2RVgxN3JTMkhmVE91aHlOY1p2alR6dzBRMEJEOTVSLWMtcXhWcTFoQTNPamxFSi0wUXVHb2ItRFRPUFhmdExkYWs4VEx5R2F4Wm5qd0pZMVdaNERhUHRjLXJaY1BNeV9vc1hkYQ?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-01-15",
+        "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2025-09-21",
+        "title": "르세라핌 x 요아소비 협업이 예고됐다 - eyesmag.com",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Sdjh2LU1kMU1EUk84RDUxQkF1dmlCZkdBZnV5QVhqNE1mYi1FcG9JZktaYWw3ZDh5M1JCQV9YdTFlY09HVTZ2Q2hGcExQV0tWOThEMWhwb0ZUcUFDZFJEczdqMDl1Zw?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "이쿠타 리라, 내한 콘서트 1회 추가 - bntnews.co.kr",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FRWQ2a2VDRThYMnp4UEhHM0taczFsbzBCQkxZUHJWOFpLV2FrOS1pTTZaWWdvQTRXQy1pOW5vV1BfUUU5RHB4R2o5dFQzMjNWaWFySmdyaENKY3YxVXJTSXRlZ3I?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2025-03-28",
+        "title": "「Project: MEMORY CARD」──PlayStation® 30주년을 기념하는 YOASOBI의 신곡과 특별 CM 공개! - PlayStation",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZVprVjhMNElDaElFb2Y4X0YtZjgyeXk4aDVWMWNIREdCeWYwcnRJTTRjX3A2TTc2SWw4RXNYNmNzR0I1VDB6V3FRaldQRHdGZF84eXlRVkRSSV9ic29hWjZkRW53MGk4Y2dKUA?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "요아소비 보컬 이쿠타 리라, 5�� 단독 내한 콘서트…추가 공연 확정 - YTN",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGM29MNTM2d0RWQll2S2lLY2ROQTNFMHRBTlZTVEY5M0ltOEJab29fNFhTQmhrQThrSDc0OWE3NlBFamdybi05REJYNzROdzN3cTM4eU5rdE9MUGZzemfSAYMBQVVfeXFMUEYwbEUzVjU3ZXhxY3BUUXhCNjRxZHR6LVJDaUEzUXdaZUhEUWp2eG9CRTRfWjJXSUo2d0Rfd3NIVUFUbzVvc29VaDZUMlFIVXNqQXdxS2hWNWM5S0NPTUJsa3VkX0h1S2RHTzNZSWI1Vld2aEh4QnVlV2ZFbFZYak1HTTg?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2026-01-08",
+        "title": "'요아소비 보컬'이 온다! 이쿠타 리라, 韓 첫 단독 콘서트 개최 - 전자신문",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4eXBHRThvSmhRN09vMHdWUWE0a0M5SGtIM0Z4WmJsc09fRFlNN05IZXV5UzRjUG54V3BXMU9vRmt2UEtFUk5fdDFDSGU4UQ?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      },
+      {
+        "date": "2025-12-24",
+        "title": "[앨범 리뷰] 지코, 이쿠라(요아소비) DUET - 브런치",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UTS11Tk9YOUdiYUNsR1FVYlRXSjJWNXdkQnljRFVyYlk5WFFfQWZEZlV6QVF1VktoTHJ6R2ZLMU9Jc2loV2RpUVBzT1VIZ1BaS0E?oc=5",
+        "source": "news.google.com",
+        "type": "news"
+      }
+    ],
+    "last_merged": "2026-03-16T08:54:44.640Z"
+  },
+  "weg": {
+    "scraped_news": [
+      {
+        "date": "2026-03-16",
+        "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "SONATINE\n                \n                \n                mizuirono_inu",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "夜に沈む\n                \n                \n                Smany",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Effulgence\n                \n                \n                matryoshka",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Infinite Window\n                \n                \n                Rika Madobe",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "world wide wonderful world\n                \n                \n                bronbaba",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "VOCALOID STEW\n                \n                \n                でんの子P",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      }
+    ],
+    "last_scraped": "2026-03-16T08:54:32.930Z",
+    "merged_news": [
+      {
+        "date": "2026-03-16",
+        "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "SONATINE\n                \n                \n                mizuirono_inu",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "夜に沈む\n                \n                \n                Smany",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Effulgence\n                \n                \n                matryoshka",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Infinite Window\n                \n                \n                Rika Madobe",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "world wide wonderful world\n                \n                \n                bronbaba",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release"
+      }
+    ],
+    "last_merged": "2026-03-16T08:54:45.885Z"
+  }
+}
