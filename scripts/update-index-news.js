@@ -25,10 +25,20 @@ const ARTISTS = {
     tokens: ['yoasobi', 'ikura', 'ayase', '요아소비', '이쿠라', '아야세'],
     feeds: [
       { type: 'google', q: after('YOASOBI'), tier: 'search', source: 'google news', category: 'news' },
-      { type: 'google', q: after('YOASOBI (live OR tour OR concert OR ticket)'), tier: 'platform', source: 'event search', category: 'event' },
-      { type: 'google', q: after('YOASOBI (release OR single OR album OR new song OR EP OR MV)'), tier: 'search', source: 'release search', category: 'release' },
-      { type: 'google', q: after('YOASOBI (goods OR merch OR official store OR popup)'), tier: 'search', source: 'goods search', category: 'goods' },
+      { type: 'google', q: after('요아소비'), tier: 'search', source: 'google news ko', category: 'news' },
       { type: 'google', q: after('site:yoasobi-music.jp YOASOBI'), tier: 'official', source: 'yoasobi-music.jp', category: 'news' },
+
+      { type: 'google', q: after('YOASOBI TOUR 2026'), tier: 'platform', source: 'event search', category: 'event' },
+      { type: 'google', q: after('YOASOBI live 2026'), tier: 'platform', source: 'event search', category: 'event' },
+      { type: 'google', q: after('요아소비 내한'), tier: 'platform', source: 'event search ko', category: 'event' },
+
+      { type: 'google', q: after('YOASOBI release'), tier: 'search', source: 'release search', category: 'release' },
+      { type: 'google', q: after('YOASOBI album'), tier: 'search', source: 'release search', category: 'release' },
+      { type: 'google', q: after('YOASOBI single'), tier: 'search', source: 'release search', category: 'release' },
+
+      { type: 'google', q: after('YOASOBI collaboration'), tier: 'search', source: 'goods/collab search', category: 'goods' },
+      { type: 'google', q: after('YOASOBI ASICS'), tier: 'search', source: 'goods/collab search', category: 'goods' },
+
       { type: 'dcinside', q: '요아소비', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'dcinside', q: 'YOASOBI', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/YOASOBI/new/.rss', tier: 'community', source: 'reddit r/YOASOBI', category: 'community' },
@@ -40,10 +50,19 @@ const ARTISTS = {
     tokens: ['yorushika', 'ヨルシカ', 'n-buna', 'suis', '요루시카', '스이', '나부나'],
     feeds: [
       { type: 'google', q: after('Yorushika'), tier: 'search', source: 'google news', category: 'news' },
-      { type: 'google', q: after('Yorushika (live OR tour OR concert OR ticket)'), tier: 'platform', source: 'event search', category: 'event' },
-      { type: 'google', q: after('Yorushika (release OR single OR album OR new song OR EP OR MV OR 発売)'), tier: 'search', source: 'release search', category: 'release' },
-      { type: 'google', q: after('Yorushika (goods OR merch OR official store OR グッズ)'), tier: 'search', source: 'goods search', category: 'goods' },
+      { type: 'google', q: after('요루시카'), tier: 'search', source: 'google news ko', category: 'news' },
       { type: 'google', q: after('site:yorushika.com Yorushika'), tier: 'official', source: 'yorushika.com', category: 'news' },
+
+      { type: 'google', q: after('site:yorushika.com LIVE TOUR'), tier: 'official', source: 'yorushika.com', category: 'event' },
+      { type: 'google', q: after('Yorushika tour 2026'), tier: 'platform', source: 'event search', category: 'event' },
+
+      { type: 'google', q: after('site:yorushika.com 発売'), tier: 'official', source: 'yorushika.com', category: 'release' },
+      { type: 'google', q: after('Yorushika album'), tier: 'search', source: 'release search', category: 'release' },
+      { type: 'google', q: after('요루시카 앨범'), tier: 'search', source: 'release search ko', category: 'release' },
+
+      { type: 'google', q: after('요루시카 굿즈'), tier: 'search', source: 'goods search ko', category: 'goods' },
+      { type: 'google', q: after('ヨルシカ グッズ'), tier: 'search', source: 'goods search jp', category: 'goods' },
+
       { type: 'dcinside', q: '요루시카', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'dcinside', q: 'Yorushika', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/Yorushika/new/.rss', tier: 'community', source: 'reddit r/Yorushika', category: 'community' },
@@ -55,10 +74,19 @@ const ARTISTS = {
     tokens: ['zutomayo', 'ずっと真夜中でいいのに', 'acaね', 'aca-ne', '즛토마요', '즈토마요', '아카네'],
     feeds: [
       { type: 'google', q: after('ZUTOMAYO OR ずっと真夜中でいいのに。'), tier: 'search', source: 'google news', category: 'news' },
-      { type: 'google', q: after('ZUTOMAYO (live OR tour OR concert OR ticket)'), tier: 'platform', source: 'event search', category: 'event' },
-      { type: 'google', q: after('ZUTOMAYO (release OR single OR album OR new song OR EP OR MV OR 発売)'), tier: 'search', source: 'release search', category: 'release' },
-      { type: 'google', q: after('ZUTOMAYO (goods OR merch OR グッズ OR store)'), tier: 'search', source: 'goods search', category: 'goods' },
+      { type: 'google', q: after('즛토마요'), tier: 'search', source: 'google news ko', category: 'news' },
       { type: 'google', q: after('site:zutomayo.net ZUTOMAYO'), tier: 'official', source: 'zutomayo.net', category: 'news' },
+
+      { type: 'google', q: after('즛토마요 내한'), tier: 'platform', source: 'event search ko', category: 'event' },
+      { type: 'google', q: after('ZUTOMAYO concert'), tier: 'platform', source: 'event search', category: 'event' },
+      { type: 'google', q: after('site:zutomayo.net live'), tier: 'official', source: 'zutomayo.net', category: 'event' },
+
+      { type: 'google', q: after('site:zutomayo.net release'), tier: 'official', source: 'zutomayo.net', category: 'release' },
+      { type: 'google', q: after('ZUTOMAYO album'), tier: 'search', source: 'release search', category: 'release' },
+
+      { type: 'google', q: after('ZUTOMAYO goods'), tier: 'search', source: 'goods search', category: 'goods' },
+      { type: 'google', q: after('즛토마요 굿즈'), tier: 'search', source: 'goods search ko', category: 'goods' },
+
       { type: 'dcinside', q: '즛토마요', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'dcinside', q: 'ZUTOMAYO', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/ZutoMayo/new/.rss', tier: 'community', source: 'reddit r/ZutoMayo', category: 'community' },
@@ -70,13 +98,14 @@ const ARTISTS = {
     tokens: ["world's end girlfriend", 'worlds end girlfriend', 'weg', '월즈 엔드 걸프렌드', '월드 엔드 걸프렌드', '월엔걸'],
     feeds: [
       { type: 'google', q: after("\"World's End Girlfriend\""), tier: 'search', source: 'google news', category: 'news' },
-      { type: 'google', q: after("\"World's End Girlfriend\" (live OR tour OR concert OR ticket)"), tier: 'platform', source: 'event search', category: 'event' },
-      { type: 'google', q: after("\"World's End Girlfriend\" (release OR single OR album OR EP OR vinyl OR CD)"), tier: 'search', source: 'release search', category: 'release' },
-      { type: 'google', q: after("\"World's End Girlfriend\" (goods OR merch OR store)"), tier: 'search', source: 'goods search', category: 'goods' },
-      { type: 'google', q: after("\"World's End Girlfriend\" (site:virginbabylonrecords.bandcamp.com OR site:virginbabylonrecords.com)"), tier: 'official', source: "World's End Girlfriend official", category: 'news' },
+      { type: 'google', q: after('월즈 엔드 걸프렌드'), tier: 'search', source: 'google news ko', category: 'news' },
+      { type: 'google', q: after("\"World's End Girlfriend\" concert"), tier: 'platform', source: 'event search', category: 'event' },
+      { type: 'google', q: after("\"World's End Girlfriend\" release"), tier: 'search', source: 'release search', category: 'release' },
+      { type: 'google', q: after("\"World's End Girlfriend\" vinyl"), tier: 'search', source: 'release search', category: 'release' },
+      { type: 'google', q: after("\"World's End Girlfriend\" merch"), tier: 'search', source: 'goods search', category: 'goods' },
+      { type: 'rss', url: 'https://www.reddit.com/search.rss?q=%22world%27s%20end%20girlfriend%22&sort=new&t=year', tier: 'community', source: 'reddit search: worlds end girlfriend', category: 'community' },
       { type: 'dcinside', q: '월즈 엔드 걸프렌드', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'dcinside', q: "World's End Girlfriend", pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
-      { type: 'rss', url: 'https://www.reddit.com/search.rss?q=%22world%27s%20end%20girlfriend%22&sort=new&t=year', tier: 'community', source: 'reddit search: worlds end girlfriend', category: 'community' },
     ],
   },
 };
@@ -168,6 +197,7 @@ function guessTypeFromTitle(title = '', source = '') {
 
   const goodsKeywords = [
     'goods', 'merch', 'merchandise', 'store', 'shop', 'preorder', 'pre-order', 'official store',
+    'collab', 'collaboration', '콜라보', 'asics', 'coach',
     'グッズ', '굿즈', 'md',
   ];
 
@@ -453,15 +483,22 @@ async function main() {
   let html = fs.readFileSync(INDEX_FILE, 'utf8');
 
   for (const [artistKey, artistMeta] of Object.entries(ARTISTS)) {
-    const useScraped = artistKey !== 'weg'; // WEG 스크랩은 레이블 전체가 섞여 정확도가 떨어져 제외
-    const scraped = (useScraped ? ((data[artistKey] && data[artistKey].scraped_news) || []) : []).map((x) => ({
-      ...x,
-      date: normalizeDate(x.date),
-      trust: 1.0,
-      tier: 'official',
-      source: x.source || `${artistMeta.label} official scrape`,
-      type: x.type || guessTypeFromTitle(x.title || '', x.source || ''),
-    }));
+    const scrapedRaw = ((data[artistKey] && data[artistKey].scraped_news) || []).map((x) => {
+      const cleanTitle = stripTags(x.title || '');
+      const cleanSource = x.source || `${artistMeta.label} official scrape`;
+      return {
+        ...x,
+        title: cleanTitle,
+        date: normalizeDate(x.date),
+        trust: 1.0,
+        tier: 'official',
+        source: cleanSource,
+        type: x.type || guessTypeFromTitle(cleanTitle, cleanSource),
+      };
+    });
+
+    // WEG는 레이블 전체가 섞여서 아티스트 토큰 매칭되는 항목만 유지
+    const scraped = scrapedRaw.filter((item) => isArtistRelevant(item, artistKey));
 
     const feedItems = [];
     for (const feed of artistMeta.feeds) {
