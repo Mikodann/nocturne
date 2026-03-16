@@ -77,7 +77,7 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-03-16T09:17:00.765Z",
+    "last_scraped": "2026-03-16T09:55:11.549Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -89,22 +89,14 @@
         "tier": "official"
       },
       {
-        "date": "2026-03-16",
-        "title": "LIVE TOUR 2026「一人称」회장 서적・CD판매의 안내｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94dWVtNVBTMjIzcFRKOGphRS1obERXOUtFbFFBYnhVWS1aNnVrUWZhMWNGajFrVWNUQi1OVHhoWEd2YUw5MF8xT25BcEMxSjFZOXg0LVA0cnR6QlE?oc=5",
-        "source": "google news",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "event"
-      },
-      {
         "date": "2026-03-15",
         "title": "Has anybody made a playlist with the Amy and Elma story in chronological order?",
         "url": "https://www.reddit.com/r/Yorushika/comments/1rusiqe/has_anybody_made_a_playlist_with_the_amy_and_elma/",
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-14",
@@ -113,7 +105,8 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-13",
@@ -131,7 +124,8 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "event"
+        "type": "event",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-12",
@@ -140,7 +134,8 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-12",
@@ -149,7 +144,8 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-12",
@@ -158,7 +154,8 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "release"
+        "type": "release",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-11",
@@ -176,25 +173,8 @@
         "source": "yorushika.com",
         "trust": 1,
         "tier": "official",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-11",
-        "title": "주간지 「AERA」에서 YORUSHIKA의 인터뷰가 게재 - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QSDl5TkROSk1NbEpiVXdScjI5bHV5dktJTjNnTDdETENvLXpuU2F0ekdCUTNPTXRpSkJXbFNtNGttaG1CWUJ1QmRvTVdUX2dtdDdTOVNMZDhGdGM?oc=5",
-        "source": "yorushika.com",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
-      },
-      {
-        "date": "2026-03-11",
-        "title": "YORUSHIKA- 櫂 - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WSEdjdWJzdWxScXlRTDVLYXB3Qm5oQ0JVZXQ0WVhpNEctakdrdmVINHhtd1VHNUFSTFFfbDNNcWVEcEprWHozVkpkVnIwRjdUamlRWndKWUZ2TWs?oc=5",
-        "source": "google news",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "news"
       },
       {
         "date": "2026-03-11",
@@ -203,7 +183,8 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-11",
@@ -212,16 +193,28 @@
         "source": "reddit r/Yorushika",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
-        "date": "2026-03-10",
-        "title": "OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3ZVlaSU44ZS1Jc3lJc2xybEg1eFhvM2VCQXZZS3N4dnh0QVRYLVVUcWwxSTdPZzZWb1JyUWZVbkpSUXZLdWFFUENHUzVZaUFQckNfd1ZYclBzV2lVVzZkeUVOSFJXdFhldHVQdnhR?oc=5",
-        "source": "yorushika.com",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
+        "date": "2026-03-11",
+        "title": "Long time English listener question.",
+        "url": "https://www.reddit.com/r/Yorushika/comments/1rqtmvn/long_time_english_listener_question/",
+        "source": "reddit r/Yorushika",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "Fan di Yorushika in Italia??🇮🇹",
+        "url": "https://www.reddit.com/r/Yorushika/comments/1rqso2t/fan_di_yorushika_in_italia/",
+        "source": "reddit r/Yorushika",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-06",
@@ -240,24 +233,6 @@
         "type": "release",
         "trust": 1,
         "tier": "official"
-      },
-      {
-        "date": "2026-03-06",
-        "title": "「2인칭」발매 기념의 중매 광고 잭 전철이 운행중. - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XRW5vSHlDaW1rSVdrUFZKOURTQV92dW8zSmN5dUhxd1Y4c05Zd3lFSl9odmVndkxrdWtIdVdNMk92Z09Qeno0NlZ2N255OUVGcVdIbEw0UDJmcFU?oc=5",
-        "source": "yorushika.com",
-        "trust": 1,
-        "tier": "official",
-        "type": "release"
-      },
-      {
-        "date": "2026-03-06",
-        "title": "suis 라디오 프로그램 게스트 정보 - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51RVJycGIxVm1namZiVWV0dkQweHVlSU5ZVV9lWDlTdGppTHo5M3FPNWNKOU0ySWVqOE1ycHk5Q0E0UjVoVFlXcDM4akhKd1hLSVl0T01DSEYzZzg?oc=5",
-        "source": "yorushika.com",
-        "trust": 1,
-        "tier": "official",
-        "type": "news"
       },
       {
         "date": "2026-03-05",
@@ -294,47 +269,50 @@
         "type": "event",
         "trust": 1,
         "tier": "official"
+      },
+      {
+        "date": "2026-03-04",
+        "title": "音楽ナタリーにて最新作「二人称」の特集を掲載。",
+        "url": "https://yorushika.com/news/detail/11757",
+        "source": "yorushika.com",
+        "type": "news",
+        "trust": 1,
+        "tier": "official"
+      },
+      {
+        "date": "2026-02-02",
+        "title": "YORUSHIKA 신곡 「아카네」를 2/4에 전달 결정. - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5dWdIUTdhcnc5WG9ualJzTzJVOEhaaWIyZ19FMHJPb084X0tDb3VMbV9BY1gyek1QamltZUhYNVQ1YW5MTGVtMHQ4eGE0ZUtMcUg3cUo1VDJhSDQ?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
+        "type": "news",
+        "categoryHint": "news"
+      },
+      {
+        "date": "2026-01-27",
+        "title": "| YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPU1dkWTF2RzBaRVVLUkJpUWpUTkRxaGNWVW1pR3ktZEhIY3JLNmpjaFVLVVJWZnNaaXQzMi1oTDhSZDBwQ2FnUkJTcEc0YnpFUzhTbVEzMjItd2NpT1BNdGFKYWNSbW9XV1Q1bFR3V21HMHZGT0V0bVI3VUNJVmhLaVVqODFWak0wVmU4Z05rLWQ?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
+        "type": "news",
+        "categoryHint": "news"
+      },
+      {
+        "date": "2026-01-13",
+        "title": "YORUSHIKA LIVE TOUR 2026「一人称」｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYaWh1RWJic3FtTEFKNkVhdzB2aEtwUnZ5VDYwV2JnQVZZQV9TNVNTbk8zeHpTVktuU1htakVDZUpyWk5uUEg4MWp3U3ZMVXgwRTU2eUJZRzQ5UG5nT0ttekdoWWVGQWNWZTlONU1n?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
+        "type": "news",
+        "categoryHint": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:17:21.919Z",
+    "last_merged": "2026-03-16T09:55:28.348Z",
     "categorized": {
       "news": [
-        {
-          "date": "2026-03-15",
-          "title": "Has anybody made a playlist with the Amy and Elma story in chronological order?",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rusiqe/has_anybody_made_a_playlist_with_the_amy_and_elma/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-14",
-          "title": "Me and my bestfriend's 二人称 tier list after first listen.",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rto93l/me_and_my_bestfriends_二人称_tier_list_after_first/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "How to register photo for accompanying person?",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rryiqp/how_to_register_photo_for_accompanying_person/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "i'm genuinely excited for the future of Yorushika",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rrmq5g/im_genuinely_excited_for_the_future_of_yorushika/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
         {
           "date": "2026-03-11",
           "title": "週刊誌「AERA」にてヨルシカのインタビューが掲載",
@@ -351,43 +329,74 @@
           "source": "yorushika.com",
           "trust": 1,
           "tier": "official",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "news"
         },
         {
-          "date": "2026-03-11",
-          "title": "주간지 「AERA」에서 YORUSHIKA의 인터뷰가 게재 - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QSDl5TkROSk1NbEpiVXdScjI5bHV5dktJTjNnTDdETENvLXpuU2F0ekdCUTNPTXRpSkJXbFNtNGttaG1CWUJ1QmRvTVdUX2dtdDdTOVNMZDhGdGM?oc=5",
+          "date": "2026-03-06",
+          "title": "suis ラジオ番組ゲスト情報",
+          "url": "https://yorushika.com/news/detail/11763",
+          "source": "yorushika.com",
+          "type": "news",
+          "trust": 1,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Apple Musicにてn-bunaコメントを掲載。",
+          "url": "https://yorushika.com/news/detail/11761",
+          "source": "yorushika.com",
+          "type": "news",
+          "trust": 1,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "音楽情報サイト「OTOTOY」にてインタビュー掲載。",
+          "url": "https://yorushika.com/news/detail/11759",
+          "source": "yorushika.com",
+          "type": "news",
+          "trust": 1,
+          "tier": "official"
+        },
+        {
+          "date": "2026-03-04",
+          "title": "音楽ナタリーにて最新作「二人称」の特集を掲載。",
+          "url": "https://yorushika.com/news/detail/11757",
+          "source": "yorushika.com",
+          "type": "news",
+          "trust": 1,
+          "tier": "official"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "YORUSHIKA 신곡 「아카네」를 2/4에 전달 결정. - ヨルシカ OFFICIAL SITE",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5dWdIUTdhcnc5WG9ualJzTzJVOEhaaWIyZ19FMHJPb084X0tDb3VMbV9BY1gyek1QamltZUhYNVQ1YW5MTGVtMHQ4eGE0ZUtMcUg3cUo1VDJhSDQ?oc=5",
           "source": "yorushika.com",
           "trust": 1,
           "tier": "official",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "news"
         },
         {
-          "date": "2026-03-11",
-          "title": "YORUSHIKA- 櫂 - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WSEdjdWJzdWxScXlRTDVLYXB3Qm5oQ0JVZXQ0WVhpNEctakdrdmVINHhtd1VHNUFSTFFfbDNNcWVEcEprWHozVkpkVnIwRjdUamlRWndKWUZ2TWs?oc=5",
-          "source": "google news",
-          "trust": 0.6,
-          "tier": "search",
-          "type": "news"
+          "date": "2026-01-27",
+          "title": "| YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPU1dkWTF2RzBaRVVLUkJpUWpUTkRxaGNWVW1pR3ktZEhIY3JLNmpjaFVLVVJWZnNaaXQzMi1oTDhSZDBwQ2FnUkJTcEc0YnpFUzhTbVEzMjItd2NpT1BNdGFKYWNSbW9XV1Q1bFR3V21HMHZGT0V0bVI3VUNJVmhLaVVqODFWak0wVmU4Z05rLWQ?oc=5",
+          "source": "yorushika.com",
+          "trust": 1,
+          "tier": "official",
+          "type": "news",
+          "categoryHint": "news"
         },
         {
-          "date": "2026-03-11",
-          "title": "Paddle (櫂) feels like a culmination of not only Second Person (二人称), but rather all of Yorushika and n-buna's works together.",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rrawuq/paddle_櫂_feels_like_a_culmination_of_not_only/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-11",
-          "title": "Desperate for help: foreign number and lottery questions",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rr0a92/desperate_for_help_foreign_number_and_lottery/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
+          "date": "2026-01-13",
+          "title": "YORUSHIKA LIVE TOUR 2026「一人称」｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYaWh1RWJic3FtTEFKNkVhdzB2aEtwUnZ5VDYwV2JnQVZZQV9TNVNTbk8zeHpTVktuU1htakVDZUpyWk5uUEg4MWp3U3ZMVXgwRTU2eUJZRzQ5UG5nT0ttekdoWWVGQWNWZTlONU1n?oc=5",
+          "source": "yorushika.com",
+          "trust": 1,
+          "tier": "official",
+          "type": "news",
+          "categoryHint": "news"
         }
       ],
       "events": [
@@ -401,15 +410,6 @@
           "tier": "official"
         },
         {
-          "date": "2026-03-16",
-          "title": "LIVE TOUR 2026「一人称」회장 서적・CD판매의 안내｜YORUSHIKA OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94dWVtNVBTMjIzcFRKOGphRS1obERXOUtFbFFBYnhVWS1aNnVrUWZhMWNGajFrVWNUQi1OVHhoWEd2YUw5MF8xT25BcEMxSjFZOXg0LVA0cnR6QlE?oc=5",
-          "source": "google news",
-          "trust": 0.6,
-          "tier": "search",
-          "type": "event"
-        },
-        {
           "date": "2026-03-13",
           "title": "ヨルシカ LIVE TOUR 2026「一人称」ガチャの会場販売のお知らせ",
           "url": "https://yorushika.com/news/detail/11764",
@@ -417,15 +417,6 @@
           "type": "event",
           "trust": 1,
           "tier": "official"
-        },
-        {
-          "date": "2026-03-13",
-          "title": "Hoping for some clarification on the possibility of getting a ticket for the May 30th Nagoya show.",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rs8y2d/hoping_for_some_clarification_on_the_possibility/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "event"
         },
         {
           "date": "2026-03-05",
@@ -439,15 +430,6 @@
       ],
       "releases": [
         {
-          "date": "2026-03-12",
-          "title": "I finally got around to listen to the album in full...",
-          "url": "https://www.reddit.com/r/Yorushika/comments/1rrctvs/i_finally_got_around_to_listen_to_the_album_in/",
-          "source": "reddit r/Yorushika",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "release"
-        },
-        {
           "date": "2026-03-06",
           "title": "「二人称」発売記念の中吊り広告ジャック電車が運行中。",
           "url": "https://yorushika.com/news/detail/11762",
@@ -455,15 +437,6 @@
           "type": "release",
           "trust": 1,
           "tier": "official"
-        },
-        {
-          "date": "2026-03-06",
-          "title": "「2인칭」발매 기념의 중매 광고 잭 전철이 운행중. - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XRW5vSHlDaW1rSVdrUFZKOURTQV92dW8zSmN5dUhxd1Y4c05Zd3lFSl9odmVndkxrdWtIdVdNMk92Z09Qeno0NlZ2N255OUVGcVdIbEw0UDJmcFU?oc=5",
-          "source": "yorushika.com",
-          "trust": 1,
-          "tier": "official",
-          "type": "release"
         },
         {
           "date": "2026-03-05",
@@ -484,7 +457,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-14",
@@ -493,7 +467,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-13",
@@ -502,7 +477,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "event"
+          "type": "event",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-12",
@@ -511,7 +487,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-12",
@@ -520,7 +497,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-12",
@@ -529,7 +507,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "release"
+          "type": "release",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-11",
@@ -538,7 +517,8 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-11",
@@ -547,7 +527,28 @@
           "source": "reddit r/Yorushika",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Long time English listener question.",
+          "url": "https://www.reddit.com/r/Yorushika/comments/1rqtmvn/long_time_english_listener_question/",
+          "source": "reddit r/Yorushika",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Fan di Yorushika in Italia??🇮🇹",
+          "url": "https://www.reddit.com/r/Yorushika/comments/1rqso2t/fan_di_yorushika_in_italia/",
+          "source": "reddit r/Yorushika",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
         }
       ]
     }
@@ -576,8 +577,35 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:17:01.734Z",
+    "last_scraped": "2026-03-16T09:55:12.738Z",
     "merged_news": [
+      {
+        "date": "2026-03-16",
+        "title": "VIEW MORE",
+        "url": "https://zutomayo.net/news/593",
+        "source": "zutomayo.net",
+        "type": "news",
+        "trust": 1,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "[릴리즈] RELEASE",
+        "url": "https://zutomayo.net/release/",
+        "source": "zutomayo.net",
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "[릴리즈] Menu",
+        "url": "https://zutomayo.net/release/",
+        "source": "zutomayo.net",
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
+      },
       {
         "date": "2026-03-14",
         "title": "Finding packs and Merch in Tokyo",
@@ -585,7 +613,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "goods"
+        "type": "goods",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-14",
@@ -594,7 +623,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-12",
@@ -603,7 +633,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-12",
@@ -612,7 +643,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-11",
@@ -621,7 +653,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-11",
@@ -630,7 +663,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "event"
+        "type": "event",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-10",
@@ -639,7 +673,8 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-09",
@@ -648,91 +683,65 @@
         "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
-        "type": "release"
+        "type": "release",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "Spiderman Meme",
+        "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rojo1j/spiderman_meme/",
+        "source": "reddit r/ZutoMayo",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-03-07",
+        "title": "Before their album drops",
+        "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rmzhax/before_their_album_drops/",
+        "source": "reddit r/ZutoMayo",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "release",
+        "categoryHint": "community"
       }
     ],
-    "last_merged": "2026-03-16T09:17:24.755Z",
+    "last_merged": "2026-03-16T09:55:29.343Z",
     "categorized": {
       "news": [
         {
-          "date": "2026-03-14",
-          "title": "Just like Medianoche, yomosugara grew on me.",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rt65vl/just_like_medianoche_yomosugara_grew_on_me/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "The best way to stay sane at work",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rrrbhf/the_best_way_to_stay_sane_at_work/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "Made a custom Nira(Study Me) G 309 Mouse",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rrncd0/made_a_custom_nirastudy_me_g_309_mouse/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-11",
-          "title": "Premium Medal",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rqst44/premium_medal/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-10",
-          "title": "Maybe a stupid question - What is \"Agarwood Studies\"?",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rqb0xz/maybe_a_stupid_question_what_is_agarwood_studies/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
+          "date": "2026-03-16",
+          "title": "VIEW MORE",
+          "url": "https://zutomayo.net/news/593",
+          "source": "zutomayo.net",
+          "type": "news",
+          "trust": 1,
+          "tier": "official"
         }
       ],
-      "events": [
-        {
-          "date": "2026-03-11",
-          "title": "3/1 Concert Tokyo Budokan - Foreigner's Experience",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rqqnfv/31_concert_tokyo_budokan_foreigners_experience/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "event"
-        }
-      ],
+      "events": [],
       "releases": [
         {
-          "date": "2026-03-09",
-          "title": "Made another glass painting another of my favorite MVs. Study Me!",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rpfd8e/made_another_glass_painting_another_of_my/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "release"
-        }
-      ],
-      "goods": [
+          "date": "2026-03-16",
+          "title": "[릴리즈] RELEASE",
+          "url": "https://zutomayo.net/release/",
+          "source": "zutomayo.net",
+          "type": "release",
+          "trust": 1,
+          "tier": "official"
+        },
         {
-          "date": "2026-03-14",
-          "title": "Finding packs and Merch in Tokyo",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rtu5lv/finding_packs_and_merch_in_tokyo/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "goods"
+          "date": "2026-03-16",
+          "title": "[릴리즈] Menu",
+          "url": "https://zutomayo.net/release/",
+          "source": "zutomayo.net",
+          "type": "release",
+          "trust": 1,
+          "tier": "official"
         }
       ],
+      "goods": [],
       "community": [
         {
           "date": "2026-03-14",
@@ -741,7 +750,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "goods"
+          "type": "goods",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-14",
@@ -750,7 +760,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-12",
@@ -759,7 +770,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-12",
@@ -768,7 +780,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-11",
@@ -777,7 +790,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-11",
@@ -786,7 +800,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "event"
+          "type": "event",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-10",
@@ -795,7 +810,8 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-09",
@@ -804,7 +820,28 @@
           "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
-          "type": "release"
+          "type": "release",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-03-08",
+          "title": "Spiderman Meme",
+          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rojo1j/spiderman_meme/",
+          "source": "reddit r/ZutoMayo",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-03-07",
+          "title": "Before their album drops",
+          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1rmzhax/before_their_album_drops/",
+          "source": "reddit r/ZutoMayo",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "release",
+          "categoryHint": "community"
         }
       ]
     }
@@ -820,7 +857,8 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "event"
+        "type": "event",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-13",
@@ -829,7 +867,28 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "Ikuta Rira, the 'YOASOBI' vocalist who collaborated with ZICO, confirms first concert in Korea in May - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMExjblVjRGZNUGFva0pRdXp3TW1MWWJPN3VRNTNHWVJKRi1teDkwU3pNWmpNMzllT0ZwcEstdUFaUjE0cTFpZURRc1IwRU1zanBLcEdlbzc4ZDllS0lmVU5Ldk1kN0lUMkhNZDAzQ0o2Zk5CWU9YQUh6Z2NqNGFCTGNXRmF5ZnRvSThvT2FRRXhTTG9haHhxbzNfNVM3bW5iemo4Q3pqLUZpLUVUMk5XcklDbjl3LUt4d2N3azM5Y0t4VTBFb1FnYTlyQmVGaUlLbV9QcWx0elNWWkRTMHRQUDFuQTlTMVNqVXc?oc=5",
+        "source": "event search",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "event",
+        "categoryHint": "event"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "Ikuta Rira, the 'YOASOBI' vocalist who collaborated with ZICO, confirms first concert in Korea in May - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMExjblVjRGZNUGFva0pRdXp3TW1MWWJPN3VRNTNHWVJKRi1teDkwU3pNWmpNMzllT0ZwcEstdUFaUjE0cTFpZURRc1IwRU1zanBLcEdlbzc4ZDllS0lmVU5Ldk1kN0lUMkhNZDAzQ0o2Zk5CWU9YQUh6Z2NqNGFCTGNXRmF5ZnRvSThvT2FRRXhTTG9haHhxbzNfNVM3bW5iemo4Q3pqLUZpLUVUMk5XcklDbjl3LUt4d2N3azM5Y0t4VTBFb1FnYTlyQmVGaUlLbV9QcWx0elNWWkRTMHRQUDFuQTlTMVNqVXc?oc=5",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
+        "type": "news",
+        "categoryHint": "news"
       },
       {
         "date": "2026-03-08",
@@ -838,7 +897,8 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-05",
@@ -847,7 +907,8 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-03",
@@ -856,7 +917,8 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-03",
@@ -865,7 +927,8 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-03-02",
@@ -874,7 +937,38 @@
         "source": "reddit r/YOASOBI",
         "trust": 0.4,
         "tier": "community",
-        "type": "news"
+        "type": "news",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-03-02",
+        "title": "Idol 1988 fan arrangement",
+        "url": "https://www.reddit.com/r/YOASOBI/comments/1rijgce/idol_1988_fan_arrangement/",
+        "source": "reddit r/YOASOBI",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-03-02",
+        "title": "So I’m new to listening to yoasobi I only know racing into the night and idol but compared to other artist anybody else feel like their boring instrumental wise",
+        "url": "https://www.reddit.com/r/YOASOBI/comments/1rihcby/so_im_new_to_listening_to_yoasobi_i_only_know/",
+        "source": "reddit r/YOASOBI",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
+      },
+      {
+        "date": "2026-01-15",
+        "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
+        "source": "event search",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "event",
+        "categoryHint": "event"
       },
       {
         "date": "2026-01-15",
@@ -883,76 +977,22 @@
         "source": "google news",
         "trust": 0.6,
         "tier": "search",
-        "type": "event"
+        "type": "news",
+        "categoryHint": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:17:18.779Z",
+    "last_merged": "2026-03-16T09:55:27.498Z",
     "categorized": {
       "news": [
         {
-          "date": "2026-03-13",
-          "title": "The Music Stadium Yoasobi",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1rsjr9g/the_music_stadium_yoasobi/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
           "date": "2026-03-08",
-          "title": "Unlearning Japanese with Lilas from Yoasobi Ikura interview about Actor",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1rnqvkm/unlearning_japanese_with_lilas_from_yoasobi_ikura/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-05",
-          "title": "“ASICS × YOASOBI” Collaboration Movie",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1rl6bg6/asics_yoasobi_collaboration_movie/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-03",
-          "title": "Lilas for Coach Spring 2026",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1rjyrpp/lilas_for_coach_spring_2026/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-03",
-          "title": "I’m obsessed with The Witch From Mercury OP by Yoasobi",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1rjtk08/im_obsessed_with_the_witch_from_mercury_op_by/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        },
-        {
-          "date": "2026-03-02",
-          "title": "Racing into the night",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1rj2d7b/racing_into_the_night/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news"
-        }
-      ],
-      "events": [
-        {
-          "date": "2026-03-15",
-          "title": "Lilas Weverse Live — Talking about LIVE TOUR 2026 “Laugh” (only audio)",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1ruk1jp/lilas_weverse_live_talking_about_live_tour_2026/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "event"
+          "title": "Ikuta Rira, the 'YOASOBI' vocalist who collaborated with ZICO, confirms first concert in Korea in May - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMExjblVjRGZNUGFva0pRdXp3TW1MWWJPN3VRNTNHWVJKRi1teDkwU3pNWmpNMzllT0ZwcEstdUFaUjE0cTFpZURRc1IwRU1zanBLcEdlbzc4ZDllS0lmVU5Ldk1kN0lUMkhNZDAzQ0o2Zk5CWU9YQUh6Z2NqNGFCTGNXRmF5ZnRvSThvT2FRRXhTTG9haHhxbzNfNVM3bW5iemo4Q3pqLUZpLUVUMk5XcklDbjl3LUt4d2N3azM5Y0t4VTBFb1FnYTlyQmVGaUlLbV9QcWx0elNWWkRTMHRQUDFuQTlTMVNqVXc?oc=5",
+          "source": "google news",
+          "trust": 0.6,
+          "tier": "search",
+          "type": "news",
+          "categoryHint": "news"
         },
         {
           "date": "2026-01-15",
@@ -961,7 +1001,30 @@
           "source": "google news",
           "trust": 0.6,
           "tier": "search",
-          "type": "event"
+          "type": "news",
+          "categoryHint": "news"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-03-08",
+          "title": "Ikuta Rira, the 'YOASOBI' vocalist who collaborated with ZICO, confirms first concert in Korea in May - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMExjblVjRGZNUGFva0pRdXp3TW1MWWJPN3VRNTNHWVJKRi1teDkwU3pNWmpNMzllT0ZwcEstdUFaUjE0cTFpZURRc1IwRU1zanBLcEdlbzc4ZDllS0lmVU5Ldk1kN0lUMkhNZDAzQ0o2Zk5CWU9YQUh6Z2NqNGFCTGNXRmF5ZnRvSThvT2FRRXhTTG9haHhxbzNfNVM3bW5iemo4Q3pqLUZpLUVUMk5XcklDbjl3LUt4d2N3azM5Y0t4VTBFb1FnYTlyQmVGaUlLbV9QcWx0elNWWkRTMHRQUDFuQTlTMVNqVXc?oc=5",
+          "source": "event search",
+          "trust": 0.75,
+          "tier": "platform",
+          "type": "event",
+          "categoryHint": "event"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
+          "source": "event search",
+          "trust": 0.75,
+          "tier": "platform",
+          "type": "event",
+          "categoryHint": "event"
         }
       ],
       "releases": [],
@@ -974,7 +1037,8 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "event"
+          "type": "event",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-13",
@@ -983,7 +1047,8 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-08",
@@ -992,7 +1057,8 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-05",
@@ -1001,7 +1067,8 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-03",
@@ -1010,7 +1077,8 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-03",
@@ -1019,7 +1087,8 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
         },
         {
           "date": "2026-03-02",
@@ -1028,7 +1097,28 @@
           "source": "reddit r/YOASOBI",
           "trust": 0.4,
           "tier": "community",
-          "type": "news"
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "Idol 1988 fan arrangement",
+          "url": "https://www.reddit.com/r/YOASOBI/comments/1rijgce/idol_1988_fan_arrangement/",
+          "source": "reddit r/YOASOBI",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "So I’m new to listening to yoasobi I only know racing into the night and idol but compared to other artist anybody else feel like their boring instrumental wise",
+          "url": "https://www.reddit.com/r/YOASOBI/comments/1rihcby/so_im_new_to_listening_to_yoasobi_i_only_know/",
+          "source": "reddit r/YOASOBI",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
         }
       ]
     }
@@ -1106,197 +1196,77 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:17:03.166Z",
+    "last_scraped": "2026-03-16T09:55:14.142Z",
     "merged_news": [
       {
-        "date": "2026-03-16",
-        "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
-        "source": "virginbabylonrecords.bandcamp.com",
+        "date": "2026-03-15",
+        "title": "An album that if somebody says they loved it, youll immediately trust anything about their music taste?",
+        "url": "https://www.reddit.com/r/musicsuggestions/comments/1rudlw7/an_album_that_if_somebody_says_they_loved_it/",
+        "source": "reddit search: worlds end girlfriend",
+        "trust": 0.4,
+        "tier": "community",
         "type": "release",
-        "trust": 0.7,
-        "tier": "official"
+        "categoryHint": "community"
       },
       {
-        "date": "2026-03-16",
-        "title": "SONATINE\n                \n                \n                mizuirono_inu",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
+        "date": "2026-02-18",
+        "title": "who are your top artists that start with the letter w?",
+        "url": "https://www.reddit.com/r/lastfm/comments/1r87ylz/who_are_your_top_artists_that_start_with_the/",
+        "source": "reddit search: worlds end girlfriend",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
       },
       {
-        "date": "2026-03-16",
-        "title": "夜に沈む\n                \n                \n                Smany",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "Effulgence\n                \n                \n                matryoshka",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "Infinite Window\n                \n                \n                Rika Madobe",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "world wide wonderful world\n                \n                \n                bronbaba",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "VOCALOID STEW\n                \n                \n                でんの子P",
-        "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
-        "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release",
-        "trust": 0.7,
-        "tier": "official"
+        "date": "2026-01-15",
+        "title": "I Crave Novelty. Feed me.",
+        "url": "https://www.reddit.com/r/musicsuggestions/comments/1qdaib9/i_crave_novelty_feed_me/",
+        "source": "reddit search: worlds end girlfriend",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
       }
     ],
-    "last_merged": "2026-03-16T09:17:26.625Z",
+    "last_merged": "2026-03-16T09:55:30.885Z",
     "categorized": {
       "news": [],
       "events": [],
-      "releases": [
-        {
-          "date": "2026-03-16",
-          "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "SONATINE\n                \n                \n                mizuirono_inu",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "夜に沈む\n                \n                \n                Smany",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Effulgence\n                \n                \n                matryoshka",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Infinite Window\n                \n                \n                Rika Madobe",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "world wide wonderful world\n                \n                \n                bronbaba",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "VOCALOID STEW\n                \n                \n                でんの子P",
-          "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
-          "source": "virginbabylonrecords.bandcamp.com",
-          "type": "release",
-          "trust": 0.7,
-          "tier": "official"
-        }
-      ],
+      "releases": [],
       "goods": [],
-      "community": []
+      "community": [
+        {
+          "date": "2026-03-15",
+          "title": "An album that if somebody says they loved it, youll immediately trust anything about their music taste?",
+          "url": "https://www.reddit.com/r/musicsuggestions/comments/1rudlw7/an_album_that_if_somebody_says_they_loved_it/",
+          "source": "reddit search: worlds end girlfriend",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "release",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-02-18",
+          "title": "who are your top artists that start with the letter w?",
+          "url": "https://www.reddit.com/r/lastfm/comments/1r87ylz/who_are_your_top_artists_that_start_with_the/",
+          "source": "reddit search: worlds end girlfriend",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
+          "date": "2026-01-15",
+          "title": "I Crave Novelty. Feed me.",
+          "url": "https://www.reddit.com/r/musicsuggestions/comments/1qdaib9/i_crave_novelty_feed_me/",
+          "source": "reddit search: worlds end girlfriend",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
+        }
+      ]
     }
   }
 }
