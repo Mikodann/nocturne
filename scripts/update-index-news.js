@@ -22,52 +22,60 @@ const TRUST = {
 const ARTISTS = {
   yoasobi: {
     label: 'YOASOBI',
-    tokens: ['yoasobi', 'ikura', 'ayase'],
+    tokens: ['yoasobi', 'ikura', 'ayase', '요아소비', '이쿠라', '아야세'],
     feeds: [
       { type: 'google', q: after('YOASOBI'), tier: 'search', source: 'google news', category: 'news' },
       { type: 'google', q: after('YOASOBI (live OR tour OR concert OR ticket)'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('YOASOBI (release OR single OR album OR new song OR EP OR MV)'), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after('YOASOBI (goods OR merch OR official store OR popup)'), tier: 'search', source: 'goods search', category: 'goods' },
       { type: 'google', q: after('site:yoasobi-music.jp YOASOBI'), tier: 'official', source: 'yoasobi-music.jp', category: 'news' },
+      { type: 'dcinside', q: '요아소비', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside', q: 'YOASOBI', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/YOASOBI/new/.rss', tier: 'community', source: 'reddit r/YOASOBI', category: 'community' },
     ],
   },
 
   yorushika: {
     label: 'Yorushika',
-    tokens: ['yorushika', 'ヨルシカ', 'n-buna', 'suis'],
+    tokens: ['yorushika', 'ヨルシカ', 'n-buna', 'suis', '요루시카', '스이', '나부나'],
     feeds: [
       { type: 'google', q: after('Yorushika'), tier: 'search', source: 'google news', category: 'news' },
       { type: 'google', q: after('Yorushika (live OR tour OR concert OR ticket)'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('Yorushika (release OR single OR album OR new song OR EP OR MV OR 発売)'), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after('Yorushika (goods OR merch OR official store OR グッズ)'), tier: 'search', source: 'goods search', category: 'goods' },
       { type: 'google', q: after('site:yorushika.com Yorushika'), tier: 'official', source: 'yorushika.com', category: 'news' },
+      { type: 'dcinside', q: '요루시카', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside', q: 'Yorushika', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/Yorushika/new/.rss', tier: 'community', source: 'reddit r/Yorushika', category: 'community' },
     ],
   },
 
   zutomayo: {
     label: 'Zutomayo',
-    tokens: ['zutomayo', 'ずっと真夜中でいいのに', 'acaね', 'aca-ne'],
+    tokens: ['zutomayo', 'ずっと真夜中でいいのに', 'acaね', 'aca-ne', '즛토마요', '즈토마요', '아카네'],
     feeds: [
       { type: 'google', q: after('ZUTOMAYO OR ずっと真夜中でいいのに。'), tier: 'search', source: 'google news', category: 'news' },
       { type: 'google', q: after('ZUTOMAYO (live OR tour OR concert OR ticket)'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('ZUTOMAYO (release OR single OR album OR new song OR EP OR MV OR 発売)'), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after('ZUTOMAYO (goods OR merch OR グッズ OR store)'), tier: 'search', source: 'goods search', category: 'goods' },
       { type: 'google', q: after('site:zutomayo.net ZUTOMAYO'), tier: 'official', source: 'zutomayo.net', category: 'news' },
+      { type: 'dcinside', q: '즛토마요', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside', q: 'ZUTOMAYO', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/ZutoMayo/new/.rss', tier: 'community', source: 'reddit r/ZutoMayo', category: 'community' },
     ],
   },
 
   weg: {
     label: 'WEG',
-    tokens: ["world's end girlfriend", 'worlds end girlfriend', 'weg'],
+    tokens: ["world's end girlfriend", 'worlds end girlfriend', 'weg', '월즈 엔드 걸프렌드', '월드 엔드 걸프렌드', '월엔걸'],
     feeds: [
       { type: 'google', q: after("\"World's End Girlfriend\""), tier: 'search', source: 'google news', category: 'news' },
       { type: 'google', q: after("\"World's End Girlfriend\" (live OR tour OR concert OR ticket)"), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after("\"World's End Girlfriend\" (release OR single OR album OR EP OR vinyl OR CD)"), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after("\"World's End Girlfriend\" (goods OR merch OR store)"), tier: 'search', source: 'goods search', category: 'goods' },
       { type: 'google', q: after("\"World's End Girlfriend\" (site:virginbabylonrecords.bandcamp.com OR site:virginbabylonrecords.com)"), tier: 'official', source: "World's End Girlfriend official", category: 'news' },
+      { type: 'dcinside', q: '월즈 엔드 걸프렌드', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside', q: "World's End Girlfriend", pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/search.rss?q=%22world%27s%20end%20girlfriend%22&sort=new&t=year', tier: 'community', source: 'reddit search: worlds end girlfriend', category: 'community' },
     ],
   },
@@ -150,7 +158,7 @@ function guessTypeFromTitle(title = '', source = '') {
 
   const eventKeywords = [
     'tour', 'live', 'concert', 'festival', 'ticket', 'show', 'hall tour', 'arena', 'world tour', 'asia tour',
-    'schedule', '공연', '투어', '라이브', '예매', '티켓', '페스티벌', 'フェス', '公演', 'ライブ', 'スケジュール',
+    'schedule', '공연', '투어', '라이브', '예매', '티켓', '페스티벌', '내한', '방한', 'フェス', '公演', 'ライブ', 'スケジュール',
   ];
 
   const releaseKeywords = [
@@ -228,6 +236,52 @@ function parseFeed(xml, source, tier) {
 
 function googleNewsUrl(query) {
   return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`;
+}
+
+function dcinsideSearchUrl(query, page = 1) {
+  const encoded = encodeURIComponent(query).replace(/'/g, '%27');
+  return `https://search.dcinside.com/post/p/${page}/sort/latest/q/${encoded}`;
+}
+
+function parseDcinside(html, source, tier, query) {
+  const items = [];
+  const liRegex = /<li>([\s\S]*?)<\/li>/gi;
+
+  let m;
+  while ((m = liRegex.exec(html)) !== null) {
+    const block = m[1];
+
+    const href = (
+      block.match(/<a[^>]*class="tit_txt"[^>]*href="([^"]+)"/i)
+      || block.match(/<a[^>]*href="([^"]+)"[^>]*class="tit_txt"/i)
+      || []
+    )[1] || '';
+
+    const titleHtml = (block.match(/<a[^>]*class="tit_txt"[^>]*>([\s\S]*?)<\/a>/i) || [])[1] || '';
+    const galleryHtml = (block.match(/<a[^>]*class="sub_txt"[^>]*>([\s\S]*?)<\/a>/i) || [])[1] || '';
+    const dateHtml = (block.match(/<span[^>]*class="date_time"[^>]*>([\s\S]*?)<\/span>/i) || [])[1] || '';
+
+    const url = decodeHtml(href.trim());
+    const title = stripTags(titleHtml);
+    const gallery = stripTags(galleryHtml);
+    const date = normalizeDate(stripTags(dateHtml));
+
+    if (!url || !title || !date) continue;
+
+    items.push({
+      date,
+      title,
+      url,
+      source: `${source} · ${gallery}`,
+      trust: TRUST[tier] ?? 0.4,
+      tier,
+      type: guessTypeFromTitle(title, `${source} ${gallery}`),
+      categoryHint: 'community',
+      query,
+    });
+  }
+
+  return items;
 }
 
 function isArtistRelevant(item, artistKey) {
@@ -360,6 +414,25 @@ function replaceTabBlock(html, section, tab, cardsHtml) {
 
 async function loadFeed(feed) {
   try {
+    if (feed.type === 'dcinside') {
+      const pages = feed.pages || 2;
+      const collected = [];
+
+      for (let page = 1; page <= pages; page++) {
+        const url = dcinsideSearchUrl(feed.q, page);
+        const html = await fetch(url);
+        const parsed = parseDcinside(html, feed.source, feed.tier, feed.q);
+        collected.push(...parsed);
+        if (parsed.length === 0) break;
+      }
+
+      return dedupe(collected).slice(0, FEED_ITEM_LIMIT).map((item) => ({
+        ...item,
+        type: feed.category === 'community' ? item.type : (feed.category || item.type),
+        categoryHint: feed.category || null,
+      }));
+    }
+
     const url = feed.type === 'google' ? googleNewsUrl(feed.q) : feed.url;
     const xml = await fetch(url);
     const parsed = parseFeed(xml, feed.source, feed.tier);
@@ -406,9 +479,9 @@ async function main() {
     const nonCommunity = merged.filter((x) => x.tier !== 'community');
 
     const newsItems = nonCommunity.filter((x) => x.type === 'news').slice(0, TAB_LIMIT);
-    const eventItems = nonCommunity.filter((x) => x.type === 'event').slice(0, TAB_LIMIT);
-    const releaseItems = nonCommunity.filter((x) => x.type === 'release').slice(0, TAB_LIMIT);
-    const goodsItems = nonCommunity.filter((x) => x.type === 'goods').slice(0, TAB_LIMIT);
+    const eventItems = merged.filter((x) => x.type === 'event').slice(0, TAB_LIMIT);
+    const releaseItems = merged.filter((x) => x.type === 'release').slice(0, TAB_LIMIT);
+    const goodsItems = merged.filter((x) => x.type === 'goods').slice(0, TAB_LIMIT);
     const communityItems = merged.filter((x) => x.tier === 'community').slice(0, TAB_LIMIT);
 
     html = replaceTabBlock(
