@@ -22,25 +22,30 @@ const TRUST = {
 const ARTISTS = {
   yoasobi: {
     label: 'YOASOBI',
-    tokens: ['yoasobi', 'ikura', 'ayase', '요아소비', '이쿠라', '아야세'],
+    tokens: ['yoasobi', 'ikura', 'ikuta lira', 'lilas', '幾田りら', 'ayase', '요아소비', '이쿠라', '이쿠타 리라', '아야세'],
     feeds: [
       { type: 'google', q: after('YOASOBI'), tier: 'search', source: 'google news', category: 'news' },
       { type: 'google', q: after('요아소비'), tier: 'search', source: 'google news ko', category: 'news' },
+      { type: 'google', q: after('Ikuta Lira OR 幾田りら OR 이쿠타 리라'), tier: 'search', source: 'ikura solo news', category: 'news' },
       { type: 'google', q: after('site:yoasobi-music.jp YOASOBI'), tier: 'official', source: 'yoasobi-music.jp', category: 'news' },
 
       { type: 'google', q: after('YOASOBI TOUR 2026'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('YOASOBI live 2026'), tier: 'platform', source: 'event search', category: 'event' },
       { type: 'google', q: after('요아소비 내한'), tier: 'platform', source: 'event search ko', category: 'event' },
+      { type: 'google', q: after('Ikuta Lira concert OR 幾田りら ライブ OR 이쿠타 리라 내한'), tier: 'platform', source: 'ikura solo event', category: 'event' },
 
       { type: 'google', q: after('YOASOBI release'), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after('YOASOBI album'), tier: 'search', source: 'release search', category: 'release' },
       { type: 'google', q: after('YOASOBI single'), tier: 'search', source: 'release search', category: 'release' },
+      { type: 'google', q: after('Ikuta Lira release OR 幾田りら 新曲 OR 이쿠타 리라 신곡'), tier: 'search', source: 'ikura solo release', category: 'release' },
 
       { type: 'google', q: after('YOASOBI collaboration'), tier: 'search', source: 'goods/collab search', category: 'goods' },
       { type: 'google', q: after('YOASOBI ASICS'), tier: 'search', source: 'goods/collab search', category: 'goods' },
+      { type: 'google', q: after('Ikuta Lira collaboration OR 幾田りら コラボ OR 이쿠타 리라 콜라보'), tier: 'search', source: 'ikura solo goods/collab', category: 'goods' },
 
       { type: 'dcinside', q: '요아소비', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'dcinside', q: 'YOASOBI', pages: 3, tier: 'community', source: 'dcinside 검색', category: 'community' },
+      { type: 'dcinside', q: '이쿠타 리라', pages: 2, tier: 'community', source: 'dcinside 검색', category: 'community' },
       { type: 'rss', url: 'https://www.reddit.com/r/YOASOBI/new/.rss', tier: 'community', source: 'reddit r/YOASOBI', category: 'community' },
     ],
   },
