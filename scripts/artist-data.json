@@ -77,7 +77,7 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-03-16T09:12:57.399Z",
+    "last_scraped": "2026-03-16T09:14:14.175Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -296,7 +296,7 @@
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:13:14.385Z",
+    "last_merged": "2026-03-16T09:14:35.089Z",
     "categorized": {
       "news": [
         {
@@ -493,7 +493,8 @@
           "type": "release"
         }
       ],
-      "goods": []
+      "goods": [],
+      "community": []
     }
   },
   "zutomayo": {
@@ -520,7 +521,7 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:12:58.746Z",
+    "last_scraped": "2026-03-16T09:14:15.250Z",
     "merged_news": [
       {
         "date": "2025-11-26",
@@ -577,7 +578,7 @@
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T09:13:15.063Z",
+    "last_merged": "2026-03-16T09:14:37.736Z",
     "categorized": {
       "news": [
         {
@@ -638,7 +639,8 @@
           "type": "release"
         }
       ],
-      "goods": []
+      "goods": [],
+      "community": []
     }
   },
   "yoasobi": {
@@ -664,7 +666,7 @@
         "type": "release"
       }
     ],
-    "last_merged": "2026-03-16T09:13:13.499Z",
+    "last_merged": "2026-03-16T09:14:31.794Z",
     "categorized": {
       "news": [],
       "events": [
@@ -689,7 +691,8 @@
           "type": "release"
         }
       ],
-      "goods": []
+      "goods": [],
+      "community": []
     }
   },
   "weg": {
@@ -765,7 +768,7 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T09:13:00.074Z",
+    "last_scraped": "2026-03-16T09:14:16.578Z",
     "merged_news": [
       {
         "date": "2026-03-16",
@@ -858,7 +861,7 @@
         "tier": "official"
       }
     ],
-    "last_merged": "2026-03-16T09:13:15.294Z",
+    "last_merged": "2026-03-16T09:14:39.564Z",
     "categorized": {
       "news": [],
       "events": [],
@@ -954,7 +957,8 @@
           "tier": "official"
         }
       ],
-      "goods": []
+      "goods": [],
+      "community": []
     }
   }
 }
