@@ -98,6 +98,24 @@ function toDate(s) {
   return d.toISOString().slice(0, 10);
 }
 
+function guessTypeFromTitle(title = '', source = '') {
+  const t = `${title} ${source}`.toLowerCase();
+  const eventK = ['tour','live','concert','festival','ticket','show','공연','투어','라이브','フェス','公演','ライブ','schedule'];
+  const releaseK = ['release','single','album','ep','mv','music video','digital','配信','発売','신곡','발매','앨범'];
+  const goodsK = ['goods','merch','merchandise','store','shop','グッズ','굿즈','md'];
+  if (eventK.some(k => t.includes(k))) return 'event';
+  if (releaseK.some(k => t.includes(k))) return 'release';
+  if (goodsK.some(k => t.includes(k))) return 'goods';
+  return 'news';
+}
+
+function classifyItems(items = []) {
+  return items.map((it) => ({
+    ...it,
+    type: it.type && it.type !== 'news' ? it.type : guessTypeFromTitle(it.title || '', it.source || ''),
+  }));
+}
+
 function parseRss(xml, source, tier) {
   const items = [];
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
@@ -115,7 +133,7 @@ function parseRss(xml, source, tier) {
       source,
       trust: TRUST[tier] ?? 0.5,
       tier,
-      type: 'news',
+      type: guessTypeFromTitle(title, source),
     });
   }
   return items;
@@ -228,13 +246,25 @@ function renderCards(items) {
   }).join('\n\n');
 }
 
-function replaceNewsBlock(html, section, cardsHtml) {
-  const start = `<div class="tab-content" data-section="${section}" data-tab="news">`;
-  const end = `<div class="tab-content" data-section="${section}" data-tab="events" style="display:none">`;
-  const sIdx = html.indexOf(start);
-  const eIdx = html.indexOf(end);
-  if (sIdx === -1 || eIdx === -1 || eIdx <= sIdx) return html;
+function replaceTabBlock(html, section, tab, cardsHtml) {
+  const tabs = ['news', 'events', 'releases', 'goods', 'community'];
+  const startToken = `<div class="tab-content" data-section="${section}" data-tab="${tab}"`;
+  const sIdx = html.indexOf(startToken);
+  if (sIdx === -1) return html;
+
   const startClose = html.indexOf('>', sIdx) + 1;
+  let eIdx = -1;
+  const cur = tabs.indexOf(tab);
+  for (let i = cur + 1; i < tabs.length; i++) {
+    const nextToken = `<div class="tab-content" data-section="${section}" data-tab="${tabs[i]}"`;
+    const idx = html.indexOf(nextToken, startClose);
+    if (idx !== -1) { eIdx = idx; break; }
+  }
+  if (eIdx === -1) {
+    const sectionEnd = html.indexOf('</section>', startClose);
+    eIdx = sectionEnd === -1 ? html.length : sectionEnd;
+  }
+
   return html.slice(0, startClose) + `\n${cardsHtml}\n\n  ` + html.slice(eIdx);
 }
 
@@ -267,13 +297,28 @@ async function main() {
       allFeedItems.push(...items.slice(0, 8));
     }
 
-    const merged = sortNews(dedupe([...scraped, ...allFeedItems]))
+    const merged = sortNews(dedupe(classifyItems([...scraped, ...allFeedItems])))
       .filter((x) => isDirectActivity(x, key))
-      .slice(0, 10);
-    html = replaceNewsBlock(html, key, renderCards(merged));
+      .slice(0, 24);
+
+    const newsItems = merged.filter(x => x.type === 'news').slice(0, 10);
+    const eventItems = merged.filter(x => x.type === 'event').slice(0, 10);
+    const releaseItems = merged.filter(x => x.type === 'release').slice(0, 10);
+    const goodsItems = merged.filter(x => x.type === 'goods').slice(0, 10);
+
+    html = replaceTabBlock(html, key, 'news', renderCards(newsItems));
+    html = replaceTabBlock(html, key, 'events', renderCards(eventItems));
+    html = replaceTabBlock(html, key, 'releases', renderCards(releaseItems));
+    html = replaceTabBlock(html, key, 'goods', renderCards(goodsItems));
 
     if (!data[key]) data[key] = {};
     data[key].merged_news = merged;
+    data[key].categorized = {
+      news: newsItems,
+      events: eventItems,
+      releases: releaseItems,
+      goods: goodsItems,
+    };
     data[key].last_merged = new Date().toISOString();
   }
 
