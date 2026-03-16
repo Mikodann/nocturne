@@ -77,27 +77,60 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-03-16T08:54:30.188Z",
+    "last_scraped": "2026-03-16T08:57:44.383Z",
     "merged_news": [
       {
         "date": "2026-03-16",
         "title": "LIVE TOUR 2026「一人称」会場 書籍・CD販売のご案内",
         "url": "https://yorushika.com/news/detail/11769",
         "source": "yorushika.com",
-        "type": "event"
+        "type": "event",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-13",
         "title": "ヨルシカ LIVE TOUR 2026「一人称」ガチャの会場販売のお知らせ",
         "url": "https://yorushika.com/news/detail/11764",
         "source": "yorushika.com",
-        "type": "event"
+        "type": "event",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-11",
         "title": "週刊誌「AERA」にてヨルシカのインタビューが掲載",
         "url": "https://yorushika.com/news/detail/11768",
         "source": "yorushika.com",
+        "type": "news",
+        "trust": 1,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "YORUSHIKA- 치도리 - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10UzNJd1ZwdUd0YWJzMTBsbDY3NjBVOFBKT2FjS0pvSVJfNExaWlZ0MVBHTGd1UjBVb1ZCaDhleFVQR2VSeFZYRzY4aEw0eGdYWnJId2FsWHMtems?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "주간지 「AERA」에서 YORUSHIKA의 인터뷰가 게재 - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QSDl5TkROSk1NbEpiVXdScjI5bHV5dktJTjNnTDdETENvLXpuU2F0ekdCUTNPTXRpSkJXbFNtNGttaG1CWUJ1QmRvTVdUX2dtdDdTOVNMZDhGdGM?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-10",
+        "title": "OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3ZVlaSU44ZS1Jc3lJc2xybEg1eFhvM2VCQXZZS3N4dnh0QVRYLVVUcWwxSTdPZzZWb1JyUWZVbkpSUXZLdWFFUENHUzVZaUFQckNfd1ZYclBzV2lVVzZkeUVOSFJXdFhldHVQdnhR?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       },
       {
@@ -105,38 +138,39 @@
         "title": "suis ラジオ番組ゲスト情報",
         "url": "https://yorushika.com/news/detail/11763",
         "source": "yorushika.com",
-        "type": "news"
+        "type": "news",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-06",
         "title": "「二人称」発売記念の中吊り広告ジャック電車が運行中。",
         "url": "https://yorushika.com/news/detail/11762",
         "source": "yorushika.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
-        "date": "2026-03-05",
-        "title": "Apple Musicにてn-bunaコメントを掲載。",
-        "url": "https://yorushika.com/news/detail/11761",
+        "date": "2026-03-06",
+        "title": "「2인칭」발매 기념의 중매 광고 잭 전철이 운행중. - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XRW5vSHlDaW1rSVdrUFZKOURTQV92dW8zSmN5dUhxd1Y4c05Zd3lFSl9odmVndkxrdWtIdVdNMk92Z09Qeno0NlZ2N255OUVGcVdIbEw0UDJmcFU?oc=5",
         "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       },
       {
-        "date": "2026-03-05",
-        "title": "新曲「千鳥」MVのスマホ用壁紙をプレゼント。",
-        "url": "https://yorushika.com/news/detail/11760",
+        "date": "2026-03-06",
+        "title": "suis 라디오 프로그램 게스트 정보 - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51RVJycGIxVm1namZiVWV0dkQweHVlSU5ZVV9lWDlTdGppTHo5M3FPNWNKOU0ySWVqOE1ycHk5Q0E0UjVoVFlXcDM4akhKd1hLSVl0T01DSEYzZzg?oc=5",
         "source": "yorushika.com",
-        "type": "release"
-      },
-      {
-        "date": "2026-03-05",
-        "title": "音楽情報サイト「OTOTOY」にてインタビュー掲載。",
-        "url": "https://yorushika.com/news/detail/11759",
-        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T08:54:45.148Z"
+    "last_merged": "2026-03-16T08:58:05.937Z"
   },
   "zutomayo": {
     "scraped_news": [
@@ -162,129 +196,197 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T08:54:31.562Z",
+    "last_scraped": "2026-03-16T08:57:45.537Z",
     "merged_news": [
       {
         "date": "2026-03-16",
         "title": "VIEW MORE",
         "url": "https://zutomayo.net/news/593",
         "source": "zutomayo.net",
-        "type": "news"
+        "type": "news",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "[릴리즈] RELEASE",
         "url": "https://zutomayo.net/release/",
         "source": "zutomayo.net",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "[릴리즈] Menu",
         "url": "https://zutomayo.net/release/",
         "source": "zutomayo.net",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
-        "date": "2026-03-16",
-        "title": "'日 대세 밴드' 즛토마요, 서울 단독 내한 콘서트 성료…1만 2천 관객 '열광' - v.daum.net",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56U2h6RTJURWtOX05sTGtmWXE2X1AxY1FxaHh5TGRaTDRWT0twa19mdFp5SjRZdkI4Z21fU09nZWFSdm9kbUE?oc=5",
-        "source": "news.google.com",
+        "date": "2025-11-26",
+        "title": "ZUTOMAYO INTENSE II 「坐・ZOMBIE CRAB LABO」 in SEOUL - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5RYVAwT0FLMGdQOHJfa3Y2VktCVEp2NUJIT1ptbHJZT2RZVEZvVDJmdVk0NWFiaVIxZUZYbk1HRlFOeDdncFhTUnppSXc?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       },
       {
-        "date": "2026-03-16",
-        "title": "'日 대세 밴드' 즛토마요, 단독 내한 콘서트 성료 - starnewskorea.com",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mNUJTSXloSkJsUVBHVWtRZ3dTTDQ1MHJwdlRPc0R5M1gzWjdlWlNpSkc1QUY5bkZYWmI4ZWVGRDlRYWtyRC1WRjB4TjVOOC1GbThUaHd0a1JvZmFfeHUxc0xnRFB2NzhEMEJPTlE1VnBzamVQ?oc=5",
-        "source": "news.google.com",
+        "date": "2025-08-21",
+        "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE52TWJGdXU5WGlYVkk0TzlWb1ZTVHNIYng1VTdhUm0wbF92eXVpVUw1RnhIRFg0N0txWDV2c1NWNzB6cHM?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       },
       {
-        "date": "2026-03-16",
-        "title": "‘日 대세 밴드’ 즛토마요, 서울 단독 내한 콘서트 성료…1만 2천 관객 '열광' - ���포츠한국",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rRURGOVUxWHR2UzloLTZic2lzejNPWVQwWkVnWXhiajBCd2hGWk9wZDRrWVpZLUNiVHlXYTNlS2QtaFlFdm8tYjBvM1FBSlJsWkVQV1VVY2NZMmV0MlZIY0NjVC15Q2F0YV9nN3N2N1preEMw0gF0QVVfeXFMTmtFREY5VTFYdHZTOWgtNmJzaXN6M09ZVDBaRWdZeGJqMEJ3aEZaT3BkNGtZWlktQ2JUeVdhM2VLZC1oWUV2by1iMG8zUUFKUmxaRVBXVVVjY1kyZXQyVkhjQ2NULXlDYXRhX2c3c3Y3Wmt4QzA?oc=5",
-        "source": "news.google.com",
+        "date": "2024-06-14",
+        "title": "【ZUTOMAYO INTENSE IN SEOUL】T-SHIRT 예약판매 안내 - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBUUmV0X3JTU1J5ZGRRZzc1azhwa2tEcWRsSzgwZEt4aGVJcDkweXdSRW1EZnBNVmNDZXZXVzUxbDE2QTQ?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       },
       {
-        "date": "2026-03-16",
-        "title": "즛토마요, 전석 매진 속 압도적 가창력으로 국내 팬 매료 - 스포츠동아",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50RGNMSVlwLUVacVh4cVpVWEc1aG9wUF9WWHl4NzRQdWdTem5KSVZfemowRC1wTlRwNWpzbENuc3lLOUNNN3hxVVVCMnRhanBIcjBDa29qMVJfRUFMa2phRVpnWG1IQXBiRHRfanln?oc=5",
-        "source": "news.google.com",
+        "date": "2024-06-13",
+        "title": "【ZUTOMAYO INTENSE IN SEOUL】참석자 한정 반짝반짝 스티커 교환 기획 - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1nTTBySzFQd29FaG90MkptZlBoX1o0ZnU5X3d6Q1Z6VnlLQm16RXlBb0w5N2psd2ZZOW10U201c1J6S1k?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
         "type": "news"
       },
       {
-        "date": "2026-03-16",
-        "title": "즛토마요, 전석 매진 속 압도적 가창력으로 국내 팬 매료 - 네이트",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jTFV4dGk3S0V6Y0pXMER1ZE9uRnFXMDYya2sxam5wVEV0Z1BUaDBjdWpBSjF5N0NVeVpQUXpVWENGSmNkMkIyaTY5dXkwdXVqeWx5dkJPLTR6TVo4OGdRVnJNaHUxUWxGQWp2S2xheHE5ZG5DeWlWNA?oc=5",
-        "source": "news.google.com",
+        "date": "2024-06-04",
+        "title": "【韓国】「ZUTOMAYO INTENSE IN SOUL」 GOODS & ALBUM 현장픽업(사전 온라인 주문) & 현장판매 안내 - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5XblhkOVhoVHBKcjdnSS05c0h3SjQ0bGpIYnk1NmoxY0JreUhZZktQR2Z0d243Z3pfY2phbW9VRVdHUDQ?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
+        "type": "news"
+      },
+      {
+        "date": "2024-03-06",
+        "title": "2024/6/15(Sat) 6/16(Sun)「ZUTOMAYO INTENSE IN SEOUL」개최확정, 3/8(금)18:00～한국 거주자 우선 선착 접수도 실시 - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1zeXdmNkpHZ19FeldQdVVOX2UwU2xnZzhtRWJ1OV9mZHZKTGNWVjR4ZDZqWnEzZWlzdnZNRmhHRDM2QlU?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
+        "type": "news"
+      },
+      {
+        "date": "2026-03-06",
+        "title": "Post from 유니버설 뮤직 코리아 Universal Music Korea - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fM3JMWUFncmExSk1JbW9rRGxPNEVPOXdMXzVZZG5kd2xVcktseGZ5RWpmVllJekVxVTQyMnhKb1FSVXBENWF3MFpINVd3V1hPUW9DRDVZZV92d2tQVkZxWF9qX3pueXM1Q1RPTzZrUzZpbW8?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T08:54:45.506Z"
+    "last_merged": "2026-03-16T08:58:09.111Z"
   },
   "yoasobi": {
     "scraped_news": [],
     "last_scraped": null,
     "merged_news": [
       {
+        "date": "2026-03-15",
+        "title": "조금만 더… 감성 터지는 기타 커버｜YOASOBI 명곡 연주 (by 신촌뉴 기타 강사) - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85bDZkLThBSzVCM1Vlc1BRS3UzSnl5M3ZBZ21FQThMWG91QXIyRHYtVkp6LVFaaXJwWjB3dGxzbFNTQWJlVHJtRDVrVGFKNTl3OHhmT2pB?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2025-04-19",
+        "title": "KIIRAS - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HTDdlSmlmQllmczBvWmN1bWhBT3d0MzZXaHZWQWRvNTNGMTd2VjB1bmlJc2c1R25KTnZ1SnZzMTlkeUdSWWxZbHhYWTlHTjZjaWoyVmdNOW9NRk05Q3lTNFpoZlcyVXc?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2025-01-21",
+        "title": "PS5 I 프로젝트: 메모리 카드 (YOASOBI 콜라보레이션) - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyb2NlMi04eDV2ZlJyVlRCVHZpVFh5YkU0OTF3NlI5NmxGblF1LS1HOEJ5U2x3NFhaSU1RYWlqY3NpbWVHbHNmUUFHSzgycXdNb1AyTnhn?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2024-02-27",
+        "title": "[J-POP] 밤을 달리다(夜に駆ける) - YOASOBI Cover by ShE's - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UdnFIcHA4Qm16UEx2bFZCeHFhcGNaMGR6bHZhZHhjREpDTU82UDMweUlIbnRWbGVyaDN3Uk1mUXptOHRWSEtnaFIzTWJzMVdFTG9PUjJn?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2024-01-22",
+        "title": "387.YOASOBI - 봄망초 【★★★★☆】 기타커버 | Guitar tutorial |ギター 弾いてみた 【TAB譜】 - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CT19WX0RSVmpSZUdjVEttdEpVeTFDUDhsUzQzVzJkUkFoY0Z0b3FPTmlfUlduRTl0OGhzOEgtSmkxRnFyZ1B3WGMwczdpREdEQ2laZG5B?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2023-10-29",
+        "title": "‘재즈의 아이’ pt.II | 요아소비 재즈 플리 pt.II [playlist] - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hcXhiY0dqdjhLRlZLU0dTbGhUSTV2bmFucmx3eFVfZzFxRHNKbHVtSGZ5dkxCZHdHbkNNNEVONEFuNHp0VFBDdjgyVWRzZU5INDF1MDh3?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2023-07-07",
+        "title": "[LIVE CLIP] YOASOBI - 夜に駆ける (Yoru ni Kakeru) | Covered by YUJU 유주 - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CM2VFdmNlSXdrUGRVTldfWkNLeFdUTXozZU1UQjJWVVMzUjBTcjRPZGdPUGs3N04wdmw1ZXdXM3gtaGRRQkh1c1VJXzR2blBDQmxXTkJB?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
+        "date": "2020-10-31",
+        "title": "「끝내고 싶어」라고 말하니, 네가 처음으로 웃었어: YOASOBI - 밤을 달리다(夜に駆ける) [가사/발음/한글 자막] - YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HZGpKNG8zQTlJenduRTlIRVlvM19wZ1VmWE1CQzNLVjRHdjd1UnBUWTQ3Qnk5ZEVOaXN1RDFQNzljN2JWU3Q4Sy1BdlVRYlNRSW5uaHJn?oc=5",
+        "source": "YouTube",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "news"
+      },
+      {
         "date": "2026-03-09",
         "title": "업데이트: 요아소비 x 아식스 전체 컬렉션 공개 - hypebeast.kr",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLUtidXphemJLajE0by10YUY2cXhHY2hwd2U4UndoQjcyQ0RzVXA0YW9fZ3k2RVgxN3JTMkhmVE91aHlOY1p2alR6dzBRMEJEOTVSLWMtcXhWcTFoQTNPamxFSi0wUXVHb2ItRFRPUFhmdExkYWs4VEx5R2F4Wm5qd0pZMVdaNERhUHRjLXJaY1BNeV9vc1hkYQ?oc=5",
-        "source": "news.google.com",
-        "type": "news"
-      },
-      {
-        "date": "2026-01-15",
-        "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
-        "source": "news.google.com",
-        "type": "news"
-      },
-      {
-        "date": "2025-09-21",
-        "title": "르세라핌 x 요아소비 협업이 예고됐다 - eyesmag.com",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Sdjh2LU1kMU1EUk84RDUxQkF1dmlCZkdBZnV5QVhqNE1mYi1FcG9JZktaYWw3ZDh5M1JCQV9YdTFlY09HVTZ2Q2hGcExQV0tWOThEMWhwb0ZUcUFDZFJEczdqMDl1Zw?oc=5",
-        "source": "news.google.com",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
         "type": "news"
       },
       {
         "date": "2026-02-25",
         "title": "이쿠타 리라, 내한 콘서트 1회 추가 - bntnews.co.kr",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FRWQ2a2VDRThYMnp4UEhHM0taczFsbzBCQkxZUHJWOFpLV2FrOS1pTTZaWWdvQTRXQy1pOW5vV1BfUUU5RHB4R2o5dFQzMjNWaWFySmdyaENKY3YxVXJTSXRlZ3I?oc=5",
-        "source": "news.google.com",
-        "type": "news"
-      },
-      {
-        "date": "2025-03-28",
-        "title": "「Project: MEMORY CARD」──PlayStation® 30주년을 기념하는 YOASOBI의 신곡과 특별 CM 공개! - PlayStation",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iZVprVjhMNElDaElFb2Y4X0YtZjgyeXk4aDVWMWNIREdCeWYwcnRJTTRjX3A2TTc2SWw4RXNYNmNzR0I1VDB6V3FRaldQRHdGZF84eXlRVkRSSV9ic29hWjZkRW53MGk4Y2dKUA?oc=5",
-        "source": "news.google.com",
-        "type": "news"
-      },
-      {
-        "date": "2026-02-25",
-        "title": "요아소비 보컬 이쿠타 리라, 5�� 단독 내한 콘서트…추가 공연 확정 - YTN",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGM29MNTM2d0RWQll2S2lLY2ROQTNFMHRBTlZTVEY5M0ltOEJab29fNFhTQmhrQThrSDc0OWE3NlBFamdybi05REJYNzROdzN3cTM4eU5rdE9MUGZzemfSAYMBQVVfeXFMUEYwbEUzVjU3ZXhxY3BUUXhCNjRxZHR6LVJDaUEzUXdaZUhEUWp2eG9CRTRfWjJXSUo2d0Rfd3NIVUFUbzVvc29VaDZUMlFIVXNqQXdxS2hWNWM5S0NPTUJsa3VkX0h1S2RHTzNZSWI1Vld2aEh4QnVlV2ZFbFZYak1HTTg?oc=5",
-        "source": "news.google.com",
-        "type": "news"
-      },
-      {
-        "date": "2026-01-08",
-        "title": "'요아소비 보컬'이 온다! 이쿠타 리라, 韓 첫 단독 콘서트 개최 - 전자신문",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4eXBHRThvSmhRN09vMHdWUWE0a0M5SGtIM0Z4WmJsc09fRFlNN05IZXV5UzRjUG54V3BXMU9vRmt2UEtFUk5fdDFDSGU4UQ?oc=5",
-        "source": "news.google.com",
-        "type": "news"
-      },
-      {
-        "date": "2025-12-24",
-        "title": "[앨범 리뷰] 지코, 이쿠라(요아소비) DUET - 브런치",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UTS11Tk9YOUdiYUNsR1FVYlRXSjJWNXdkQnljRFVyYlk5WFFfQWZEZlV6QVF1VktoTHJ6R2ZLMU9Jc2loV2RpUVBzT1VIZ1BaS0E?oc=5",
-        "source": "news.google.com",
+        "source": "google news",
+        "trust": 0.6,
+        "tier": "search",
         "type": "news"
       }
     ],
-    "last_merged": "2026-03-16T08:54:44.640Z"
+    "last_merged": "2026-03-16T08:58:02.417Z"
   },
   "weg": {
     "scraped_news": [
@@ -359,65 +461,99 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-03-16T08:54:32.930Z",
+    "last_scraped": "2026-03-16T08:57:46.857Z",
     "merged_news": [
       {
         "date": "2026-03-16",
         "title": "SPECIAL TICKET『抵抗と祝福の夜2026』\n                \n                \n                world&#39;s end girlfriend",
         "url": "https://virginbabylonrecords.bandcamp.com/album/special-ticket-2026",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "SONATINE\n                \n                \n                mizuirono_inu",
         "url": "https://virginbabylonrecords.bandcamp.com/album/sonatine",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "夜に沈む\n                \n                \n                Smany",
         "url": "https://virginbabylonrecords.bandcamp.com/album/--11",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "Effulgence\n                \n                \n                matryoshka",
         "url": "https://virginbabylonrecords.bandcamp.com/album/effulgence",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "DEATH RAVE\n                \n                \n                VMO a.k.a Violent Magic Orchestra",
         "url": "https://virginbabylonrecords.bandcamp.com/album/death-rave",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "Infinite Window\n                \n                \n                Rika Madobe",
         "url": "https://virginbabylonrecords.bandcamp.com/album/infinite-window",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "Resistance &amp; The Blessing\n                \n                \n                world&#39;s end girlfriend",
         "url": "https://virginbabylonrecords.bandcamp.com/album/resistance-the-blessing",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       },
       {
         "date": "2026-03-16",
         "title": "world wide wonderful world\n                \n                \n                bronbaba",
         "url": "https://virginbabylonrecords.bandcamp.com/album/world-wide-wonderful-world",
         "source": "virginbabylonrecords.bandcamp.com",
-        "type": "release"
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "The Summit Of The Gods\n                \n                \n                Kazuki Koga",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/the-summit-of-the-gods",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
+      },
+      {
+        "date": "2026-03-16",
+        "title": "VOCALOID STEW\n                \n                \n                でんの子P",
+        "url": "https://virginbabylonrecords.bandcamp.com/album/vocaloid-stew",
+        "source": "virginbabylonrecords.bandcamp.com",
+        "type": "release",
+        "trust": 1,
+        "tier": "official"
       }
     ],
-    "last_merged": "2026-03-16T08:54:45.885Z"
+    "last_merged": "2026-03-16T08:58:11.221Z"
   }
 }
