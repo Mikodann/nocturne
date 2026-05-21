@@ -112,24 +112,12 @@
         "type": "news"
       }
     ],
-    "last_scraped": "2026-05-21T11:05:03.299Z",
+    "last_scraped": "2026-05-21T23:05:02.413Z",
     "merged_news": [
       {
-        "date": "2026-05-20",
-        "title": "후쿠오카 티켓팅 방법 알려줘잉,, 뉴비,,",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80793&page=2",
-        "source": "dcinside 요루시카 갤 정보 · 정보",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "event",
-        "categoryHint": "community",
-        "galleryId": "yorushika",
-        "mode": "info"
-      },
-      {
-        "date": "2026-05-20",
-        "title": "스포) 시부야 이인칭전 후기",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80784&page=2",
+        "date": "2026-05-21",
+        "title": "아토가키 후기 결제했는데 왜 안뜨지?",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80888&page=1",
         "source": "dcinside 요루시카 갤 정보 · 정보",
         "trust": 0.4,
         "tier": "community",
@@ -137,6 +125,18 @@
         "categoryHint": "community",
         "galleryId": "yorushika",
         "mode": "info"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "메류 mv 천만 ㅊㅊㅊ",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80863&exception_mode=recommend&page=1",
+        "source": "dcinside 요루시카 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "release",
+        "categoryHint": "community",
+        "galleryId": "yorushika",
+        "mode": "recommend"
       },
       {
         "date": "2026-05-20",
@@ -222,18 +222,6 @@
       },
       {
         "date": "2026-05-18",
-        "title": "월요일 펍 관련 공지",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80714&page=2",
-        "source": "dcinside 요루시카 갤 정보 · 정보",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "yorushika",
-        "mode": "info"
-      },
-      {
-        "date": "2026-05-18",
         "title": "내가 없어도 잘 노는구나..",
         "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80719&exception_mode=recommend&page=1",
         "source": "dcinside 요루시카 갤 개념글 · 개념글",
@@ -275,18 +263,6 @@
         "tier": "community",
         "type": "news",
         "categoryHint": "community"
-      },
-      {
-        "date": "2026-05-17",
-        "title": "내일 완장들 둘다 내 옆에 앉히고",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80595&exception_mode=recommend&page=1",
-        "source": "dcinside 요루시카 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "yorushika",
-        "mode": "recommend"
       },
       {
         "date": "2026-05-17",
@@ -422,16 +398,6 @@
         "tier": "official"
       },
       {
-        "date": "2026-04-09",
-        "title": "【DIGITAL】Eve / 風のアンセム feat. suis from ヨルシカ - ヨルシカ OFFICIAL SITE",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qeTV3UlZQMzNVQWplSGxueWxIQlhJNS1BTE14NzhUdWNwSXZ4MXhyOUpackhvV2l3eE95dERJN0RYMFJTSUVsY3p0U05paS1Zb1dSaWI4TU9FSGc?oc=5",
-        "source": "yorushika.com",
-        "trust": 1,
-        "tier": "official",
-        "type": "news",
-        "categoryHint": "news"
-      },
-      {
         "date": "2026-04-03",
         "title": "ラジオ「Eve 真昼のアンセム」にsuisがゲスト出演。",
         "url": "https://yorushika.com/news/detail/11779",
@@ -486,6 +452,16 @@
         "type": "news",
         "trust": 1,
         "tier": "official"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "신곡 「아부쿠」가 TV 애니메이션 「LIAR GAME」OP 테마로 결정. - ヨルシカ OFFICIAL SITE",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YRUdTTWkwaWhKaHg2RG1sT0RpckpuN2w5cXBXWTJHNmJhbklnaEZMZXNrcmk1YUUwNDZxb3lMZHRwYkR3TGJ4UEtnM1RweXEtZHdnbGdFSWtOajQ?oc=5",
+        "source": "yorushika.com",
+        "trust": 1,
+        "tier": "official",
+        "type": "news",
+        "categoryHint": "news"
       },
       {
         "date": "2026-03-16",
@@ -615,7 +591,7 @@
       },
       {
         "date": "2026-03-05",
-        "title": "LIVE TOUR 2026「一人称」티켓 공식 트레이드 - ヨルシカ OFFICIAL SITE",
+        "title": "LIVE TOUR 2026「���人称」티켓 공식 트레이드 - ヨルシカ OFFICIAL SITE",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YdHptczhvWkd2Z21IU3NBeTVyZ2Q5ekx4RXpJWVppTEFQZkJrUXhIM1JpZ0RXM3hCSXNuYUVtQ2NDRllJTThWRjFxRTlpeUx5ZEtBVGlWVlA0eW8?oc=5",
         "source": "yorushika.com",
         "trust": 1,
@@ -735,7 +711,7 @@
       },
       {
         "date": "2026-01-27",
-        "title": "서간형 소설 「2인칭」을 2026년 2월 26일(목)에 코단샤에서 발매. (1/27 갱���) - ヨルシカ OFFICIAL SITE",
+        "title": "서간형 소설 「2인칭」을 2026년 2월 26일(목)에 코단샤에서 발매. (1/27 갱신) - ヨルシカ OFFICIAL SITE",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPS1gzQlJGdnh6Sm1ObXZOUVpKbFlpa2FNczVkTzFkaFV6ZmtjTEY4Wmo4M18yUEhSOC1WUHhPNHphXy0xNFB1RWMxLWxnTWhBUUdlbG52QkZtcjg?oc=5",
         "source": "yorushika.com",
         "trust": 1,
@@ -754,7 +730,7 @@
         "categoryHint": "release"
       }
     ],
-    "last_merged": "2026-05-21T11:05:38.140Z",
+    "last_merged": "2026-05-21T23:05:34.745Z",
     "categorized": {
       "news": [
         {
@@ -788,16 +764,6 @@
           "date": "2026-04-22",
           "title": "OFFICIAL SITE - ヨルシカ OFFICIAL SITE",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54LWVoZzVFeTdscVNKa201U0VKSTVuRzRjTS13dzRYVS14YTVBNzM5Nldhc0hqNUtMY1hCamwwMlI1RGJETll6LTdyRkpaMUpYeXc4cFVDTFFEYkstSEhWNUlrdm1jcmxSWTF6VTNn?oc=5",
-          "source": "yorushika.com",
-          "trust": 1,
-          "tier": "official",
-          "type": "news",
-          "categoryHint": "news"
-        },
-        {
-          "date": "2026-04-09",
-          "title": "【DIGITAL】Eve / 風のアンセム feat. suis from ヨルシカ - ヨルシカ OFFICIAL SITE",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qeTV3UlZQMzNVQWplSGxueWxIQlhJNS1BTE14NzhUdWNwSXZ4MXhyOUpackhvV2l3eE95dERJN0RYMFJTSUVsY3p0U05paS1Zb1dSaWI4TU9FSGc?oc=5",
           "source": "yorushika.com",
           "trust": 1,
           "tier": "official",
@@ -839,6 +805,16 @@
           "type": "news",
           "trust": 1,
           "tier": "official"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "신곡 「아부쿠」가 TV 애니메이션 「LIAR GAME」OP 테마로 결정. - ヨルシカ OFFICIAL SITE",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YRUdTTWkwaWhKaHg2RG1sT0RpckpuN2w5cXBXWTJHNmJhbklnaEZMZXNrcmk1YUUwNDZxb3lMZHRwYkR3TGJ4UEtnM1RweXEtZHdnbGdFSWtOajQ?oc=5",
+          "source": "yorushika.com",
+          "trust": 1,
+          "tier": "official",
+          "type": "news",
+          "categoryHint": "news"
         },
         {
           "date": "2026-03-13",
@@ -952,6 +928,18 @@
       ],
       "releases": [
         {
+          "date": "2026-05-21",
+          "title": "메류 mv 천만 ㅊㅊㅊ",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80863&exception_mode=recommend&page=1",
+          "source": "dcinside 요루시카 갤 개념글 · 개념글",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "release",
+          "categoryHint": "community",
+          "galleryId": "yorushika",
+          "mode": "recommend"
+        },
+        {
           "date": "2026-05-17",
           "title": "I made a music video/animatic for Gogatsu wa Hanarokushou no Madobe Kara!",
           "url": "https://www.reddit.com/r/Yorushika/comments/1tfh3up/i_made_a_music_videoanimatic_for_gogatsu_wa/",
@@ -1024,21 +1012,9 @@
       ],
       "community": [
         {
-          "date": "2026-05-20",
-          "title": "후쿠오카 티켓팅 방법 알려줘잉,, 뉴비,,",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80793&page=2",
-          "source": "dcinside 요루시카 갤 정보 · 정보",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "event",
-          "categoryHint": "community",
-          "galleryId": "yorushika",
-          "mode": "info"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "스포) 시부야 이인칭전 후기",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80784&page=2",
+          "date": "2026-05-21",
+          "title": "아토가키 후기 결제했는데 왜 안뜨지?",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80888&page=1",
           "source": "dcinside 요루시카 갤 정보 · 정보",
           "trust": 0.4,
           "tier": "community",
@@ -1046,6 +1022,18 @@
           "categoryHint": "community",
           "galleryId": "yorushika",
           "mode": "info"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "메류 mv 천만 ㅊㅊㅊ",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80863&exception_mode=recommend&page=1",
+          "source": "dcinside 요루시카 갤 개념글 · 개념글",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "release",
+          "categoryHint": "community",
+          "galleryId": "yorushika",
+          "mode": "recommend"
         },
         {
           "date": "2026-05-20",
@@ -1131,15 +1119,15 @@
         },
         {
           "date": "2026-05-18",
-          "title": "월요일 펍 관련 공지",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80714&page=2",
-          "source": "dcinside 요루시카 갤 정보 · 정보",
+          "title": "내가 없어도 잘 노는구나..",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yorushika&no=80719&exception_mode=recommend&page=1",
+          "source": "dcinside 요루시카 갤 개념글 · 개념글",
           "trust": 0.4,
           "tier": "community",
           "type": "news",
           "categoryHint": "community",
           "galleryId": "yorushika",
-          "mode": "info"
+          "mode": "recommend"
         }
       ]
     }
@@ -1252,9 +1240,57 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-05-21T11:05:04.597Z",
+    "last_scraped": "2026-05-21T23:05:03.822Z",
     "merged_news": [
       {
+        "date": "2026-05-22",
+        "title": "크리무쨩 생일축하해",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428879&exception_mode=recommend&page=1",
+        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community",
+        "galleryId": "zuttomayo",
+        "mode": "recommend"
+      },
+      {
+        "date": "2026-05-22",
+        "title": "즛갤에 낙서를 또 싸기",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428875&exception_mode=recommend&page=1",
+        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community",
+        "galleryId": "zuttomayo",
+        "mode": "recommend"
+      },
+      {
+        "date": "2026-05-22",
+        "title": "크림생일축하해~~",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428856&exception_mode=recommend&page=1",
+        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community",
+        "galleryId": "zuttomayo",
+        "mode": "recommend"
+      },
+      {
+        "date": "2026-05-22",
+        "title": "크림",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428806&exception_mode=recommend&page=1",
+        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community",
+        "galleryId": "zuttomayo",
+        "mode": "recommend"
+      },
+      {
         "date": "2026-05-21",
         "title": "[릴리즈] RELEASE",
         "url": "https://zutomayo.net/release/",
@@ -1274,51 +1310,13 @@
       },
       {
         "date": "2026-05-21",
-        "title": "간만에 장식장 정리해씀",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428647&page=1",
-        "source": "dcinside 즛토마요 갤 정보 · 정보",
+        "title": "how does the reservation system at pop ups work?",
+        "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1tjqsi4/how_does_the_reservation_system_at_pop_ups_work/",
+        "source": "reddit r/ZutoMayo",
         "trust": 0.4,
         "tier": "community",
         "type": "news",
-        "categoryHint": "community",
-        "galleryId": "zuttomayo",
-        "mode": "info"
-      },
-      {
-        "date": "2026-05-21",
-        "title": "랏도 트리뷰트로 유심론 해줘서 좋긴한데",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428637&page=2",
-        "source": "dcinside 즛토마요 갤 정보 · 정보",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "zuttomayo",
-        "mode": "info"
-      },
-      {
-        "date": "2026-05-21",
-        "title": "봉봉니라 낙서",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428645&exception_mode=recommend&page=1",
-        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "zuttomayo",
-        "mode": "recommend"
-      },
-      {
-        "date": "2026-05-21",
-        "title": "미라보니라",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428516&exception_mode=recommend&page=1",
-        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "zuttomayo",
-        "mode": "recommend"
+        "categoryHint": "community"
       },
       {
         "date": "2026-05-20",
@@ -1337,30 +1335,6 @@
         "type": "release",
         "trust": 1,
         "tier": "official"
-      },
-      {
-        "date": "2026-05-20",
-        "title": "결석 쉽게 없애는법",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428509&exception_mode=recommend&page=1",
-        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "zuttomayo",
-        "mode": "recommend"
-      },
-      {
-        "date": "2026-05-20",
-        "title": "즛토마요 플레이리스트 월페이퍼 1.0",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428500&exception_mode=recommend&page=1",
-        "source": "dcinside 즛토마요 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community",
-        "galleryId": "zuttomayo",
-        "mode": "recommend"
       },
       {
         "date": "2026-05-19",
@@ -1527,16 +1501,6 @@
         "categoryHint": "community"
       },
       {
-        "date": "2026-05-04",
-        "title": "Made A ZTMY Album in Tomadachi Life",
-        "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1t3oojk/made_a_ztmy_album_in_tomadachi_life/",
-        "source": "reddit r/ZutoMayo",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "release",
-        "categoryHint": "community"
-      },
-      {
         "date": "2026-05-02",
         "title": "ZUTOMAYO at Union Hall 1, Bangkok, Thailand",
         "url": "https://www.setlist.fm/setlist/zutomayo/2026/union-hall-1-bangkok-thailand-1340c94d.html",
@@ -1698,16 +1662,6 @@
       },
       {
         "date": "2026-03-16",
-        "title": "즛토마요, 두 번째 내한공연도 성료…정규 4집 수록곡 공개 - 뉴시스",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hRkF2Tmk0Z2xCVnpVTl9CZHVoR1VyNkVWa2hZLXluWURfZ1BiUTZ1UmFzaXpZelVXY1hxR2pJc2xWVjJJamFBZW1xWDVqc2R3TVFYSGVmUU5jYXNFbFZFdNIBeEFVX3lxTE4yU1JVbVJPdHNmbWxqZXFYR2RiaEJaZFBGX1MzZGVLOXJrS3dmTk5kYS1sZnRhX2RRZURtZEd2OE42OTJwTHFBcV8tclNZOWNWSHVSbWdCS09KZjBtS0xiZTZnbHIteEhkS0hCdWtqcUdwNmlvT3NyNw?oc=5",
-        "source": "event search ko",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "event",
-        "categoryHint": "event"
-      },
-      {
-        "date": "2026-03-16",
         "title": "‘ 대세 밴드’ 즛토마요, 단독 내한 콘서트 성료…장르 넘나드는 사운드의 향연 - 전국도민뉴스",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JNmd1bWlTdTRtSl9kSmJXb3VvSnNkUGFuTXBycnp6TFJGc0UtWlJVYzFUUHpqYUthcUxYbzN1S2hPZ2Z1R2tMQnpubW5RMjZxa29ZNlNWejhPelR2bElleHlpaS0wTjZlUFltSGdB?oc=5",
         "source": "event search ko",
@@ -1725,16 +1679,6 @@
         "tier": "platform",
         "type": "event",
         "categoryHint": "event"
-      },
-      {
-        "date": "2026-03-16",
-        "title": "즛토마요, 두 번째 내한공연도 성료…정규 4집 수록곡 공개 - 뉴시스",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hRkF2Tmk0Z2xCVnpVTl9CZHVoR1VyNkVWa2hZLXluWURfZ1BiUTZ1UmFzaXpZelVXY1hxR2pJc2xWVjJJamFBZW1xWDVqc2R3TVFYSGVmUU5jYXNFbFZFdNIBeEFVX3lxTE4yU1JVbVJPdHNmbWxqZXFYR2RiaEJaZFBGX1MzZGVLOXJrS3dmTk5kYS1sZnRhX2RRZURtZEd2OE42OTJwTHFBcV8tclNZOWNWSHVSbWdCS09KZjBtS0xiZTZnbHIteEhkS0hCdWtqcUdwNmlvT3NyNw?oc=5",
-        "source": "google news ko",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "news",
-        "categoryHint": "news"
       },
       {
         "date": "2026-03-16",
@@ -1767,6 +1711,36 @@
         "tier": "search",
         "type": "news",
         "categoryHint": "news"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1VQ2xyZWhkZFBKcW9UY2pVbDZOTWlldlJ2NGFoYVlKcDFwV2VsU29sZUVpeHRvZGhRUFhaY0x0NjdVcVE?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
+        "type": "news",
+        "categoryHint": "news"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1VQ2xyZWhkZFBKcW9UY2pVbDZOTWlldlJ2NGFoYVlKcDFwV2VsU29sZUVpeHRvZGhRUFhaY0x0NjdVcVE?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
+        "type": "event",
+        "categoryHint": "event"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1VQ2xyZWhkZFBKcW9UY2pVbDZOTWlldlJ2NGFoYVlKcDFwV2VsU29sZUVpeHRvZGhRUFhaY0x0NjdVcVE?oc=5",
+        "source": "zutomayo.net",
+        "trust": 1,
+        "tier": "official",
+        "type": "release",
+        "categoryHint": "release"
       },
       {
         "date": "2026-02-21",
@@ -1802,6 +1776,16 @@
       },
       {
         "date": "2026-01-13",
+        "title": "아카네 즛토마요, 두 번째 내한공연…1년9개월 만에 - 뉴시스",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wQzFTUmMyMl9oeTVNeDVRTmdjYkdCX0g5QzBmcFJGaXQ2MDJiREMzX2ZhVEQxZkFtSGxZbDRjOXdaaFFNcTN0RGtGcjBqeG90UGFILVZiNlNqZVpyT2I0UNIBeEFVX3lxTE9fNmxadm5qRUs2amtzSWdTSTctZ1FtSU95cDdlWi1fZ04xM3lJRElBY05zeXowbWh1cGI2SzhEbXM2c1VfNkJ2ZU9mVGl0RHJSU0RzTnNWRmJBRDNyVDQ3QnpyV0hYZnJRdEZpVFluaTRlZlZiREJzZw?oc=5",
+        "source": "event search ko",
+        "trust": 0.75,
+        "tier": "platform",
+        "type": "event",
+        "categoryHint": "event"
+      },
+      {
+        "date": "2026-01-13",
         "title": "'3월 내한공연' 즛토마요, 전 회차 매진…티켓 파워 입증 - 더게이트",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XN1I3Z081NHA5TWo3bF9pSGM1eWtyOENNSm9Xb1pqSTY3Wml2c0tLMl9wUjBkMV9QYlJSTmVCcDhNSTRnN0FlMGdiM3B4eDFEa01VZ1gzNHZ3V2tZdWRRRGE4RFgyNk910gFsQVVfeXFMT2YtWkVZbmpIOG1yUVRBMUNWZ05nLTZNLTcxMFFCMlduNEVDWnhCdkZrVFVGejVsS3U1SWFGQkQ2NlFmRWVTQTB4NHhyY08yQXJNOHpZSmlfY2daX2NKOVpBaWtJSnNmYzJfSnAw?oc=5",
         "source": "event search ko",
@@ -1822,8 +1806,8 @@
       },
       {
         "date": "2026-01-13",
-        "title": "아카네 즛토마요, 두 번째 내한공연…1년9개월 만에 - 뉴시스",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wQzFTUmMyMl9oeTVNeDVRTmdjYkdCX0g5QzBmcFJGaXQ2MDJiREMzX2ZhVEQxZkFtSGxZbDRjOXdaaFFNcTN0RGtGcjBqeG90UGFILVZiNlNqZVpyT2I0UNIBeEFVX3lxTE9fNmxadm5qRUs2amtzSWdTSTctZ1FtSU95cDdlWi1fZ04xM3lJRElBY05zeXowbWh1cGI2SzhEbXM2c1VfNkJ2ZU9mVGl0RHJSU0RzTnNWRmJBRDNyVDQ3QnpyV0hYZnJRdEZpVFluaTRlZlZiREJzZw?oc=5",
+        "title": "'日 대세 밴드' 즛토마요, 내한 공연 전석매진…압도적 티켓 파워 - v.daum.net",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1SDVfUTVHX2FNQnNwQWVTR1pnM2tKRTJqV2lKbWpmRUhpb3Nua0dhTVo5cU5DRmhlWExYWnZzMGt0bUdRS1E?oc=5",
         "source": "event search ko",
         "trust": 0.75,
         "tier": "platform",
@@ -1832,8 +1816,8 @@
       },
       {
         "date": "2026-01-13",
-        "title": "즛토마요, 고려대 화정체육관 2회차 공연 전석매진 - 싱글리스트",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6dTNIdDFralBoOWNOX1VmNlZIeVpIRVVzSkdNS1g0U3RLQ2xCMU16Y2RFc2RoTUV4UjdsT2M4Q21taUJDdlUtUFRjU3Brai1DNWVRZFNDZ0hLdGQ5RmwxVjlQZDNhQQ?oc=5",
+        "title": "‘日 대세 밴드’ 즛토마요, 내한 콘서트 전 회차 매진 - JTBC",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05bWk3aHJhNkYyS19MeXNZTFRqUWJ3U1VyWml2UlN0dUtzZjRJMFNXQkZkNENld2w3NjJPY2ppYUJTX0NKVzBOdVAxRFByR2ZPY21oWQ?oc=5",
         "source": "event search",
         "trust": 0.75,
         "tier": "platform",
@@ -1842,26 +1826,16 @@
       },
       {
         "date": "2026-01-13",
-        "title": "‘ It band’ ZUTOMAYO, all dates of their Korea concerts sold out! - 스���츠경향",
+        "title": "‘ It band’ ZUTOMAYO, all dates of their Korea concerts sold out! - 스포츠경향",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPV1FWMHFWT3V6OW1fdHI3dC1mMkNSTy02eHpmdklSa1ZHOUpObmgwV2gwdzRiUDU1MVdOQkxpbzFGRW12cTNPTWlHYUs0NWFKSXNrbmo4aExVcTBhY3ZvamhB?oc=5",
         "source": "google news",
         "trust": 0.6,
         "tier": "search",
         "type": "news",
         "categoryHint": "news"
-      },
-      {
-        "date": "2026-01-13",
-        "title": "'日 대세 밴드' 즛토마요, 내한 공연 전석매진…압도적 티켓 파워 - v.daum.net",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1SDVfUTVHX2FNQnNwQWVTR1pnM2tKRTJqV2lKbWpmRUhpb3Nua0dhTVo5cU5DRmhlWExYWnZzMGt0bUdRS1E?oc=5",
-        "source": "google news ko",
-        "trust": 0.6,
-        "tier": "search",
-        "type": "news",
-        "categoryHint": "news"
       }
     ],
-    "last_merged": "2026-05-21T11:05:45.968Z",
+    "last_merged": "2026-05-21T23:05:42.061Z",
     "categorized": {
       "news": [
         {
@@ -1885,22 +1859,22 @@
           "categoryHint": "news"
         },
         {
-          "date": "2026-03-16",
-          "title": "즛토마요, 두 번째 내한공연도 성료…정규 4집 수록곡 공개 - 뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hRkF2Tmk0Z2xCVnpVTl9CZHVoR1VyNkVWa2hZLXluWURfZ1BiUTZ1UmFzaXpZelVXY1hxR2pJc2xWVjJJamFBZW1xWDVqc2R3TVFYSGVmUU5jYXNFbFZFdNIBeEFVX3lxTE4yU1JVbVJPdHNmbWxqZXFYR2RiaEJaZFBGX1MzZGVLOXJrS3dmTk5kYS1sZnRhX2RRZURtZEd2OE42OTJwTHFBcV8tclNZOWNWSHVSbWdCS09KZjBtS0xiZTZnbHIteEhkS0hCdWtqcUdwNmlvT3NyNw?oc=5",
-          "source": "google news ko",
-          "trust": 0.6,
-          "tier": "search",
-          "type": "news",
-          "categoryHint": "news"
-        },
-        {
           "date": "2026-03-06",
           "title": "페르소나3 리로드 2주년을 기념하는 ZUTOMAYO 매시업 MV 조회수 600만 돌파! - 디스이즈게임",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZVXcxdDZPQ1pmSUVPbWkwWW5vOEdSLV9pNFMyRnZLd1JacGxoV1hfQ01pUXFIREFuNWtseGR5MHBYYWdhVmdzVm8ydUVVdXpIYThGaw?oc=5",
           "source": "google news",
           "trust": 0.6,
           "tier": "search",
+          "type": "news",
+          "categoryHint": "news"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1VQ2xyZWhkZFBKcW9UY2pVbDZOTWlldlJ2NGFoYVlKcDFwV2VsU29sZUVpeHRvZGhRUFhaY0x0NjdVcVE?oc=5",
+          "source": "zutomayo.net",
+          "trust": 1,
+          "tier": "official",
           "type": "news",
           "categoryHint": "news"
         },
@@ -1916,19 +1890,9 @@
         },
         {
           "date": "2026-01-13",
-          "title": "‘ It band’ ZUTOMAYO, all dates of their Korea concerts sold out! - 스���츠경향",
+          "title": "‘ It band’ ZUTOMAYO, all dates of their Korea concerts sold out! - 스포츠경향",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPV1FWMHFWT3V6OW1fdHI3dC1mMkNSTy02eHpmdklSa1ZHOUpObmgwV2gwdzRiUDU1MVdOQkxpbzFGRW12cTNPTWlHYUs0NWFKSXNrbmo4aExVcTBhY3ZvamhB?oc=5",
           "source": "google news",
-          "trust": 0.6,
-          "tier": "search",
-          "type": "news",
-          "categoryHint": "news"
-        },
-        {
-          "date": "2026-01-13",
-          "title": "'日 대세 밴드' 즛토마요, 내한 공연 전석매진…압도적 티켓 파워 - v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1SDVfUTVHX2FNQnNwQWVTR1pnM2tKRTJqV2lKbWpmRUhpb3Nua0dhTVo5cU5DRmhlWExYWnZzMGt0bUdRS1E?oc=5",
-          "source": "google news ko",
           "trust": 0.6,
           "tier": "search",
           "type": "news",
@@ -2048,16 +2012,6 @@
           "tier": "official"
         },
         {
-          "date": "2026-05-04",
-          "title": "Made A ZTMY Album in Tomadachi Life",
-          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1t3oojk/made_a_ztmy_album_in_tomadachi_life/",
-          "source": "reddit r/ZutoMayo",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "release",
-          "categoryHint": "community"
-        },
-        {
           "date": "2026-03-17",
           "title": "‘ It band’ ZUTOMAYO, successfully concludes a solo Korea concert - 스포츠경향",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RNUYzNmREU01NcTNFVDRnTGNjUGw2VWdWalVnVjB6ZFB1dHFHalJrclhyVW9pOEhVVTJHRXQ4MTlDcGNpTFhvVzNhazZUektTS3pQWm5IUFlDbWk4WklnUDB3?oc=5",
@@ -2076,38 +2030,60 @@
           "tier": "search",
           "type": "release",
           "categoryHint": "release"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "ずっと真夜中でいいのに。ZUTOMAYO - zutomayo.net",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1VQ2xyZWhkZFBKcW9UY2pVbDZOTWlldlJ2NGFoYVlKcDFwV2VsU29sZUVpeHRvZGhRUFhaY0x0NjdVcVE?oc=5",
+          "source": "zutomayo.net",
+          "trust": 1,
+          "tier": "official",
+          "type": "release",
+          "categoryHint": "release"
         }
       ],
       "goods": [],
       "community": [
         {
-          "date": "2026-05-21",
-          "title": "간만에 장식장 정리해씀",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428647&page=1",
-          "source": "dcinside 즛토마요 갤 정보 · 정보",
+          "date": "2026-05-22",
+          "title": "크리무쨩 생일축하해",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428879&exception_mode=recommend&page=1",
+          "source": "dcinside 즛토마요 갤 개념글 · 개념글",
           "trust": 0.4,
           "tier": "community",
           "type": "news",
           "categoryHint": "community",
           "galleryId": "zuttomayo",
-          "mode": "info"
+          "mode": "recommend"
         },
         {
-          "date": "2026-05-21",
-          "title": "랏도 트리뷰트로 유심론 해줘서 좋긴한데",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428637&page=2",
-          "source": "dcinside 즛토마요 갤 정보 · 정보",
+          "date": "2026-05-22",
+          "title": "즛갤에 낙서를 또 싸기",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428875&exception_mode=recommend&page=1",
+          "source": "dcinside 즛토마요 갤 개념글 · 개념글",
           "trust": 0.4,
           "tier": "community",
           "type": "news",
           "categoryHint": "community",
           "galleryId": "zuttomayo",
-          "mode": "info"
+          "mode": "recommend"
         },
         {
-          "date": "2026-05-21",
-          "title": "봉봉니라 낙서",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428645&exception_mode=recommend&page=1",
+          "date": "2026-05-22",
+          "title": "크림생일축하해~~",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428856&exception_mode=recommend&page=1",
+          "source": "dcinside 즛토마요 갤 개념글 · 개념글",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community",
+          "galleryId": "zuttomayo",
+          "mode": "recommend"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "크림",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428806&exception_mode=recommend&page=1",
           "source": "dcinside 즛토마요 갤 개념글 · 개념글",
           "trust": 0.4,
           "tier": "community",
@@ -2118,39 +2094,13 @@
         },
         {
           "date": "2026-05-21",
-          "title": "미라보니라",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428516&exception_mode=recommend&page=1",
-          "source": "dcinside 즛토마요 갤 개념글 · 개념글",
+          "title": "how does the reservation system at pop ups work?",
+          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1tjqsi4/how_does_the_reservation_system_at_pop_ups_work/",
+          "source": "reddit r/ZutoMayo",
           "trust": 0.4,
           "tier": "community",
           "type": "news",
-          "categoryHint": "community",
-          "galleryId": "zuttomayo",
-          "mode": "recommend"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "결석 쉽게 없애는법",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428509&exception_mode=recommend&page=1",
-          "source": "dcinside 즛토마요 갤 개념글 · 개념글",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news",
-          "categoryHint": "community",
-          "galleryId": "zuttomayo",
-          "mode": "recommend"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "즛토마요 플레이리스트 월페이퍼 1.0",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=zuttomayo&no=428500&exception_mode=recommend&page=1",
-          "source": "dcinside 즛토마요 갤 개념글 · 개념글",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news",
-          "categoryHint": "community",
-          "galleryId": "zuttomayo",
-          "mode": "recommend"
+          "categoryHint": "community"
         },
         {
           "date": "2026-05-18",
@@ -2191,6 +2141,16 @@
           "tier": "community",
           "type": "news",
           "categoryHint": "community"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "New (Late) Zutomayo Tierlist",
+          "url": "https://www.reddit.com/r/ZUTOMAYO/comments/1tcing0/new_late_zutomayo_tierlist/",
+          "source": "reddit r/ZutoMayo",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
         }
       ]
     }
@@ -2199,6 +2159,52 @@
     "scraped_news": [],
     "last_scraped": null,
     "merged_news": [
+      {
+        "date": "2026-05-21",
+        "title": "양일 티켓꽂이 나눔 합니다",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yoasobi&no=86148&exception_mode=recommend&page=1",
+        "source": "dcinside 요아소비 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "event",
+        "categoryHint": "community",
+        "galleryId": "yoasobi",
+        "mode": "recommend"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "나눔 최종 공지 (24일)",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1593&page=1",
+        "source": "dcinside 이쿠타 리라 갤 정보 · 정보",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community",
+        "galleryId": "lilas",
+        "mode": "info"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "티켓꽂이 나눔 예정입니다!",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1582&exception_mode=recommend&page=1",
+        "source": "dcinside 이쿠타 리라 갤 개념글 · 개념글",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "event",
+        "categoryHint": "community",
+        "galleryId": "lilas",
+        "mode": "recommend"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "Lilas LIVE TOUR 2026 “Laugh” in Kobe - Behind",
+        "url": "https://www.reddit.com/r/YOASOBI/comments/1tjtec1/lilas_live_tour_2026_laugh_in_kobe_behind/",
+        "source": "reddit r/YOASOBI",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "event",
+        "categoryHint": "community"
+      },
       {
         "date": "2026-05-20",
         "title": "리라 내한 이벤트 최종공지",
@@ -2398,16 +2404,6 @@
         "mode": "recommend"
       },
       {
-        "date": "2026-05-14",
-        "title": "Yoasobi's Idol confirmed for Forza Horizon 6 game",
-        "url": "https://www.reddit.com/r/YOASOBI/comments/1td4ttk/yoasobis_idol_confirmed_for_forza_horizon_6_game/",
-        "source": "reddit r/YOASOBI",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community"
-      },
-      {
         "date": "2026-05-13",
         "title": "J-POP 아이콘이 온다, 오버워치 '요아소비’ 콜라보 예고 - 게임플",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zM1pNTXdMbko3cWdRRFV2VS1UUi0tNXMwb0QxRFZKWnIxVWl0dEJlWUdhaG5aZTRsNW45UW5JWlZabHJmOE1DNVVJSGpTdF9xaDFIRmgwZkhzdGozNmMxVU5TZE9sNDhhQXZZbw?oc=5",
@@ -2437,18 +2433,6 @@
         "trust": 0.4,
         "tier": "community",
         "type": "news",
-        "categoryHint": "community",
-        "galleryId": "yoasobi",
-        "mode": "recommend"
-      },
-      {
-        "date": "2026-05-10",
-        "title": "리라 내한 나눔합니다",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=yoasobi&no=85983&exception_mode=recommend&page=1",
-        "source": "dcinside 요아소비 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "event",
         "categoryHint": "community",
         "galleryId": "yoasobi",
         "mode": "recommend"
@@ -2533,18 +2517,6 @@
         "trust": 0.4,
         "tier": "community",
         "type": "event",
-        "categoryHint": "community",
-        "galleryId": "lilas",
-        "mode": "recommend"
-      },
-      {
-        "date": "2026-05-03",
-        "title": "양일 나눔 예정",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1434&exception_mode=recommend&page=1",
-        "source": "dcinside 이쿠타 리라 갤 개념글 · 개념글",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
         "categoryHint": "community",
         "galleryId": "lilas",
         "mode": "recommend"
@@ -2693,16 +2665,6 @@
       },
       {
         "date": "2026-01-15",
-        "title": "요아소비 보컬' 이쿠타 리라, \"첫 해외 공연 한국서 열게 되어 기뻐\" - 네이트",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wTWJCZmE5TmxCbkhRaU93dkIzNENBOVVQT1JIb3hhRkFDM1V6UThBSVhKZ3h1RHRUOUFXQllkbk5WZURmcFJjTVM1MVhTd05fZzNn?oc=5",
-        "source": "event search",
-        "trust": 0.75,
-        "tier": "platform",
-        "type": "event",
-        "categoryHint": "event"
-      },
-      {
-        "date": "2026-01-15",
         "title": "日 대세 싱어송라이터 이쿠타 리라(YOASOBI) 첫 내한 공연 _ 자투리 문화 소식 - 자투리경제",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KT2dnQm93czRrMHluUnNWclZ0WUNiN0VWQzV6NFNYQ08zRWM4TzRuanBYc2kwdC1Tb3dqS3RFeHM2SVB0MnM5VHAwZTZTNXhELW9mZTIzOVhqR25lMzJfY3Nmc3I3UQ?oc=5",
         "source": "event search ko",
@@ -2713,8 +2675,8 @@
       },
       {
         "date": "2026-01-15",
-        "title": "'요아소비' 이쿠타 리라 \"내한 공연 기뻐, 한국어 열심히 연습 중\" [일문일답] - iMBC 연예",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IQlBUbVc2VmNsb0tWZXQ3Q0FTZWl3aWFGQ3RUQUVnOWVUSG1tdWZwN3E0TmFiak13SzlFQThVX3lfVlF3TURHVlNFd2VJMFRZRUNnVGh5ZUp0R21jbFVOdw?oc=5",
+        "title": "요아소비 이쿠타 리라, 내한공연 소감 - bntnews.co.kr",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vWkVweXYyZzY5aVItTGNYbGxicU9WVG54Vmd2amdkVXlzei1nOGU4Qjd0S3VkRmFad1QwZDNicTY5cDU2Y1l0d1BUX3dzeXVmcWZ5dFFJeG14QzBieHpWVmNFdkg?oc=5",
         "source": "event search ko",
         "trust": 0.75,
         "tier": "platform",
@@ -2833,9 +2795,9 @@
       },
       {
         "date": "2026-01-08",
-        "title": "'최애의 아이' 요아소비 이쿠타 리라, 5월 첫 솔로 내한공연 \"첫 해외 단독\" - 뉴시스",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lU19TNE1ROUdGeXZLNXhmU0ZIUzE2Q19KSHY0ZUFSRlV0bURVZ1kyUFJTWDFrVDN3MS14SjAzNzNZd2JBcjB0VFpZUUF6WWZSTjFPWnFXdHk3XzY2Y3M4aNIBeEFVX3lxTE1naGpRUjRwWnpTMmNzTUQ3LTlUQjFMNE1iTnJCUm8zNzdrVnRob0pHZ2RnZFlmZnU2MWUtMXZMSC1zcWZ6dDdzRXRIZVpyTlVodkJNNEJnVDJXSDQ5WEZmb2F0bzA3SDQxZEZyaTJHNnVKLTMwaEJEZQ?oc=5",
-        "source": "google news",
+        "title": "[공지] 'Lilas LIVE TOUR 2026 “Laugh” in S - Weverse",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXbDBzNVlhOHgwRkN3NlhyUVRDX1RhMnMwQWcxMVY2ZmFwMUdWNS04SkNXYUVLU2ZSZ3QyRVVxMjJCTHdnbkFMaEwwUlNaWTYyV242OUpn?oc=5",
+        "source": "ikura solo news",
         "trust": 0.6,
         "tier": "search",
         "type": "news",
@@ -2862,7 +2824,7 @@
         "categoryHint": "goods"
       }
     ],
-    "last_merged": "2026-05-21T11:05:29.745Z",
+    "last_merged": "2026-05-21T23:05:27.833Z",
     "categorized": {
       "news": [
         {
@@ -2907,9 +2869,9 @@
         },
         {
           "date": "2026-01-08",
-          "title": "'최애의 아이' 요아소비 이쿠타 리라, 5월 첫 솔로 내한공연 \"첫 해외 단독\" - 뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lU19TNE1ROUdGeXZLNXhmU0ZIUzE2Q19KSHY0ZUFSRlV0bURVZ1kyUFJTWDFrVDN3MS14SjAzNzNZd2JBcjB0VFpZUUF6WWZSTjFPWnFXdHk3XzY2Y3M4aNIBeEFVX3lxTE1naGpRUjRwWnpTMmNzTUQ3LTlUQjFMNE1iTnJCUm8zNzdrVnRob0pHZ2RnZFlmZnU2MWUtMXZMSC1zcWZ6dDdzRXRIZVpyTlVodkJNNEJnVDJXSDQ5WEZmb2F0bzA3SDQxZEZyaTJHNnVKLTMwaEJEZQ?oc=5",
-          "source": "google news",
+          "title": "[공지] 'Lilas LIVE TOUR 2026 “Laugh” in S - Weverse",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXbDBzNVlhOHgwRkN3NlhyUVRDX1RhMnMwQWcxMVY2ZmFwMUdWNS04SkNXYUVLU2ZSZ3QyRVVxMjJCTHdnbkFMaEwwUlNaWTYyV242OUpn?oc=5",
+          "source": "ikura solo news",
           "trust": 0.6,
           "tier": "search",
           "type": "news",
@@ -3158,6 +3120,52 @@
       ],
       "community": [
         {
+          "date": "2026-05-21",
+          "title": "양일 티켓꽂이 나눔 합니다",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=yoasobi&no=86148&exception_mode=recommend&page=1",
+          "source": "dcinside 요아소비 갤 개념글 · 개념글",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "event",
+          "categoryHint": "community",
+          "galleryId": "yoasobi",
+          "mode": "recommend"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "나눔 최종 공지 (24일)",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1593&page=1",
+          "source": "dcinside 이쿠타 리라 갤 정보 · 정보",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community",
+          "galleryId": "lilas",
+          "mode": "info"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "티켓꽂이 나눔 예정입니다!",
+          "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1582&exception_mode=recommend&page=1",
+          "source": "dcinside 이쿠타 리라 갤 개념글 · 개념글",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "event",
+          "categoryHint": "community",
+          "galleryId": "lilas",
+          "mode": "recommend"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Lilas LIVE TOUR 2026 “Laugh” in Kobe - Behind",
+          "url": "https://www.reddit.com/r/YOASOBI/comments/1tjtec1/lilas_live_tour_2026_laugh_in_kobe_behind/",
+          "source": "reddit r/YOASOBI",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "event",
+          "categoryHint": "community"
+        },
+        {
           "date": "2026-05-20",
           "title": "리라 내한 이벤트 최종공지",
           "url": "https://gall.dcinside.com/mgallery/board/view/?id=yoasobi&no=86136&page=1",
@@ -3224,50 +3232,6 @@
           "categoryHint": "community",
           "galleryId": "yoasobi",
           "mode": "info"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "이쿠타 리라 내한 콘서트 MD 정보",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1562&page=1",
-          "source": "dcinside 이쿠타 리라 갤 정보 · 정보",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "event",
-          "categoryHint": "community",
-          "galleryId": "lilas",
-          "mode": "info"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "Anyone tryna sell section 214 ticket for aug 8 hamilton?",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1thc8m0/anyone_tryna_sell_section_214_ticket_for_aug_8/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "event",
-          "categoryHint": "community"
-        },
-        {
-          "date": "2026-05-17",
-          "title": "어그로 가득한 리라갤에 사진던짐",
-          "url": "https://gall.dcinside.com/mgallery/board/view/?id=lilas&no=1543&exception_mode=recommend&page=1",
-          "source": "dcinside 이쿠타 리라 갤 개념글 · 개념글",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news",
-          "categoryHint": "community",
-          "galleryId": "lilas",
-          "mode": "recommend"
-        },
-        {
-          "date": "2026-05-17",
-          "title": "I told my friends I knew what the newest album’s colour would be a year ago",
-          "url": "https://www.reddit.com/r/YOASOBI/comments/1tfa3e4/i_told_my_friends_i_knew_what_the_newest_albums/",
-          "source": "reddit r/YOASOBI",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "release",
-          "categoryHint": "community"
         }
       ]
     }
@@ -3380,7 +3344,7 @@
         "type": "release"
       }
     ],
-    "last_scraped": "2026-05-21T11:05:06.344Z",
+    "last_scraped": "2026-05-21T23:05:05.987Z",
     "merged_news": [
       {
         "date": "2026-05-21",
@@ -3408,6 +3372,16 @@
         "type": "release",
         "trust": 1,
         "tier": "official"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "Song i think go with certain things",
+        "url": "https://www.reddit.com/r/DungeonCrawlerCarl/comments/1tjhe45/song_i_think_go_with_certain_things/",
+        "source": "reddit search: worlds end girlfriend",
+        "trust": 0.4,
+        "tier": "community",
+        "type": "news",
+        "categoryHint": "community"
       },
       {
         "date": "2026-05-20",
@@ -3459,16 +3433,6 @@
         "categoryHint": "community"
       },
       {
-        "date": "2026-04-12",
-        "title": "Thoughts+Recommendations",
-        "url": "https://www.reddit.com/r/Topster/comments/1sjltbt/thoughtsrecommendations/",
-        "source": "reddit search: worlds end girlfriend",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community"
-      },
-      {
         "date": "2026-04-11",
         "title": "world’s end girlfriend at SYNCHRONICITY’26",
         "url": "https://www.setlist.fm/setlist/worlds-end-girlfriend/2026/shibuya-www-x-tokyo-japan-537667d9.html",
@@ -3477,19 +3441,9 @@
         "tier": "platform",
         "type": "event",
         "categoryHint": "event"
-      },
-      {
-        "date": "2026-04-06",
-        "title": "Songs Destiny used to listen to on stream 10~ years ago",
-        "url": "https://www.reddit.com/r/Destiny/comments/1se676e/songs_destiny_used_to_listen_to_on_stream_10/",
-        "source": "reddit search: worlds end girlfriend",
-        "trust": 0.4,
-        "tier": "community",
-        "type": "news",
-        "categoryHint": "community"
       }
     ],
-    "last_merged": "2026-05-21T11:05:52.118Z",
+    "last_merged": "2026-05-21T23:05:46.653Z",
     "categorized": {
       "news": [],
       "events": [
@@ -3566,6 +3520,16 @@
       "goods": [],
       "community": [
         {
+          "date": "2026-05-21",
+          "title": "Song i think go with certain things",
+          "url": "https://www.reddit.com/r/DungeonCrawlerCarl/comments/1tjhe45/song_i_think_go_with_certain_things/",
+          "source": "reddit search: worlds end girlfriend",
+          "trust": 0.4,
+          "tier": "community",
+          "type": "news",
+          "categoryHint": "community"
+        },
+        {
           "date": "2026-05-01",
           "title": "[FRESH] world's end girlfriend - Angelus Novus (feat. Jessica, Fellsius)",
           "url": "https://www.reddit.com/r/indieheads/comments/1t0t2am/fresh_worlds_end_girlfriend_angelus_novus_feat/",
@@ -3603,26 +3567,6 @@
           "trust": 0.4,
           "tier": "community",
           "type": "release",
-          "categoryHint": "community"
-        },
-        {
-          "date": "2026-04-12",
-          "title": "Thoughts+Recommendations",
-          "url": "https://www.reddit.com/r/Topster/comments/1sjltbt/thoughtsrecommendations/",
-          "source": "reddit search: worlds end girlfriend",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news",
-          "categoryHint": "community"
-        },
-        {
-          "date": "2026-04-06",
-          "title": "Songs Destiny used to listen to on stream 10~ years ago",
-          "url": "https://www.reddit.com/r/Destiny/comments/1se676e/songs_destiny_used_to_listen_to_on_stream_10/",
-          "source": "reddit search: worlds end girlfriend",
-          "trust": 0.4,
-          "tier": "community",
-          "type": "news",
           "categoryHint": "community"
         }
       ]
