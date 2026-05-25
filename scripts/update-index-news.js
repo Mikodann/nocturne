@@ -535,6 +535,15 @@ function renderEmpty(text) {
   return `      <article class="card news-card">\n        <h3>${esc(text)}</h3>\n        <p style="font-size:12px;color:var(--text3);margin-top:8px">${MIN_DATE} 이후 기준으로 수집 중이며 다음 주기에 자동 갱신됩니다.</p>\n      </article>`;
 }
 
+function kstDateString(d = new Date()) {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(d);
+}
+
 function replaceTabBlock(html, section, tab, cardsHtml) {
   const tabs = ['news', 'events', 'releases', 'goods', 'community'];
   const startToken = `<div class="tab-content" data-section="${section}" data-tab="${tab}"`;
@@ -694,6 +703,13 @@ async function main() {
     };
     data[artistKey].last_merged = new Date().toISOString();
   }
+
+  const todayKst = kstDateString();
+  html = html.replace(
+    /(<p class="hero-updated">\s*마지막 업데이트:\s*)(\d{4}-\d{2}-\d{2})(\s*·\s*매일 08:00 \/ 20:00 KST 자동 갱신\s*<\/p>)/,
+    `$1${todayKst}$3`
+  );
+  data.last_updated = `${todayKst}T20:00:00+09:00`;
 
   fs.writeFileSync(INDEX_FILE, html, 'utf8');
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf8');
